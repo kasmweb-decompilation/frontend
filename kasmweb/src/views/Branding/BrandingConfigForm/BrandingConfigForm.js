@@ -42,7 +42,8 @@ class BrandingConfigFormTemplate extends Component {
             });
         }
     }
-
+    // I'm thinking you can override the branding by commenting out this snippet 
+    // and replacing it with this.setState({licensed: true}) to force branding to be enabled.
     componentDidMount() {
         if (this.props.fromUpdate) {
             this.props.getBrandingConfigs();
@@ -60,6 +61,7 @@ class BrandingConfigFormTemplate extends Component {
     render() {
         const {handleSubmit, t} = this.props;
         const deny_by_default_checked = false;
+        
         if (!this.state.licensed){
             let license_url = `${__LICENSE_INFO_URL__}`;
             return (
