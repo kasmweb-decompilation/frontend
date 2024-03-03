@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.buttonLink {
+    @apply tw-p-1 tw-px-2 -tw-ml-2 tw-pr-0 hover:-tw-mr-6 hover:tw-pr-8 hover:tw-bg-black/5 tw-transition-all tw-underline hover:!tw-no-underline tw-font-semibold tw-relative tw-overflow-hidden tw-rounded tw-border tw-border-solid tw-border-transparent hover:tw-border-black/10;
+    color: var(--text-color)!important;
+}
+
+.cancelbutton {
+    @apply tw-mt-3 tw-inline-flex tw-w-full tw-justify-center tw-rounded-md tw-bg-white tw-p-3 tw-text-sm tw-font-semibold tw-text-gray-900 tw-shadow-sm tw-ring-1 tw-ring-inset tw-ring-black/10 hover:tw-bg-gray-50 sm:tw-col-start-1 sm:tw-mt-0;
+}
+
+.actionbutton {
+    @apply tw-inline-flex tw-w-full tw-justify-center tw-rounded-md tw-p-3 tw-text-sm tw-font-semibold tw-text-white tw-shadow-sm hover:tw-bg-slate-600 tw-transition-colors focus-visible:tw-outline focus-visible:tw-outline-2 focus-visible:tw-outline-offset-2 focus-visible:tw-outline-indigo-600 sm:tw-col-start-2;
+}
+
+.buttonLink:hover .buttonLinkIcon {
+ @apply tw-opacity-100 tw-bg-black/5 tw-border-solid tw-border-0 tw-border-l tw-border-black/10;
+}
+
+.buttonLinkIcon {
+    @apply tw-absolute -tw-top-0 -tw-right-0 -tw-bottom-0 tw-w-5 tw-flex tw-justify-center tw-transition-all tw-items-center tw-opacity-0 tw-rounded-r;
+}
+
+img {
+    display: inline-block;
+}
+.requiredasterisk:after {
+    @apply tw-text-pink-700 dark:tw-text-pink-500/70 tw-ml-1;
+}
+.tw-text-color {
+    color: var(--text-color)!important;
+}
+.tw-animated-gradient {
+    @apply tw-from-blue-800 tw-via-sky-600 tw-to-blue-800 hover:tw-from-slate-900 hover:tw-via-slate-700 hover:tw-to-slate-900;
+}
+.tw-left-shadow {
+    box-shadow: inset 7px 0 9px -7px rgb(0 0 0 / 20%);
+}
+.blank-modal.modal-dialog {
+    @apply !tw-m-1;
+    width: 100%!important;
+}
+.blank-modal .modal-content {
+    background-color: var(--modal-bg);
+}
+.blank-modal .form-control, .blank-modal .Select-control {
+    @apply tw-rounded;
+    border-color: var(--border2-color);
+}
+.Select--single .Select-value, .Select-placeholder {
+    @apply !tw-pl-4
+}
+.Select-multi-value-wrapper {
+}
+.Select-input {
+    @apply !tw-h-[45px];
+}
+.Select-value-label, .Select-placeholder {
+    @apply tw-py-3 tw-inline-block !tw-leading-[21px];
+}
+
+.form-group {
+    @apply tw-mb-6 tw-w-full tw-max-w-lg
+}
+
+.input {
+    @apply tw-bg-white/70 dark:tw-bg-slate-900/70 tw-shadow tw-rounded tw-w-full;
+}
+.Select-control {
+    @apply !tw-bg-zinc-50 dark:!tw-bg-slate-900/70;
+}
+.circle-search .Select-control, 
+.circle-search input[type=text],
+.circle-search input[type=search] {
+    @apply !tw-bg-transparent dark:!tw-bg-transparent;
+}
+.circle-search .Select.is-focused:not(.is-open) > .Select-control {
+    @apply tw-shadow-none;
+}
+input[type=text], 
+input[type=date], 
+input[type=datetime-local], 
+input[type=time], 
+input[type=email], 
+input[type=password], 
+input[type=search], 
+input[type=number], 
+select {
+    @apply tw-rounded tw-w-full tw-border-0 tw-border-solid tw-bg-zinc-50 dark:tw-bg-slate-900/70 tw-p-4 tw-py-3 !tw-h-auto tw-text-[var(--text-color)] dark:[color-scheme:dark];
+}
+textarea,
+.textarea {
+    @apply tw-rounded tw-w-full tw-border-0 tw-border-solid tw-bg-zinc-50 dark:tw-bg-slate-900/70 tw-p-4 tw-py-3 tw-text-[var(--text-color)] dark:[color-scheme:dark];
+}
+input:disabled, 
+select:disabled, 
+textarea:disabled {
+    @apply tw-pl-10;
+}
+
+.sidebar {
+}
+.sidebar-fixed .form-footer {
+    @apply lg:tw-ml-[280px];
+    box-shadow: 0 0 7px rgba(0,0,0,0.15);
+}
+
+.sidebar-fixed.sidebar-minimized .form-footer {
+    @apply lg:tw-ml-12
+}
+.sidebar .sidebar-nav {
+    @apply tw-p-2;
+}
+
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 0.5rem center;
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+}
+
+.sidebar .nav-dropdown.open .nav-dropdown-items li a.active:after {
+    @apply tw-bg-blue-500 tw-scale-110 tw-origin-center;
+  }
+  .sidebar .nav-dropdown.open .nav-dropdown-items li a:not(.active):hover:after {
+    @apply tw-bg-blue-500/70;
+  }

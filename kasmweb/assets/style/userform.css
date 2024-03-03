@@ -1,0 +1,158 @@
+.user-modal .modal-content {
+  padding: 15px 4px;
+  background: var(--modal-bg);
+}
+.user-form-container {
+  margin: 30px 0;
+  background: #fff;
+}
+.modal-open .modal {
+}
+.user-form-container .card-header,
+.user-modal .modal-header .modal-header {
+  background: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 160%;
+  color: #181f47;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.user-modal .modal-header .modal-title {
+  font-size: 17px;
+  line-height: 160%;
+  color: #181f47;
+}
+.confirm-modal {
+  width: 411px !important;
+}
+.confirm-modal-body {
+  padding: 2px 20px 21px !important;
+}
+.user-modal .modal-header .modal-header {
+  position: relative;
+}
+.user-modal .modal-header .close {
+  width: 20px;
+  height: 20px;
+  background: #17304a1a;
+  border-radius: 100px;
+  padding: 0 !important;
+  font-size: 14px;
+  position: absolute;
+  right: 18px;
+  top: 16px;
+  margin: 0 !important;
+  color: #000;
+}
+.user-form-container .form-group,
+.user-modal .modal-body .form-group {
+  box-sizing: border-box;
+}
+.user-form-container .form-group .Select-control .Select-value {
+  padding: 0;
+}
+.user-form-container .form-group input:focus,
+.user-modal .modal-body .form-group input:focus,
+.user-form-container .form-group .Select-control:focus {
+  box-shadow: none !important;
+}
+.user-form-container .form-group input::-webkit-input-placeholder {
+  /* Edge */
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 151%;
+  color: #cfced6 !important;
+}
+
+.user-form-container .form-group input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 151%;
+  color: #cfced6 !important;
+}
+
+.user-form-container .form-group input::placeholder {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 151%;
+  color: #cfced6 !important;
+}
+.user-form-container .card-footer .form-actions {
+  border: 0;
+  margin-right: 0;
+  margin-left: auto;
+  display: table;
+  padding: 0;
+}
+.user-form-container .card-footer,
+.user-modal .modal-footer {
+  border-radius: 10px;
+  border: 0;
+}
+.user-form-container .card-footer .submit-button,
+.user-modal .modal-footer .submit-button {
+  width: 134px;
+  height: 48px;
+  background: var(--primary-button-color);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--primary-button-text);
+  text-align: center;
+  margin: 0 2px;
+}
+.user-form-container .cancel-button,
+.user-modal .modal-footer .cancel-button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #181F47;
+  width: 132px;
+  height: 44px;
+  margin: 0;
+  margin-right: 1rem;
+  background: rgba(24, 31, 71, 0.1);
+}
+.user-modal .modal-footer .delete-button {
+  width: 132px;
+  height: 44px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  background: #F86C6B;
+  box-shadow: 0px 1px 2px rgba(97, 97, 97, 0.2), 0px 2px 4px rgba(97, 97, 97, 0.2);
+}
+.user-modal .modal-footer .submit-button {
+  width: 132px;
+  height: 44px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  box-shadow: 0px 1px 2px rgba(97, 97, 97, 0.2), 0px 2px 4px rgba(97, 97, 97, 0.2);
+}
+
+.center-div {
+  transform: translateY(-30%);
+  position: relative;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

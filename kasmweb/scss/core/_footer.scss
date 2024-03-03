@@ -1,0 +1,14 @@
+.app-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 $spacer;
+  color: $footer-color;
+  background: $footer-bg;
+  @include borders($footer-borders);
+}
+
+.unlicensed-footer {
+  color: #f99500;
+  font-weight: bold;
+}

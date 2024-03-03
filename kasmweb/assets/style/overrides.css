@@ -1,0 +1,500 @@
+:root {
+    --color-alpha: #162d48;
+    /* --color-bravo: #151b1e; */
+    --color-bravo: 22, 45, 72;
+    --color-charlie: #20a8d8;
+
+    --header-bar-color: var(--color-alpha);
+    --bg: linear-gradient(90deg,#f0f1f5,#dadce3);
+    --bg-trans: linear-gradient(90deg,#f0f1f5cc,#dadce3cc);
+    --main-background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), #ebf1f6;
+    --sidebar-bg: #e3ebf2;
+    --footer-bg: #f0f3f5;
+
+    --text-color: rgb(var(--color-bravo));
+    --text-color-muted: rgba(var(--color-bravo), 0.8);
+    --text-color-muted-more: rgba(var(--color-bravo), 0.6);
+    --text-sidebar-nav: rgba(var(--color-bravo), 0.6);
+    --text-color-impact: #000;
+    --text-color-negative: #fff;
+    --active-tab-text: var(--text-color);
+    --active-tab-bg: #fff;
+    --inactive-tab-text: var(--text-color-negative);
+    --inactive-tab-bg: unset;
+
+    --primary-button-color: #20a8d8;
+    --secondary-button-color: #5fbd84;
+    --primary-button-text: #fff;
+    --secondary-button-text: #fff;
+
+    --navlink-hover: #20a8d8;
+    --navlink-active: #d9e2ea;
+
+    --card-bg: #fff;
+    --table-header-bg: #f5f8fb;
+    --table-pagination-bg: #f5f8fb;
+    --row-hover: #f5f8fb70;
+
+    --border-color: #0000002e;
+    --border2-color: #cfd1d5;
+
+    --input-bg: #fff;
+    --filter-arrows: #9da1b3;
+    --dropdown-arrows: #9da1b3;
+
+    /* Workspaces */
+    --left-section: #fff;
+    --right-section: #fff;
+    --tile-color: #f1f1f1;
+    --tile-color-hover: #426895;
+    --modal-bg: rgba(234, 235, 240, 0.98);
+    --sidebar-bg: rgba(234, 235, 240, 0.98);
+}
+.dark, .tw-dark {
+    --color-bravo: 147, 166, 188;
+    --color-delta: #93a6bc;
+    --color-echo: #21273f;
+
+    --sidebar-bg: #21273f;
+    --footer-bg: #232634;
+
+    --text-color: rgba(var(--color-bravo), 1);
+    --text-color-muted: rgba(var(--color-bravo), 0.8);
+    --text-color-muted-more: rgba(var(--color-bravo), 0.6);
+    --text-sidebar-nav: rgba(var(--color-bravo), 1);
+    --text-color-impact: #c1cfe0;
+
+    --bg: linear-gradient(90deg,#21273f,#151724);
+    --bg-trans: linear-gradient(90deg,#21273fcc,#151724cc);
+
+
+    --navlink-active: #1a2139;
+
+    --card-bg: #21273f;
+    --table-header-bg: #2b324d;
+    --table-pagination-bg: #2b324d;
+    --row-hover: #2b324d70;
+
+    --border-color: #44496b;
+    --border2-color: #44496b;
+
+    --input-bg: #181d34;
+    --dropdown-arrows: var(--color-charlie);
+
+    /* Workspaces */
+    --left-section: #151725;
+    --right-section: #0b0d1c;
+    --tile-color: #21273f;
+    --tile-color-hover: #15171f;
+    --modal-bg: rgb(33 39 63 / 0.98);
+    --sidebar-bg: rgb(33 39 63 / 0.98);
+
+}
+
+.test {
+    --color-alpha: #d82200;
+    /* --color-bravo: #151b1e; */
+    --color-bravo: 216, 34, 0;
+    --color-charlie: #d82200;
+
+    --header-bar-color: var(--color-alpha);
+    --main-background: #d82200;
+    --sidebar-bg: #d82200;
+    --footer-bg: #d82200;
+
+    --text-color: rgb(var(--color-bravo));
+    --text-color-muted: rgba(var(--color-bravo), 0.8);
+    --text-color-muted-more: rgba(var(--color-bravo), 0.6);
+    --text-sidebar-nav: rgba(var(--color-bravo), 1);
+    --text-color-impact: #d82200;
+    --text-color-negative: #d82200;
+    --active-tab-text: var(--text-color);
+    --active-tab-bg: #d82200;
+    --inactive-tab-text: var(--text-color-negative);
+    --inactive-tab-bg: unset;
+
+    --primary-button-color: #d82200;
+    --secondary-button-color: #d82200;
+    --primary-button-text: #d82200;
+    --secondary-button-text: #d82200;
+
+
+    --navlink-hover: #d82200;
+    --navlink-active: #d82200;
+
+    --card-bg: #d82200;
+    --table-header-bg: #d82200;
+    --table-pagination-bg: #d82200;
+    --row-hover: #d8220070;
+
+    --border-color: #d82200;
+
+    --input-bg: #d82200;
+    --filter-arrows: #d82200;
+    --dropdown-arrows: #d82200;
+
+    /* Workspaces */
+    --left-section: #d82200;
+    --right-section: #d82200;
+    --tile-color: #d82200;
+    --tile-color-hover: #d82200;
+
+}
+.tab-nav {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.tab-nav::-webkit-scrollbar {
+    display: none;
+}
+.container-fluid {
+}
+.card {
+    background-color: var(--card-bg);
+}
+body {
+    color: var(--text-color);
+}
+.rightsection .card {
+    background: var(--tile-color);
+}
+.profile-page .ReactTable .rt-thead.-header {
+    background-color: var(--table-header-bg);
+}
+.profile-page .pagination-bottom {
+    background-color: var(--table-pagination-bg);
+}
+.text-muted {
+    color: var(--text-color-muted) !important;
+}
+.text-muted-more {
+    color: var(--text-color-muted-more) !important;
+}
+.text-muted-extra {
+    color: rgba(var(--color-bravo), 0.3) !important;
+}
+.sidebar .nav-link {
+    color: var(--text-color);
+    border: 1px solid transparent;
+}
+.sidebar .nav-link, .sidebar .nav-link i {
+    display: flex;
+    align-items: center;
+}
+.sidebar .nav-link i {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: #fffc;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.Select-placeholder, .Select--single > .Select-control .Select-value {
+    color: var(--text-color-muted-more);
+}
+.nav-tabs .nav-link.active, .nav-tabs .navbar .active.dropdown-toggle, .navbar .nav-tabs .active.dropdown-toggle {
+    border: 0 none;
+    background: transparent;
+    font-weight: bold;
+}
+.sidebar .nav-link:hover i, .sidebar .navbar .dropdown-toggle:hover i, .navbar .sidebar .dropdown-toggle:hover i {
+    color: inherit;
+}
+#react-select-2--value-item {
+    color: var(--text-color)!important;
+}
+.dropdown-item,
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .navbar .dropdown-toggle, .navbar .navbar-light .navbar-nav .dropdown-toggle,
+.pagination-bottom .page-dropdown.dropdown button,
+.Select.has-value.Select--single > .Select-control .Select-value .Select-value-label, .Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+    color: var(--text-color);
+}
+.list-group-item{ background-color: unset;}
+
+.table {
+    color: var(--text-color);
+}
+.app-footer {
+    background: var(--footer-bg);
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+.app-header.navbar .app-btn {
+    color: var(--inactive-tab-text)
+}
+
+.sidebar .sidebar-minimizer {
+    background: var(--footer-bg);
+}
+.table-head-outer i {
+    color: var(--filter-arrows);
+}
+a, .link {
+    color: var(--color-charlie);
+}
+.form-control,
+.Select-control {
+    color: var(--text-color);
+    border: none;
+    height: 42px;
+}
+.Select-input,
+.Select-input > input {
+    height: 42px;
+}
+.Select-input > input {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.Select-arrow{ border-color: var(--dropdown-arrows) transparent transparent;}
+.ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover {
+    background: var(--row-hover);
+}
+.ReactTable .rt-tr, .ReactTable .rt-tr-group {
+    max-height: 67px;
+}
+.logging .ReactTable .rt-tr, .logging .ReactTable .rt-tr-group {
+    max-height: none;
+}
+.ReactTable .rt-tbody {
+    min-height: 300px;
+}
+.password-field i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* BILLFLOW START */
+#billflow-embed {
+    width: 100%;
+}
+#billflow-embed-main .__tier,
+.servicebot-modal-content,
+.servicebot-notice-content,
+.servicebot-modal-header,
+.servicebot-base.servicebot-embed.__plan-settings .servicebot-row.__plan-items,
+.servicebot-card,
+.servicebot-base .servicebot-btn-sm,
+.checkout-embed .__subscription-items,
+.billflow-bg-and-text {
+    background-color: var(--modal-bg)!important;
+    color: var(--text-color)!important;
+}
+.subscription-update-card span,
+.bf-subscription-list span,
+.subscription-update-card button,
+.view_all_subscriptions button,
+.bf-subscription-summary button,
+.back_button button,
+.bf-button.__link.__close,
+.bf-invoices span,
+.bf-subscription-billing-info span,
+.servicebot-base.servicebot-embed .__plan-name, .servicebot-modal-wrap .__plan-name, .servicebot-notice .__plan-name, .servicebot-select-dropdown .__plan-name, .servicebot-dropdown .__plan-name,
+.servicebot-base.__payment-settings .card-info .__brand, .servicebot-embed.__payment-settings .card-info .__brand,
+.servicebot-base.__payment-settings .card-info .__last4, .servicebot-embed.__payment-settings .card-info .__last4,
+.servicebot-base.__invoices .servicebot-table-tbody > tr > td, .servicebot-embed.__invoices .servicebot-table-tbody > tr > td, .servicebot-modal-wrap.__invoices .servicebot-table-tbody > tr > td, .servicebot-notice.__invoices .servicebot-table-tbody > tr > td, .servicebot-dropdown.__invoices .servicebot-table-tbody > tr > td,
+.billflow-text-muted {
+    color: var(--text-color-muted)!important;
+}
+.servicebot-notice-content,
+.servicebot-base.__subscription-overview .servicebot-row.__overview-stats,
+.billflow-border {
+    border: 1px solid var(--border2-color);
+}
+.servicebot-pricing-table .__tier,
+.bf-section-title,
+.bf-subscription-list > div,
+.servicebot-card-bordered,
+.servicebot-modal-header,
+.servicebot-base .servicebot-row.__bordered,
+.pricing-interval-selector .pricing-toggle-group,
+.servicebot-table-tbody > tr > td,
+.servicebot-base.servicebot-embed.__plan-settings .servicebot-row.__plan-items,
+.servicebot-pagination-prev .servicebot-pagination-item-link, .servicebot-pagination-next .servicebot-pagination-item-link,
+.servicebot-embed .servicebot-card-modal .servicebot-input-group.__stripe.__direction-vertical .StripeElement, .servicebot-checkout-form .servicebot-input-group.__stripe.__direction-vertical .StripeElement, .servicebot-embed .servicebot-card-modal .servicebot-select-selection.servicebot-select-selection--single, .servicebot-checkout-form .servicebot-select-selection.servicebot-select-selection--single, .servicebot-embed .servicebot-card-modal .servicebot-input, .servicebot-checkout-form .servicebot-input, .servicebot-embed .servicebot-card-modal input, .servicebot-checkout-form input,
+.billflow-border-color {
+    border-color: var(--border2-color)!important;
+}
+.servicebot-table-thead > tr > th {
+    border-color: #00000054!important;
+}
+.pricing-interval-selector .pricing-toggle-group,
+.servicebot-pagination-prev .servicebot-pagination-item-link, .servicebot-pagination-next .servicebot-pagination-item-link,
+.servicebot-base.__invoices .servicebot-table-thead > tr > th, .servicebot-embed.__invoices .servicebot-table-thead > tr > th, .servicebot-modal-wrap.__invoices .servicebot-table-thead > tr > th, .servicebot-notice.__invoices .servicebot-table-thead > tr > th, .servicebot-dropdown.__invoices .servicebot-table-thead > tr > th,
+.billflow-bg-border{
+    background: var(--border2-color)!important;
+}
+.servicebot-table-thead > tr.servicebot-table-row-hover:not(.servicebot-table-expanded-row):not(.servicebot-table-row-selected) > td, .servicebot-table-tbody > tr.servicebot-table-row-hover:not(.servicebot-table-expanded-row):not(.servicebot-table-row-selected) > td, .servicebot-table-thead > tr:hover:not(.servicebot-table-expanded-row):not(.servicebot-table-row-selected) > td, .servicebot-table-tbody > tr:hover:not(.servicebot-table-expanded-row):not(.servicebot-table-row-selected) > td {
+    background: var(--border2-color)!important;
+}
+.servicebot-pricing-table .__tier .__body .__tier-plan.__plan-1,
+.servicebot-pricing-table .__tier .__header h3,
+.checkout-embed .__subscription-items .__line-total-today,
+.servicebot-form,
+.servicebot-modal-title,
+.__line-total-due-date,
+.bf-subscription-list div,
+.servicebot-base.__invoices .servicebot-table-thead > tr > th, .servicebot-embed.__invoices .servicebot-table-thead > tr > th, .servicebot-modal-wrap.__invoices .servicebot-table-thead > tr > th, .servicebot-notice.__invoices .servicebot-table-thead > tr > th, .servicebot-dropdown.__invoices .servicebot-table-thead > tr > th,
+.servicebot-base.__subscription-overview .__cost, .servicebot-embed.__subscription-overview .__cost, .servicebot-modal-wrap.__subscription-overview .__cost, .servicebot-notice.__subscription-overview .__cost, .servicebot-dropdown.__subscription-overview .__cost
+.checkout-embed .__subscription-items .__checkout-header .__checkout-total .__amount, .signup-embed .__subscription-items .__checkout-header .__checkout-total .__amount,
+.servicebot-base.servicebot-embed .__section-title, .servicebot-modal-wrap .__section-title, .servicebot-notice .__section-title, .servicebot-select-dropdown .__section-title, .servicebot-dropdown .__section-title,
+#billflow-embed-main .servicebot-radio-button-wrapper-checked:not(.servicebot-radio-button-wrapper-disabled),
+#billflow-embed-main .servicebot-radio-button-wrapper-checked:not(.servicebot-radio-button-wrapper-disabled) span,
+.checkout-embed .__subscription-items .__checkout-header .__checkout-total .__amount,
+.billflow-text {
+    color: var(--text-color)!important;
+}
+.servicebot-radio-button-wrapper {
+    color: var(--modal-bg)!important;
+}
+.subscription-update-card button svg,
+.servicebot-modal-close-x svg {
+    fill: var(--text-color)!important;
+}
+.servicebot-base.__subscription-overview .servicebot-row.__overview-stats, .servicebot-embed.__subscription-overview .servicebot-row.__overview-stats, .servicebot-modal-wrap.__subscription-overview .servicebot-row.__overview-stats, .servicebot-notice.__subscription-overview .servicebot-row.__overview-stats, .servicebot-dropdown.__subscription-overview .servicebot-row.__overview-stats,
+.pricing-interval-selector .pricing-toggle-group .servicebot-radio-button-wrapper-checked {
+    background-color: var(--modal-bg)!important;
+    color: var(--text-color)!important;
+}
+.bf-subscription-list > div,
+#billflow-embed-main #billflow-embed-app {
+    background-color: transparent!important;
+}
+/* BILLFLOW END */
+.progress-steps > div:before {
+    content: "";
+    position: absolute;
+    top: 33px;
+    height: 30px;
+    left: 8px;
+    border-left: 2px solid var(--text-color);
+    opacity: 0.5;
+}
+.progress-steps > div:last-child:before {
+    display: none;
+}
+.progress-steps > div:after {
+    content: "";
+    position: absolute;
+    border: 2px solid var(--text-color);
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.2;
+}
+.progress-steps > div.step-active:after {
+    opacity: 1;
+}
+.progress-steps > div.step-active:after {
+    border-width: 3px;
+}
+.progress-steps > div.step-active:after, .progress-steps > div.step-done:after {
+    border-color: var(--secondary-button-color);
+}
+.progress-steps > div.step-done:after {
+    background: var(--secondary-button-color);
+    color: white;
+    content: "✓";
+}
+.progress-steps > div:before {
+    opacity: 0.2;
+}
+.progress-steps > div > span {
+    opacity: 0.5;
+}
+.progress-steps > div.step-active > span {
+    color: var(--text-color);
+    font-weight: 500;
+    opacity: 1;
+}
+
+.sidebar .nav-dropdown .nav-dropdown-items .nav-link {
+    padding: 0.5rem 1rem !important;
+  }
+  .sidebar .nav-dropdown .nav-dropdown-items {
+    position: relative;
+  }
+  .sidebar .nav-dropdown .nav-dropdown-items:after {
+    position: absolute;
+    content: "";
+    top: 20px;
+    bottom: 20px;
+    left: 34px;
+    border-left: 2px solid;
+    border-left-color: rgba(var(--color-bravo), 0.3);
+  }
+  
+  .sidebar .nav-dropdown .nav-dropdown-items li a:after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    top: 16px;
+    background: rgba(var(--color-bravo), 0.3);
+    left: -18px;
+    z-index: 2;
+  }
+  
+  .sidebar .nav-dropdown .nav-dropdown-items li a.nav-dropdown-toggle:after {
+    left: -19px;
+  }
+
+  
+  .sidebar .nav-link.active, .sidebar .navbar .active.dropdown-toggle, .navbar .sidebar .active.dropdown-toggle {
+    color: var(--text-color-impact);
+    background: rgba(255,255,255, 0.7);
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 8px;
+  }
+  .sidebar .nav-link:hover, .sidebar .navbar .dropdown-toggle:hover, .navbar .sidebar .dropdown-toggle:hover {
+    color: var(--text-color-impact);
+    background: rgba(255,255,255, 0.3);
+    border: 1px solid rgba(0,0,0,0.10);
+    border-radius: 8px;
+  }
+  
+  .rc-slider-track {
+    background-color: #3b82f6;
+  }
+  .rc-slider-dot {
+    border: 2px solid #d1d1d1;
+  }
+  .rc-slider-dot-active {
+    border-color: #3b82f6;
+  }
+  .rc-slider-rail {
+    background-color: #d1d1d1;
+  }
+  .video-preview {
+    position: relative;
+  }
+  .video-preview::after {
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .rc-slider-track {
+    background-color: #3b82f6;
+  }
+  .rc-slider-dot {
+    border: 2px solid #d1d1d1;
+  }
+  .rc-slider-dot-active {
+    border-color: #3b82f6;
+  }
+  .rc-slider-rail {
+    background-color: #d1d1d1;
+  }

@@ -1,0 +1,25 @@
+.nav-tabs {
+  .nav-link {
+    &:hover {
+      cursor: pointer;
+    }
+    &.active {
+      &:focus {
+      }
+    }
+  }
+}
+
+.tab-content {
+  margin-top: -1px;
+  .tab-pane {
+    padding: $spacer;
+  }
+}
+
+.card-block {
+  .tab-content {
+    margin-top: 0;
+    border: 0;
+  }
+}

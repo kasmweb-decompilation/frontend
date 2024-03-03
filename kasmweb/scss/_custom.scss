@@ -1,0 +1,27 @@
+// Here you can add other styles
+
+.content-list {
+  display: block;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.word-wrap {
+  word-wrap:break-word;
+}
+
+.thumbnails {
+  max-height:80px;
+  max-width:80px;
+  min-width:40px
+}
+
+.livethumbnails {
+  height:30px;
+  width:30px;
+  margin-right:8px;
+}
+
+.panelbackground {
+  background-size: cover;
+}

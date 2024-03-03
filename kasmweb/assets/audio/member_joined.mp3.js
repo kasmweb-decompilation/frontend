@@ -1,0 +1,1 @@
+export default __webpack_public_path__ + "./audio/member_joined.6a8ac37931beab2e82badb83d21838a7.mp3";

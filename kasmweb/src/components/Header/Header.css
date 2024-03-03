@@ -1,0 +1,56 @@
+.dropdown .avatar {
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dropdown-menu .account {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.dropdown-menu .initials {
+  text-transform: capitalize;
+}
+
+.dropdown-menu .details {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-menu .details .username {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #426895;
+}
+
+.dropdown-menu .details .full-username {
+  font-size: 0.8rem;
+  color: lightgray;
+}
+
+.dropdown-menu .edit {
+  margin-top: 10px;
+  margin-left: 52px;
+  font-size: 0.7rem;
+}
+
+.dropdown-menu .sign-out {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dropdown-menu .sign-out button {
+  margin-top: 20px;
+  color: #fff;
+  border: 0;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  background: #426895;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 6px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,650 @@
+.profile-page .card-header strong {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 160%;
+}
+.profile-page {
+  margin-top: 0px;
+}
+.table-head-outer {
+  display: flex;
+  align-items: center;
+}
+.table-head-outer {
+  display: flex;
+  align-items: center;
+}
+.profile-page .table h4 {
+  line-height: 160%;
+  margin: 0;
+  font-weight: 600;
+  font-size: 13.5px;
+}
+.profile-page .card-header {
+  background-color: transparent;
+  padding: 1.5rem 2rem 1.5rem;
+}
+.profile-page .table th,
+.profile-page .table td {
+  border: 0;
+}
+.profile-page .ReactTable .rt-td {
+  font-size: 13.5px;
+  font-weight: 400;
+}
+.profile-page .ReactTable .rt-resizable-header-content {
+  color: var(--text-color-impact);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 160%;
+}
+.profile-page .table th {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 160%;
+}
+.profile-page .table td {
+  font-size: 13.5px;
+  font-weight: 400;
+  white-space: break-spaces;
+}
+.profile-page .table p {
+  line-height: 160%;
+  font-size: 13.5px;
+  font-weight: 400;
+  margin: 0;
+}
+.profile-page .table .Select-control {
+  line-height: 160%;
+  font-size: 13.5px;
+  font-weight: 400;
+  margin: 0;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 4px 10px;
+}
+.profile-page .table .Select-control .Select-value:focus {
+  border: 1px solid var(--color-charlie) !important;
+}
+.profile-page .list-group-item {
+  border-bottom: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color);
+  border-right: 0;
+  border-left: 0;
+}
+.profile-page .ReactTable .rt-th input:focus {
+  border: 1px solid var(--color-charlie) !important;
+  box-shadow: 0px 0px 4px rgba(18, 162, 228, 0.15),
+    0px 0px 16px rgba(18, 162, 228, 0.25);
+}
+.profile-page .ReactTable .-pagination input,
+.profile-page .ReactTable .-pagination select {
+  background: transparent;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  border: 0;
+  padding: 0;
+}
+.profile-page .table thead {
+  background-color: #f5f8fb;
+}
+
+.profile-page .download-btn {
+  background-color: var(--secondary-button-color);
+  color: var(--secondary-button-text);
+  max-width: 124px;
+  height: 36px;
+  font-size: 13px;
+  line-height: 160%;
+  font-weight: 500;
+  border-radius: 5px !important;
+  border: 0;
+  max-width: 200px;
+}
+
+.profile-page .ReactTable .rt-thead.-header {
+  padding: 0.75rem;
+  background-color: #f5f8fb;
+  border: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.profile-page .pagination-bottom {
+  background-color: #f6f8fb;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.profile-page .reset-btn {
+  background-color: var(--primary-button-color);
+  color: var(--primary-button-text);
+  padding: 11px 18px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px !important;
+  border: 0;
+}
+
+/*Select Input*/
+.profile-page
+  .Select.has-value.is-clearable.Select--single
+  > .Select-control
+  .Select-value {
+  line-height: 43px !important;
+}
+
+.profile-page .Select-placeholder {
+  line-height: 43px !important;
+}
+
+.profile-table .table {
+  width: 60%;
+}
+
+.zone-table .table {
+  width: 100%;
+}
+
+/*media query*/
+@media screen and (max-width: 767px) {
+  .profile-page .download-btn {
+    height: unset;
+    font-size: 10px;
+    padding: 5px 6px;
+  }
+  .profile-page .user-setting tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-table .table {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .profile-page .table {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .profile-table .table {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .profile-page .ReactTable .-pagination .-pageInfo {
+    margin: 0px;
+  }
+  .profile-page .ReactTable .-pagination .-pageJump input {
+    width: 11px;
+  }
+  .profile-table .table {
+    width: 100%;
+  }
+}
+
+.ReactTable .rt-resizer {
+  display: inline-block;
+  position: absolute;
+  width: 8px;
+  top: 0;
+  bottom: 0;
+  right: -4px;
+  cursor: col-resize;
+  z-index: 10;
+}
+
+/*user table css*/
+.ReactTable .rt-thead.-header .rt-th {
+  padding: 14px 10px;
+}
+
+.ReactTable .rt-thead.-header .rt-th:last-child {
+}
+
+.adduser-btn {
+  background-color: var(--secondary-button-color);
+  color: var(--secondary-button-text);
+  font-size: 14px;
+  line-height: 160%;
+  font-weight: 500;
+  border-radius: 5px !important;
+  border: 0;
+  width: 100%;
+  padding: 11px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+}
+.adduser-btn i {
+  margin-right: 20px;
+}
+.adduser-btn img {
+  width: 12px;
+  margin-right: 3px;
+}
+.filter-dropown button {
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  font-size: 13px;
+}
+.filter-dropown .dropdown-item i {
+  color: #9296a9 !important;
+  font-size: 19px !important;
+}
+.filter-dropown {
+  margin: 0 auto;
+  display: table;
+}
+.yesno-head {
+  text-align: center !important;
+}
+.yesnoIcon {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.filter-dropown .dropdown-menu.show {
+  border: 0;
+  box-shadow: 1px 1px 7px #d9e1e9;
+  border-radius: 10px;
+}
+.filter-dropown .dropdown-item a,
+.filter-dropown .dropdown-item div {
+  padding: 20px 35px;
+  width: 100%;
+}
+.filter-dropown .dropdown-item:hover {
+  background-color: #d9e1e9;
+}
+.filter-dropown button:hover {
+  background-color: transparent;
+  border: 0;
+}
+.filter-dropown .dropdown-item a {
+  width: 100%;
+  color: #181f47;
+  font-size: 13px;
+}
+.filter-dropown .dropdown-item img {
+  width: 18px;
+  margin-right: 10px;
+}
+.filter-dropown .dropdown-item i {
+  color: #c2cfd6;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.ReactTable .rt-tbody .rt-td {
+  padding: 10px 10px;
+}
+
+.rt-thead.-filters .rt-th {
+  position: relative;
+  padding: 10px 10px;
+}
+.rt-thead.-filters {
+  min-height: 60px;
+}
+.ReactTable .rt-thead.-header {
+  padding: 0px 0px !important;
+}
+.profile-page .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-head {
+  display: inline;
+  display: flex;
+  align-items: center;
+}
+.table-head img {
+  margin: 0px 7px;
+  width: 10px;
+}
+.yesno-head {
+  display: flex;
+  justify-content: center;
+}
+.table-head-outer i {
+  font-size: 16px;
+  color: #9da1b3;
+  margin: 0px 10px;
+  /* position: absolute; */
+}
+.text-ellipse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+.table-head-outer.blue-txt i {
+  color: var(--color-charlie);
+}
+.rt-resizable-header-content .table-head {
+  margin: 0;
+  text-align: left;
+  padding: 2px 0;
+  max-width: max-content;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ReactTable .rt-tbody {
+  overflow: visible;
+}
+.status-dropdown.dropdown .dropdown-toggle {
+  color: #525252;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 80px !important;
+}
+.status-dropdown.dropdown button:active {
+  background-color: transparent !important;
+  color: #000;
+}
+.status-dropdown.dropdown button:focus {
+  box-shadow: none !important;
+}
+.pagination-bottom {
+  background-color: #f6f8fb;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 35px;
+}
+.rowsper-page {
+  display: flex;
+  align-items: center;
+}
+.pagination-bottom button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+.pagination-bottom p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 13px;
+}
+.pagination-bottom .arrow-btns {
+  margin: 0px 17px;
+  font-size: 24px;
+}
+.pagination-bottom .page-dropdown.dropdown {
+  margin: 0px 10px;
+  height: 22px;
+}
+.pagination-bottom .page-dropdown.dropdown button:focus {
+  box-shadow: none !important;
+}
+.pagination-bottom .page-dropdown.dropdown .dropdown-menu.show {
+  width: 30px;
+  padding: 10px;
+  border: 0;
+  min-width: 70px;
+  border: 1px solid var(--border-color);
+  font-size: 13px;
+}
+.pagination-bottom .page-dropdown.dropdown button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #17304a;
+  opacity: 0.7;
+}
+.pagination-bottom .page-dropdown.dropdown button:active {
+  background-color: transparent;
+  border: 0;
+}
+.pagination-bottom .page-dropdown.dropdown button:focus {
+  box-shadow: none;
+}
+.pagination-bottom .page {
+  max-width: 100%;
+  padding: 0px;
+  background-color: transparent;
+}
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+  background-color: transparent !important;
+}
+.more {
+  width: 39px;
+  height: 39px;
+  line-height: 36px;
+  border-radius: 50%;
+  line-height: 46px;
+}
+.more i {
+  font-size: 19px;
+  color: var(--text-color);
+}
+.more:hover {
+  background-color: var(--table-header-bg);
+}
+.more:hover i {
+  color: var(--color-charlie);
+}
+.more-active {
+  background-color: #e3ebf2;
+}
+.ReactTable .rt-table .rt-thead .user-input-fields,
+.status-dropdown.dropdown .dropdown-toggle,
+.ReactTable .rt-table .rt-thead input {
+  max-width: 129px;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  height: 35px;
+  padding: 10px !important;
+  background-color: transparent;
+  color: #525252;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  overflow: hidden;
+}
+.user-input-fields-center {
+  margin: 0 auto;
+  display: table;
+}
+.user-input-fields {
+  margin-right: auto;
+  margin-left: 0;
+  display: table;
+}
+.ReactTable .rt-thead .rt-th.-sort-asc,
+.ReactTable .rt-thead .rt-td.-sort-asc {
+  box-shadow: none;
+}
+.filter-icon {
+  width: 18px;
+}
+.cancel-btn {
+  border: 0;
+  width: 19px;
+  height: 19px;
+  line-height: 5px;
+  border-radius: 50%;
+  background-color: #edf2f6;
+  bottom: 0;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+.cancel-btn img {
+  width: 7px;
+}
+.ReactTable .rt-thead .rt-th.-sort-desc {
+  box-shadow: none;
+}
+.page-items p {
+  color: var(--text-color-muted-more);
+  align-items: center;
+  display: flex;
+}
+
+.page-items label {
+  margin: 0;
+}
+
+.card {
+  border-radius: 5px;
+}
+.filter-outer {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.status-dropdown .dropdown-menu.show {
+  border: 0;
+  box-shadow: 0px 0px 17px #d1d1d1;
+  min-width: 60px;
+  width: 75px;
+  border-radius: 5px;
+}
+.status-dropdown .dropdown-item img {
+  margin-right: 10px;
+}
+.title-head i {
+  font-size: 19px;
+  margin-right: 1rem;
+}
+
+.filterdrop-outer {
+  margin: 0 auto;
+}
+.blue-txt {
+  color: var(--color-charlie);
+}
+
+.rt-thead .rt-th.rt-resizable-header .blue-txt .table-head {
+  border-bottom: 2px solid var(--color-charlie);
+}
+
+.datetimeModal .title-label {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: #9696a0;
+  margin: 0;
+  text-transform: uppercase;
+}
+.datetimeModal .modal-footer {
+  border: 0;
+}
+.datetimeModal .cancel-bttn {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: rgba(41, 54, 61, 0.705);
+  border: 0;
+  background-color: transparent;
+  margin-right: 24px;
+  width: 92px;
+  height: 48px;
+}
+.datetimeModal .date-outer {
+  background: #fff;
+  border: 1px solid var(--border-color);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 24px;
+}
+.datetimeModal .update-bttn {
+  background: var(--primary-button-color);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--primary-button-text);
+  border: 0;
+  width: 92px;
+  height: 48px;
+  text-align: center;
+}
+.datetimeModal .modal-body {
+  padding: 0;
+}
+.datetimeModal .modal-inner {
+  padding: 24px;
+}
+.datetimeModal .modal-title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #181f47;
+}
+.datetimeModal svg {
+  display: none;
+}
+
+.ReactTable .rt-th,
+ .ReactTable .rt-td  {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 0px;
+  flex: 1 0 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 7px 5px;
+  overflow: visible;
+  transition: 0.3s ease;
+  transition-property: width, min-width, padding, opacity;
+}
+.date-txt {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ReactTable .rt-thead.-filters input,
+ .ReactTable .rt-thead.-filters select,
+.dropdown  {
+  border-radius: 3px;
+  font-weight: normal;
+  outline-width: 0;
+  width: 100%;
+}
+.ReactTable *  {
+  box-sizing: border-box;
+}
+
+.rt-tr-group .rt-tr {
+  align-items: center;
+}
+.ReactTable .rt-tbody .rt-td:last-child {
+  overflow: visible !important;
+}
+.site_table .rt-thead .rt-tr .rt-th:last-child,
+.site_table .rt-tbody .rt-tr-group .rt-td:last-child {
+  max-width: 100px !important;
+  width: 100% !important;
+}
+
+.ReactTable .rt-tr {
+  display: -webkit-inline-box;
+}
