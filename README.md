@@ -1,5 +1,5 @@
 # frontend
-Kasmweb Decompilation of the frontend.
+Decompilation of the Kasm Workspaces frontend.
 
 **Info**: The original sourcemaps are gzipped as they are extremely large.
 
@@ -12,3 +12,5 @@ Kasmweb Decompilation of the frontend.
 
 - **Other**
 - [x] Make a `package.json` file from `node_modules`
+- [ ] Somehow find a way to build this mess
+- [ ] Does this even work?
