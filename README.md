@@ -11,4 +11,4 @@ Kasmweb Decompilation of the frontend.
 - [x] Combine `webpack_out_img` into `assets/public/img`
 
 - **Other**
-- [ ] Make a `package.json` file from `node_modules`
+- [x] Make a `package.json` file from `node_modules`
