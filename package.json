@@ -1,0 +1,19 @@
+{
+  "name": "kasmweb_decomp_frontend",
+  "version": "1.0.0",
+  "description": "Kasmweb Decompilation of the frontend.",
+  "main": "kasmweb/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasmweb-decompilation/frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasmweb-decompilation/frontend/issues"
+  },
+  "homepage": "https://github.com/kasmweb-decompilation/frontend#readme"
+}
