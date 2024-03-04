@@ -4,10 +4,10 @@ import { Row, Col, Card, CardHeader, Container, UncontrolledTooltip, Collapse } 
 import { useTranslation, Trans } from "react-i18next";
 import { isArray } from "lodash";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFloppyDisk } from '@fortawesome/pro-light-svg-icons/faFloppyDisk';
-import { faChevronRight } from '@fortawesome/pro-light-svg-icons/faChevronRight';
-import { faChevronLeft } from '@fortawesome/pro-light-svg-icons/faChevronLeft';
-import { faCopy } from '@fortawesome/pro-light-svg-icons/faCopy';
+import { faFloppyDisk } from '@fortawesome/free-solid-svg-icons/faFloppyDisk';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons/faChevronRight';
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons/faChevronLeft';
+import { faCopy } from '@fortawesome/free-solid-svg-icons/faCopy';
 import { NotificationManager } from "react-notifications";
 import reactStringReplace from 'react-string-replace';
 import { copyToClipboard } from "../../utils/formValidations"

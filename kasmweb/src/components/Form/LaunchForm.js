@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
 import { t } from "i18next";
-import { faEyeSlash } from "@fortawesome/pro-light-svg-icons/faEyeSlash";
-import { faEye } from "@fortawesome/pro-light-svg-icons";
+import { faEyeSlash } from "@fortawesome/free-solid-svg-icons/faEyeSlash";
+import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')

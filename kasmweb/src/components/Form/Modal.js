@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef, Fragment } from "react";
 import { Dialog, Transition, Menu } from '@headlessui/react'
 import _ from "lodash";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleNotch } from '@fortawesome/pro-light-svg-icons/faCircleNotch';
-import { faTimes } from '@fortawesome/pro-light-svg-icons/faTimes';
+import { faCircleNotch } from '@fortawesome/free-solid-svg-icons/faCircleNotch';
+import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes';
 import { useTranslation } from "react-i18next";
 
 function classNames(...classes) {

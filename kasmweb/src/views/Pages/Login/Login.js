@@ -7,21 +7,21 @@ import { withRouter } from "react-router";
 import { connect } from "react-redux";
 import { QRCode } from "react-qr-svg";
 import { loginFunction, getLoginSettings, get_two_factor, setSecret, loginResetPassword } from "../../../actions/actionLogin";
-import { webauthnAuthenticate, webauthnRegisterFinish, webauthnRegisterStart } from "../../../actions/actionWebAuthn";
-import { arrayBufferToBase64, arrayToArrayBuffer, getWebauthnCredential } from "../../../utils/helpers";
+import { webauthnAuthenticate, webauthnRegisterFinish, webauthnRegisterStart } from "../../../actions/actionWebAuthn.js";
+import { arrayBufferToBase64, arrayToArrayBuffer, getWebauthnCredential } from "../../../utils/helpers.js";
 import { getSignOnURL } from "../../../actions/actionSaml";
 import { required, renderField, renderPass, secret, password, mustMatch, noOldPassword } from "../../../utils/formValidations.js";
 import "../../../../assets/style/style.css";
-import LoadingSpinner from "../../../components/LoadingSpinner/index";
-import { setThemeColor } from "../../../utils/helpers";
+import LoadingSpinner from "../../../components/LoadingSpinner/index.js";
+import { setThemeColor } from "../../../utils/helpers.js";
 import {withTranslation} from "react-i18next";
-import { Groups, Button, FormField } from "../../../components/Form"
+import { Groups, Button, FormField } from "../../../components/Form/Form.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faKey } from '@fortawesome/free-solid-svg-icons/faKey';
+import { faKey } from '@fortawesome/free-solid-svg-icons/faKey.js';
 import { Modal, ModalFooter } from "../../../components/Form/Modal";
-import { faLock } from "@fortawesome/free-solid-svg-icons/faLock";
-import { faInfoCircle } from "@fortawesome/free-solid-svg-icons/faInfoCircle";
-import { SetTwoFactorModal } from "../../../components/SetTwoFactorModal/SetTwoFactorModal";
+import { faLock } from "@fortawesome/free-solid-svg-icons/faLock.js";
+import { faInfoCircle } from "@fortawesome/free-solid-svg-icons/faInfoCircle.js";
+import { SetTwoFactorModal } from "../../../components/SetTwoFactorModal/SetTwoFactorModal.js";
 
 
 const mustMatchPassword = mustMatch('new_password');

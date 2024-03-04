@@ -1,6 +1,6 @@
 import { Modal } from "../Form/Modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faKey } from "@fortawesome/pro-light-svg-icons/faKey";
+import { faKey } from "@fortawesome/free-solid-svg-icons/faKey";
 import { Button as RSButton } from "reactstrap";
 import { renderField } from "../../utils/formValidations";
 import { QRCode } from "react-qr-svg";

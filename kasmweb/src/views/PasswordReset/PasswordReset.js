@@ -5,18 +5,18 @@ import Proptypes from "prop-types";
 import { NotificationManager } from "react-notifications";
 import { withRouter } from "react-router";
 import { connect } from "react-redux";
-import { getLoginSettings } from "../../actions/actionLogin";
-import { resetEmail, passwordReset } from "../../actions/actionPasswordReset";
+import { getLoginSettings } from "../../actions/actionLogin.js";
+import { resetEmail, passwordReset } from "../../actions/actionPasswordReset.js";
 import { required, renderField, email } from "../../utils/formValidations.js";
 import "../../../assets/style/style.css";
 import ReCAPTCHA from "react-google-recaptcha";
 import queryString from "query-string";
 import {withTranslation} from "react-i18next";
-import { Groups, Button, FormField } from "../../components/Form"
+import { Groups, Button, FormField } from "../../components/Form/Form.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faKey } from '@fortawesome/free-solid-svg-icons/faKey';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
-import { Modal } from "../../components/Form/Modal";
+import { Modal } from "../../components/Form/Modal.js";
 
 class PasswordReset extends Component {
     constructor(props) {

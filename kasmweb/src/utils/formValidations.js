@@ -3,7 +3,7 @@ import _ from "lodash";
 import Proptypes from "prop-types";
 import i18n from '../i18n';
 import {Trans} from "react-i18next";
-import { notifySuccess } from "../components/Form"
+import { notifySuccess } from "../components/Form/Form.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLock } from '@fortawesome/free-solid-svg-icons/faLock';
 import { faCopy } from '@fortawesome/free-solid-svg-icons/faCopy';

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { PersistGate } from 'redux-persist/integration/react';
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import browserHistory from "history/createBrowserHistory";
-import './i18n';
+import './i18n.js';
 
 // Styles
 // Import Flag Icons Set
@@ -24,7 +24,7 @@ import "dropzone/dist/min/dropzone.min.css";
 import "./tailwind.css";
 
 // Containers
-import Full from "./containers/Full/";
+import Full from "./containers/Full/Full.js";
 import { Provider } from "react-redux";
 import { NotificationContainer } from "react-notifications";
 
@@ -38,8 +38,8 @@ import Page500 from "./views/Pages/Page500/Page500.js";
 import PageError from "./views/Pages/Error/PageError.js";
 import Signup from "./views/Signup/Signup.js";
 import PasswordReset from "./views/PasswordReset/PasswordReset.js";
-import {store,persistor} from "./store";
-import Go from "./views/Go/";
+import {store,persistor} from "./store.js";
+import Go from "./views/Go/Go.js";
 // import "../assets/style/main.css";
 
 import LoadingSpinner from "./components/LoadingSpinner/index";
