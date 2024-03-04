@@ -15,8 +15,8 @@ import { NotificationManager } from "react-notifications";
 import {withTranslation} from "react-i18next";
 import SelectInput from "../SelectInput";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBoxArchive } from '@fortawesome/pro-light-svg-icons/faBoxArchive';
-import { faCircleMinus } from '@fortawesome/pro-light-svg-icons/faCircleMinus';
+import { faBoxArchive } from '@fortawesome/free-solid-svg-icons/faBoxArchive';
+import { faCircleMinus } from '@fortawesome/free-solid-svg-icons/faCircleMinus';
 import { ConfirmAction } from "../../components/Table/NewTable";
 import { FormField, Groups } from "../Form/Form";
 import { Modal, ModalFooter } from "../Form/Modal";

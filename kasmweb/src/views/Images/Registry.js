@@ -15,19 +15,19 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import {Trans, useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faContainerStorage } from '@fortawesome/pro-light-svg-icons/faContainerStorage';
-import { faShieldExclamation } from '@fortawesome/pro-light-svg-icons/faShieldExclamation';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faBox } from '@fortawesome/free-solid-svg-icons/faBox';
+import { faCircleExclamation } from '@fortawesome/free-solid-svg-icons/faCircleExclamation';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { TabList, notifyFailure } from "../../components/Form/Form";
 import { ConfirmAction } from "../../components/Table/NewTable";
 import { Modal, ModalFooter } from "../../components/Form/Modal"
-import { faClose } from "@fortawesome/pro-light-svg-icons/faClose";
-import { faEllipsisH } from "@fortawesome/pro-light-svg-icons/faEllipsisH";
-import { faInfoCircle } from "@fortawesome/pro-light-svg-icons/faInfoCircle";
-import { faLifeRing } from "@fortawesome/pro-light-svg-icons/faLifeRing";
-import { faSpinner } from "@fortawesome/pro-light-svg-icons/faSpinner";
-import { faTimes } from "@fortawesome/pro-light-svg-icons/faTimes";
+import { faClose } from "@fortawesome/free-solid-svg-icons/faClose";
+import { faEllipsisH } from "@fortawesome/free-solid-svg-icons/faEllipsisH";
+import { faInfoCircle } from "@fortawesome/free-solid-svg-icons/faInfoCircle";
+import { faLifeRing } from "@fortawesome/free-solid-svg-icons/faLifeRing";
+import { faSpinner } from "@fortawesome/free-solid-svg-icons/faSpinner";
+import { faTimes } from "@fortawesome/free-solid-svg-icons/faTimes";
 
 function checkWorkspace(workspace) {
   let items = []
@@ -531,7 +531,7 @@ export function Registry(props) {
   
   return (
     <React.Fragment>
-      <PageHeader location={props.location} routes={typeof newRoutes !== 'undefined' ? newRoutes : null} title={t('workspaces.workspace-registry')} icon={<FontAwesomeIcon icon={faContainerStorage} />} right={<DiskUsage diskStats={serverStats} installing={installedWorkspaces.filter((workspace) => workspace.enabled === true && workspace.available === false)} />} />
+      <PageHeader location={props.location} routes={typeof newRoutes !== 'undefined' ? newRoutes : null} title={t('workspaces.workspace-registry')} icon={<FontAwesomeIcon icon={faBox} />} right={<DiskUsage diskStats={serverStats} installing={installedWorkspaces.filter((workspace) => workspace.enabled === true && workspace.available === false)} />} />
       <Row>
         <Col sm={{ size: 10, order: 3, offset: 1 }}>
           <TabList {...props} tabList={tabList} currentTab={currentTab} setCurrentTab={setCurrentTab} />
@@ -649,7 +649,7 @@ export function Registry(props) {
           />
 
           <Modal
-            icon={<FontAwesomeIcon icon={faContainerStorage} />}
+            icon={<FontAwesomeIcon icon={faBox} />}
             iconBg="tw-bg-blue-500 tw-text-white"
             title="workspaces.are-you-sure-you-want-to-add-a"
             contentRaw={
@@ -661,7 +661,7 @@ export function Registry(props) {
           />
 
           <Modal
-            icon={<FontAwesomeIcon icon={faContainerStorage} />}
+            icon={<FontAwesomeIcon icon={faBox} />}
             iconBg="tw-bg-blue-500 tw-text-white"
             title="workspaces.installing-workspace-registrie"
             contentRaw={
@@ -1055,7 +1055,7 @@ function Workspace({ workspace, userImages, architectures, usedkey }) {
           ))}
           </ul>
         </UncontrolledTooltip>
-        <FontAwesomeIcon className="tw-text-orange-300 dark:tw-text-orange-300/70 tw-text-lg" icon={faShieldExclamation} id={"warning" + workspace.sha} />
+        <FontAwesomeIcon className="tw-text-orange-300 dark:tw-text-orange-300/70 tw-text-lg" icon={faCircleExclamation} id={"warning" + workspace.sha} />
       </div>
     }
   }

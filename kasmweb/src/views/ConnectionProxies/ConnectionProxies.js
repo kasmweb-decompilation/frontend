@@ -11,8 +11,8 @@ import {getLicenses} from "../../actions/actionSystemInfo";
 import {withTranslation} from "react-i18next";
 import moment from "moment";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlug } from '@fortawesome/pro-light-svg-icons/faPlug';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faPlug } from '@fortawesome/free-solid-svg-icons/faPlug';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { ConfirmAction } from "../../components/Table/NewTable";
 

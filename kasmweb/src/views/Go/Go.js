@@ -21,7 +21,7 @@ import { LaunchForm, checkRequiredSectionsAgainstLocal, localLaunchSelections } 
 import { Modal } from "../../components/Form/Modal";
 import { KasmIcon } from "../User/UserDashboard/ListKasms";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleNotch } from "@fortawesome/pro-light-svg-icons/faCircleNotch";
+import { faCircleNotch } from "@fortawesome/free-solid-svg-icons/faCircleNotch";
 
 class Go extends Component {
   constructor(props) {

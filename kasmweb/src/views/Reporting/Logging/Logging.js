@@ -1,25 +1,25 @@
 import React,{ useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import {Row, Col } from "reactstrap";
-import LogTable from "../../../components/Table/LogTable";
+import LogTable from "../../../components/Table/LogTable.js";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRectangleList } from '@fortawesome/pro-light-svg-icons/faRectangleList';
-import { faArrowRotateRight } from '@fortawesome/pro-light-svg-icons/faArrowRotateRight';
-import { faPlus } from '@fortawesome/pro-light-svg-icons/faPlus';
-import { faMinus } from '@fortawesome/pro-light-svg-icons/faMinus';
-import { faTimes } from '@fortawesome/pro-light-svg-icons/faTimes';
-import { faArrowsRotate } from '@fortawesome/pro-light-svg-icons/faArrowsRotate';
-import { faFloppyDisk } from '@fortawesome/pro-light-svg-icons/faFloppyDisk';
-import PageHeader from "../../../components/Header/PageHeader";
-import { TabList } from "../../../components/Form"
+import { faRectangleList } from '@fortawesome/free-solid-svg-icons/faRectangleList';
+import { faArrowRotateRight } from '@fortawesome/free-solid-svg-icons/faArrowRotateRight';
+import { faPlus } from '@fortawesome/free-solid-svg-icons/faPlus';
+import { faMinus } from '@fortawesome/free-solid-svg-icons/faMinus';
+import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes';
+import { faArrowsRotate } from '@fortawesome/free-solid-svg-icons/faArrowsRotate';
+import { faFloppyDisk } from '@fortawesome/free-solid-svg-icons/faFloppyDisk';
+import PageHeader from "../../../components/Header/PageHeader.js";
+import { TabList } from "../../../components/Form/Form.js"
 import { DescriptionColumn, StandardColumn, SettingColumn } from "../../../components/Table/NewTable";
 import { getLogs, gethosts,setLogsPageInfo} from "../../../actions/actionReporting"
 import moment from "moment";
 import Select from "react-select";
-import { Button } from "../../../components/Form";
-import { Modal } from "../../../components/Form/Modal"
-import { cyrb53 } from "../../../utils/helpers";
+import { Button } from "../../../components/Form/Form.js";
+import { Modal } from "../../../components/Form/Modal.js"
+import { cyrb53 } from "../../../utils/helpers.js";
 
 const dateForDateTimeInputValue = date => new Date(date.getTime() + new Date().getTimezoneOffset() * -60 * 1000).toISOString().slice(0, 16)
 

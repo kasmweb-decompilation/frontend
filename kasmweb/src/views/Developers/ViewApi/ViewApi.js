@@ -8,10 +8,10 @@ import { getAllPermissions } from "../../../actions/actionGroup";
 import { addPermissionsApi, getApiPermissions, removeApiPermissions } from "../../../actions/actionDevloper";
 import { useDispatch, useSelector } from "react-redux";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSliders } from "@fortawesome/pro-light-svg-icons/faSliders";
+import { faSliders } from "@fortawesome/free-solid-svg-icons/faSliders";
 import Select from "react-select";
 import { Modal, ModalFooter } from "../../../components/Form/Modal";
-import { faCircleMinus } from "@fortawesome/pro-light-svg-icons/faCircleMinus";
+import { faCircleMinus } from "@fortawesome/free-solid-svg-icons/faCircleMinus";
 import { notifyFailure, notifySuccess } from "../../../components/Form/Form";
 
 export default function ViewApi(props) {

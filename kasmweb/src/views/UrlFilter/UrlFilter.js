@@ -9,8 +9,8 @@ import {getUrlFilterPolicies, deleteUrlFilterPolicy,setWebFilterPageInfo} from "
 import {withTranslation} from "react-i18next";
 import { ConfirmAction, DescriptionColumn, StandardColumn } from "../../components/Table/NewTable";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFilterList } from '@fortawesome/pro-light-svg-icons/faFilterList';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faFilterList } from '@fortawesome/free-solid-svg-icons/faFilterList';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 
 class UrlFilter extends Component {

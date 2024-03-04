@@ -1,24 +1,24 @@
 import { IS_ANONYMOUS } from "../../constants/Constants.js";
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGrid2 } from '@fortawesome/pro-light-svg-icons/faGrid2';
-import { faWebhook } from '@fortawesome/pro-light-svg-icons/faWebhook';
-import { faTable } from '@fortawesome/pro-light-svg-icons/faTable';
-import { faCog } from '@fortawesome/pro-light-svg-icons/faCog';
-import { faWindowRestore } from '@fortawesome/pro-light-svg-icons/faWindowRestore';
-import { faHeadSideBrain } from '@fortawesome/pro-light-svg-icons/faHeadSideBrain';
-import { faAddressCard } from '@fortawesome/pro-light-svg-icons/faAddressCard';
-import { faArrowCircleRight } from "@fortawesome/pro-light-svg-icons/faArrowCircleRight";
-import { faArrowRightFromBracket } from "@fortawesome/pro-light-svg-icons/faArrowRightFromBracket";
-import { faDesktop } from "@fortawesome/pro-light-svg-icons/faDesktop";
-import { faUserCircle } from "@fortawesome/pro-light-svg-icons/faUserCircle";
+import { faGrip } from '@fortawesome/free-solid-svg-icons/faGrip';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons/faGlobe';
+import { faTable } from '@fortawesome/free-solid-svg-icons/faTable';
+import { faCog } from '@fortawesome/free-solid-svg-icons/faCog';
+import { faWindowRestore } from '@fortawesome/free-solid-svg-icons/faWindowRestore';
+import { faCode } from '@fortawesome/free-solid-svg-icons/faCode';
+import { faAddressCard } from '@fortawesome/free-solid-svg-icons/faAddressCard';
+import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons/faArrowCircleRight";
+import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons/faArrowRightFromBracket";
+import { faDesktop } from "@fortawesome/free-solid-svg-icons/faDesktop";
+import { faUserCircle } from "@fortawesome/free-solid-svg-icons/faUserCircle";
 
 const AdminUser = [
   {
     name: "Dashboard",
     authView: "reports",
     url: "/dashboard",
-    icon: <FontAwesomeIcon className="tw-w-5 tw-h-5" icon={faGrid2} />,
+    icon: <FontAwesomeIcon className="tw-w-5 tw-h-5" icon={faGrip} />,
   },
   {
     name: "Access Management",
@@ -67,7 +67,7 @@ const AdminUser = [
   {
     name: "Infrastructure",
     url: "/infrastructure",
-    icon: <FontAwesomeIcon className="tw-w-5 tw-h-5" icon={faWebhook} />,
+    icon: <FontAwesomeIcon className="tw-w-5 tw-h-5" icon={faGlobe} />,
     children: [
       {
         name: "Docker Agents",
@@ -185,7 +185,7 @@ const AdminUser = [
   {
     name: "Diagnostics",
     url: "/diagnostics",
-    icon: <FontAwesomeIcon className="tw-w-5 tw-h-5" icon={faHeadSideBrain} />,
+    icon: <FontAwesomeIcon className="tw-w-5 tw-h-5" icon={faCode} />,
     children: [
       {
         name: "Logging",

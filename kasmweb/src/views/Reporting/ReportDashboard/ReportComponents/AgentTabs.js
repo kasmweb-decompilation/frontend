@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import AgentGraph from "./AgentGraph"
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExclamationTriangle } from '@fortawesome/pro-light-svg-icons/faExclamationTriangle';
+import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons/faExclamationTriangle';
 
 class AgentTabs extends Component {
     constructor(props) {

@@ -11,8 +11,8 @@ import {withTranslation} from "react-i18next";
 import { ConfirmAction, StandardColumn } from "../../components/Table/NewTable";
 import moment from "moment";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShieldHalved } from '@fortawesome/pro-light-svg-icons/faShieldHalved';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faShieldHalved } from '@fortawesome/free-solid-svg-icons/faShieldHalved';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 
 class Managers extends Component{

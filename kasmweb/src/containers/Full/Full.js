@@ -1,156 +1,156 @@
 import React, { Component } from "react";
 import { Switch, Route, Redirect, withRouter } from "react-router-dom";
 import { Container } from "reactstrap";
-import Header from "../../components/Header/";
-import Sidebar from "../../components/Sidebar/";
-import getUserNavigationBarItems from "../../components/Sidebar/getUserNavigationBar";
+import Header from "../../components/Header/Header.js";
+import Sidebar from "../../components/Sidebar/Sidebar.js";
+import getUserNavigationBarItems from "../../components/Sidebar/getUserNavigationBar.js";
 
-import ErrorBoundary from "../../components/ErrorBoundary";
-import ChildrenPages from "../../components/Breadcrumb/ChildrenPages";
+import ErrorBoundary from "../../components/ErrorBoundary/ErrorBoundary.js";
+import ChildrenPages from "../../components/Breadcrumb/ChildrenPages.js";
 
 //AdminUser, CreateUser, UpdateUser
-import AdminUser from "../../views/AdminUser/";
-import CreateUser from "../../views/AdminUser/CreateUser";
-import UpdateUser from "../../views/AdminUser/UpdateUser";
+import AdminUser from "../../views/AdminUser/AdminUser.js";
+import CreateUser from "../../views/AdminUser/CreateUser/CreateUser.js";
+import UpdateUser from "../../views/AdminUser/UpdateUser/UpdateUser.js";
 
 // UserDashboard, UserProfile, AdminProfile, UserSubscription
-import UserDashboard from "../../views/User/UserDashboard";
-import UserSubscription from "../../views/User/UserSubscription";
+import UserDashboard from "../../views/User/UserDashboard/UserDashboard.js";
+import UserSubscription from "../../views/User/UserSubscription/UserSubscription.js";
 
 // Groups, create Groups, update Groups
 import Groups from "../../views/Groups/";
-import CreateGroup from "../../views/Groups/CreateGroup";
-import UpdateGroup from "../../views/Groups/UpdateGroup";
+import CreateGroup from "../../views/Groups/CreateGroup/CreateGroup.js";
+import UpdateGroup from "../../views/Groups/UpdateGroup/UpdateGroup.js";
 
 //images, ViewImages, CreateImages, UpdateImages, CloneImage
-import Images from "../../views/Images/";
+import Images from "../../views/Images/Images.js";
 import { Registry } from "../../views/Images/Registry.js";
-import CreateImage from "../../views/Images/CreateImage";
-import UpdateImage from "../../views/Images/UpdateImage";
-import CloneImage from "../../views/Images/CloneImage";
+import CreateImage from "../../views/Images/CreateImage/CreateImage.js";
+import UpdateImage from "../../views/Images/UpdateImage/UpdateImage.js";
+import CloneImage from "../../views/Images/CloneImage/CloneImage.js";
 
 //Agents, ViewAgent, UpdateAgent
-import Agents from "../../views/Agents/";
-import UpdateAgent from "../../views/Agents/UpdateAgent";
+import Agents from "../../views/Agents/Agents.js";
+import UpdateAgent from "../../views/Agents/UpdateAgent/UpdateAgent.js";
 
 //Managers
-import Managers from "../../views/Managers/";
-import ViewManager from "../../views/Managers/ViewManager";
+import Managers from "../../views/Managers/Managers.js";
+import ViewManager from "../../views/Managers/ViewManager/ViewManager.js";
 
 //zones, ViewZones, CreateZone, UpdateZone
-import Zones from "../../views/Zones/";
-import CreateZone from "../../views/Zones/CreateZone";
-import UpdateZone from "../../views/Zones/UpdateZone";
+import Zones from "../../views/Zones/Zones.js";
+import CreateZone from "../../views/Zones/CreateZone/CreateZone.js";
+import UpdateZone from "../../views/Zones/UpdateZone/UpdateZone.js";
 
 //connectionproxies, ViewConnectionProxy, CreateConnectionProxy, UpdateConnectionProxy
-import ConnectionProxies from "../../views/ConnectionProxies/";
-import CreateConnectionProxy from "../../views/ConnectionProxies/CreateConnectionProxy";
-import UpdateConnectionProxy from "../../views/ConnectionProxies/UpdateConnectionProxy";
+import ConnectionProxies from "../../views/ConnectionProxies/ConnectionProxies.js";
+import CreateConnectionProxy from "../../views/ConnectionProxies/CreateConnectionProxy/CreateConnectionProxy.js";
+import UpdateConnectionProxy from "../../views/ConnectionProxies/UpdateConnectionProxy/UpdateConnectionProxy.js";
 
 
-import ServerPools from "../../views/ServerPools/";
-import CreateServerPool  from "../../views/ServerPools/CreateServerPool"
-import UpdateServerPool from "../../views/ServerPools/UpdateServerPool";
+import ServerPools from "../../views/ServerPools/ServerPools.js";
+import CreateServerPool  from "../../views/ServerPools/CreateServerPool/CreateServerPool.js"
+import UpdateServerPool from "../../views/ServerPools/UpdateServerPool/UpdateServerPool.js";
 
 import Servers from "../../views/Servers/";
-import CreateServer  from "../../views/Servers/CreateServer"
-import UpdateServer from "../../views/Servers/UpdateServer";
+import CreateServer  from "../../views/Servers/CreateServer/CreateServer.js"
+import UpdateServer from "../../views/Servers/UpdateServer/UpdateServer.js";
 
 //Kasm, ViewKasm
-import Kasms from "../../views/Kasms/";
-import ViewKasm from "../../views/Kasms/ViewKasm/";
-import { SessionHistory } from "../../views/SessionHistory/History";
+import Kasms from "../../views/Kasms/Kasm.js";
+import ViewKasm from "../../views/Kasms/ViewKasm/ViewKasm.js";
+import { SessionHistory } from "../../views/SessionHistory/History.js";
 
 //Reporting
-import ReportDashboard from "../../views/Reporting/ReportDashboard/ReportDashboard";
-import ReportLogging from "../../views/Reporting/Logging/Logging";
+import ReportDashboard from "../../views/Reporting/ReportDashboard/ReportDashboard.js";
+import ReportLogging from "../../views/Reporting/Logging/Logging.js";
 
 //Settings, UpdateSettings, ViewSettings
-import Settings from "../../views/Settings/";
+import Settings from "../../views/Settings/Settings.js";
 
 //Ldap, ViewLdap,CreateLdap,updateLdap
-import Ldap from "../../views/Ldap/";
-import CreateLdap from "../../views/Ldap/CreateLdap";
-import UpdateLdap from "../../views/Ldap/UpdateLdap";
+import Ldap from "../../views/Ldap/Ldap.js";
+import CreateLdap from "../../views/Ldap/CreateLdap/CreateLdap.js";
+import UpdateLdap from "../../views/Ldap/UpdateLdap/UpdateLdap.js";
 
 //SAML
-import Saml from "../../views/Saml/";
-import UpdateSaml from "../../views/Saml/UpdateSaml";
+import Saml from "../../views/Saml/Saml.js";
+import UpdateSaml from "../../views/Saml/UpdateSaml/UpdateSaml.js";
 
 //System Info
-import ViewSystemInfo from "../../views/SystemInfo/";
+import ViewSystemInfo from "../../views/SystemInfo/SystemInfo.js";
 
 //kasm, join
-import Kasm from "../../views/Kasm/";
-import Join from "../../views/Join/";
+import Kasm from "../../views/Kasm/Kasm.js";
+import Join from "../../views/Join/Join.js";
 
 //import Developers
-import Developers from "../../views/Developers";
-import CreateApi from "../../views/Developers/CreateApi";
-import UpdateApi from "../../views/Developers/UpdateApi";
+import Developers from "../../views/Developers/Developers.js";
+import CreateApi from "../../views/Developers/CreateApi/CreateApi.js";
+import UpdateApi from "../../views/Developers/UpdateApi/UpdateApi.js";
 
 //import UrlFilter
-import UrlFilter from "../../views/UrlFilter";
-import CreateUrlFilter from "../../views/UrlFilter/CreateUrlFilter";
-import UpdateUrlFilter from "../../views/UrlFilter/UpdateUrlFilter";
+import UrlFilter from "../../views/UrlFilter/UrlFilter.js";
+import CreateUrlFilter from "../../views/UrlFilter/CreateUrlFilter/CreateUrlFilter.js";
+import UpdateUrlFilter from "../../views/UrlFilter/UpdateUrlFilter/UpdateUrlFilter.js";
 
 //Logout, GetNewToken
-import Logout from "../../components/Logout";
-import { getNewToken } from "../../actions/actionLogin";
-import { getClientSettings } from "../../actions/actionDashboard";
-import { logout } from "../../actions/actionLogin";
+import Logout from "../../components/Logout/Logout.js";
+import { getNewToken } from "../../actions/actionLogin.js";
+import { getClientSettings } from "../../actions/actionDashboard.js";
+import { logout } from "../../actions/actionLogin.js";
 import { NotificationManager } from "react-notifications";
 import { connect } from "react-redux";
-import { getLicenseStatus } from "../../actions/actionFooter";
+import { getLicenseStatus } from "../../actions/actionFooter.js";
 
 import Proptypes from "prop-types";
 
-import AutoScale from "../../views/AutoScale";
-import CreateAutoScale from "../../views/AutoScale/CreateAutoScale";
-import ViewAutoScale from "../../views/AutoScale/ViewAutoScale";
-import UpdateAutoScale from "../../views/AutoScale/UpdateAutoScale";
+import AutoScale from "../../views/AutoScale/AutoScale.js";
+import CreateAutoScale from "../../views/AutoScale/CreateAutoScale/CreateAutoScale.js";
+import ViewAutoScale from "../../views/AutoScale/ViewAutoScale/ViewAutoScale.js";
+import UpdateAutoScale from "../../views/AutoScale/UpdateAutoScale/UpdateAutoScale.js";
 
-import VmProvider from "../../views/VmProvider";
-import CreateVmProviderConfig from "../../views/VmProvider/CreateVmProviderConfig";
-import ViewVmProviderConfig from "../../views/VmProvider/ViewVmProviderConfig";
-import UpdateVmProviderConfig from "../../views/VmProvider/UpdateVmProviderConfig"
+import VmProvider from "../../views/VmProvider/VmProvider.js";
+import CreateVmProviderConfig from "../../views/VmProvider/CreateVmProviderConfig/CreateVmProviderConfig.js";
+import ViewVmProviderConfig from "../../views/VmProvider/ViewVmProviderConfig/ViewVmProviderConfig.js";
+import UpdateVmProviderConfig from "../../views/VmProvider/UpdateVmProviderConfig/UpdateVmProviderConfig.js"
 
-import DnsProvider from "../../views/DnsProvider";
-import CreateDnsProviderConfig from "../../views/DnsProvider/CreateDnsProviderConfig";
-import ViewDnsProviderConfig from "../../views/DnsProvider/ViewDnsProviderConfig";
-import UpdateDnsProviderConfig from "../../views/DnsProvider/UpdateDnsProviderConfig"
+import DnsProvider from "../../views/DnsProvider/DnsProvider.js";
+import CreateDnsProviderConfig from "../../views/DnsProvider/CreateDnsProviderConfig/CreateDnsProviderConfig.js";
+import ViewDnsProviderConfig from "../../views/DnsProvider/ViewDnsProviderConfig/ViewDnsProviderConfig.js";
+import UpdateDnsProviderConfig from "../../views/DnsProvider/UpdateDnsProviderConfig/UpdateDnsProviderConfig.js"
 
 //import Branding
-import Branding from "../../views/Branding";
-import CreateBrandingConfig from "../../views/Branding/CreateBrandingConfig";
-import UpdateBrandingConfig from "../../views/Branding/UpdateBrandingConfig";
+import Branding from "../../views/Branding/Branding.js";
+import CreateBrandingConfig from "../../views/Branding/CreateBrandingConfig/CreateBrandingConfig.js";
+import UpdateBrandingConfig from "../../views/Branding/UpdateBrandingConfig/UpdateBrandingConfig.js";
 
 //import Staging
-import Staging from "../../views/Staging";
-import CreateStagingConfig from "../../views/Staging/CreateStagingConfig";
-import UpdateStagingConfig from "../../views/Staging/UpdateStagingConfig";
+import Staging from "../../views/Staging/Staging.js";
+import CreateStagingConfig from "../../views/Staging/CreateStagingConfig/CreateStagingConfig.js";
+import UpdateStagingConfig from "../../views/Staging/UpdateStagingConfig/UpdateStagingConfig.js";
 
 //import Cast
-import Cast from "../../views/CastConfig";
-import CreateCastConfig from "../../views/CastConfig/CreateCastConfig";
-import UpdateCastConfig from "../../views/CastConfig/UpdateCastConfig";
+import Cast from "../../views/CastConfig/Cast.js";
+import CreateCastConfig from "../../views/CastConfig/CreateCastConfig/CreateCastConfig.js";
+import UpdateCastConfig from "../../views/CastConfig/UpdateCastConfig/UpdateCastConfig.js";
 
 //import Oidc
-import Oidc from "../../views/Oidc";
-import CreateOidcConfig from "../../views/Oidc/CreateOidcConfig";
-import UpdateOidcConfig from "../../views/Oidc/UpdateOidcConfig";
+import Oidc from "../../views/Oidc/Oidc.js";
+import CreateOidcConfig from "../../views/Oidc/CreateOidcConfig/CreateOidcConfig.js";
+import UpdateOidcConfig from "../../views/Oidc/UpdateOidcConfig/UpdateOidcConfig.js";
 
 //import Physical Tokens
-import PhysicalToken from "../../views/PhysicalToken/PhysicalToken";
+import PhysicalToken from "../../views/PhysicalToken/PhysicalToken.js";
 
 //import Storage Provider
-import StorageProvider from "../../views/StorageProvider";
-import CreateStorageProvider from "../../views/StorageProvider/CreateStorageProviderConfig";
-import UpdateStorageProvider from "../../views/StorageProvider/UpdateStorageProviderConfig"
+import StorageProvider from "../../views/StorageProvider/StorageProvider.js";
+import CreateStorageProvider from "../../views/StorageProvider/CreateStorageProviderConfig/CreateStorageProviderConfig.js";
+import UpdateStorageProvider from "../../views/StorageProvider/UpdateStorageProviderConfig/UpdateStorageProviderConfig.js"
 
 import {withTranslation} from "react-i18next";
 import _ from "lodash";
-import { hasAuth } from "../../utils/axios";
+import { hasAuth } from "../../utils/axios.js";
 
 const allowedPaths = [
   "/userdashboard",

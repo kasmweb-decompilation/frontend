@@ -11,11 +11,11 @@ import DataTable from "../../components/Table/Table";
 import { getLicenses } from "../../actions/actionSystemInfo";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faObjectGroup } from '@fortawesome/pro-light-svg-icons/faObjectGroup';
-import { faScaleBalanced } from '@fortawesome/pro-light-svg-icons/faScaleBalanced';
-import { faCube } from '@fortawesome/pro-light-svg-icons/faCube';
-import { faChartNetwork } from '@fortawesome/pro-light-svg-icons/faChartNetwork';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faObjectGroup } from '@fortawesome/free-solid-svg-icons/faObjectGroup';
+import { faScaleBalanced } from '@fortawesome/free-solid-svg-icons/faScaleBalanced';
+import { faCube } from '@fortawesome/free-solid-svg-icons/faCube';
+import { faChartNetwork } from '@fortawesome/free-solid-svg-icons/faChartNetwork';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { Button } from "../../components/Form"
 import { ConfirmAction } from "../../components/Table/NewTable";

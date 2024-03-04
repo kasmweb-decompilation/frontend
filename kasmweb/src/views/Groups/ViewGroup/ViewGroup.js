@@ -27,11 +27,11 @@ import FileMapping from "../../../components/FileMapping/FileMapping";
 import _ from "lodash";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleMinus } from '@fortawesome/pro-light-svg-icons/faCircleMinus';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
-import { faSliders } from '@fortawesome/pro-light-svg-icons/faSliders';
-import { faBoxesStacked } from '@fortawesome/pro-light-svg-icons/faBoxesStacked';
-import { faUser } from '@fortawesome/pro-light-svg-icons/faUser';
+import { faCircleMinus } from '@fortawesome/free-solid-svg-icons/faCircleMinus';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
+import { faSliders } from '@fortawesome/free-solid-svg-icons/faSliders';
+import { faBoxesStacked } from '@fortawesome/free-solid-svg-icons/faBoxesStacked';
+import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
 import StorageProvider from "../../StorageProvider";
 import StorageMapping from "../../../components/StorageMapping";
 import { Modal, ModalFooter } from "../../../components/Form/Modal"

@@ -22,12 +22,12 @@ import StopSessionModal from "../../components/Modals/StopSessionModal";
 import {withTranslation} from "react-i18next";
 import { bytesToSize } from"../../utils/helpers"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTable } from '@fortawesome/pro-light-svg-icons/faTable';
-import { faCamera } from '@fortawesome/pro-light-svg-icons/faCamera';
-import { faPlay } from '@fortawesome/pro-light-svg-icons/faPlay';
-import { faPause } from '@fortawesome/pro-light-svg-icons/faPause';
-import { faStop } from '@fortawesome/pro-light-svg-icons/faStop';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faTable } from '@fortawesome/free-solid-svg-icons/faTable';
+import { faCamera } from '@fortawesome/free-solid-svg-icons/faCamera';
+import { faPlay } from '@fortawesome/free-solid-svg-icons/faPlay';
+import { faPause } from '@fortawesome/free-solid-svg-icons/faPause';
+import { faStop } from '@fortawesome/free-solid-svg-icons/faStop';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader, { parentRoutes } from "../../components/Header/PageHeader";
 import { CopyToClipboard } from "../../components/Form/Form";
 import { Modal as FormModal } from "../../components/Form/Modal";

@@ -3,7 +3,7 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
-import { faServer } from '@fortawesome/pro-light-svg-icons/faServer';
+import { faServer } from '@fortawesome/free-solid-svg-icons/faServer';
 import { createServer } from "../../../actions/actionServer";
 import ServerForm from "../ServerForm/ServerForm";
 

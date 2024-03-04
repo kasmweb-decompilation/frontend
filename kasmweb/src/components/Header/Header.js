@@ -20,9 +20,9 @@ import "./Header.css";
 import configure from "../../../assets/images/configure.svg";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/pro-light-svg-icons/faSearch";
-import { faTag } from "@fortawesome/pro-light-svg-icons/faTag";
-import { faBars } from "@fortawesome/pro-light-svg-icons/faBars";
+import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
+import { faTag } from "@fortawesome/free-solid-svg-icons/faTag";
+import { faBars } from "@fortawesome/free-solid-svg-icons/faBars";
 
 class Header extends Component {
   constructor(props) {

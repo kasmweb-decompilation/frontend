@@ -12,9 +12,9 @@ import { renderField, required } from "../../utils/formValidations.js";
 import Proptypes from "prop-types";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShieldKeyhole } from '@fortawesome/pro-light-svg-icons/faShieldKeyhole';
-import { faVial } from '@fortawesome/pro-light-svg-icons/faVial';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faShieldKeyhole } from '@fortawesome/free-solid-svg-icons/faShieldKeyhole';
+import { faVial } from '@fortawesome/free-solid-svg-icons/faVial';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { ConfirmAction } from "../../components/Table/NewTable";
 import { Modal, ModalFooter } from "../../components/Form/Modal";

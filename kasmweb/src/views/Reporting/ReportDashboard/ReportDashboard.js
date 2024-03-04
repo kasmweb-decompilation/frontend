@@ -3,24 +3,24 @@ import {Row, Alert, Col, Spinner, Card, CardHeader, CardBody, Collapse } from "r
 import { connect } from "react-redux";
 import { NotificationManager } from "react-notifications";
 import { withRouter, Link } from "react-router-dom";
-import AgentTabs from "./ReportComponents/AgentTabs"
-import UsageTab from "./ReportComponents/UsageTab"
-import UserTable from "./ReportComponents/UserTable"
-import DomainTable from "./ReportComponents/DomainTable"
-import KasmTable from "./ReportComponents/KasmTable"
+import AgentTabs from "./ReportComponents/AgentTabs.js"
+import UsageTab from "./ReportComponents/UsageTab.js"
+import UserTable from "./ReportComponents/UserTable.js"
+import DomainTable from "./ReportComponents/DomainTable.js"
+// import KasmTable from "./ReportComponents/KasmTable" // commented because not used and to not get webpack to complain 
 import moment from "moment";
 import { getLogins, getTotalUsers, getErrors, getCreatedKasms, getCurrentKasms,  getCurrentUsers, getDomainUsage,
     getAgent, getActiveUsers, getAvgKasm, getDestroyedKasms, getImageUsage, getUserUsage, getAlert, getKasms,setUserUsagePageInfo,setDomainUsagePageInfo } from "../../../actions/actionReporting"
-import { getKasm } from "../../../actions/actionKasm";
+import { getKasm } from "../../../actions/actionKasm.js";
 import Proptypes from "prop-types";
 import Select from "react-select";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleUser } from '@fortawesome/pro-light-svg-icons/faCircleUser';
-import { faClock } from '@fortawesome/pro-light-svg-icons/faClock';
-import PageHeader from "../../../components/Header/PageHeader";
-import { FormField, Groups, TabList } from "../../../components/Form"
-import { Modal, ModalFooter } from "../../../components/Form/Modal";
+import { faCircleUser } from '@fortawesome/free-solid-svg-icons/faCircleUser';
+import { faClock } from '@fortawesome/free-solid-svg-icons/faClock';
+import PageHeader from "../../../components/Header/PageHeader.js";
+import { FormField, Groups, TabList } from "../../../components/Form/Form.js"
+import { Modal, ModalFooter } from "../../../components/Form/Modal.js";
 
 var intID = 0;
 

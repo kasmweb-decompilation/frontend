@@ -16,15 +16,15 @@ import {withTranslation, Trans} from "react-i18next";
 import { ImageColumn, StandardColumn, DescriptionColumn, ToggleColumn, ConfirmAction } from "../../components/Table/NewTable";
 import uniqolor from 'uniqolor';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/pro-light-svg-icons/faUser';
-import { faUserGroup } from '@fortawesome/pro-light-svg-icons/faUserGroup';
-import { faCircleUser } from '@fortawesome/pro-light-svg-icons/faCircleUser';
-import { faKey } from '@fortawesome/pro-light-svg-icons/faKey';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
+import { faUserGroup } from '@fortawesome/free-solid-svg-icons/faUserGroup';
+import { faCircleUser } from '@fortawesome/free-solid-svg-icons/faCircleUser';
+import { faKey } from '@fortawesome/free-solid-svg-icons/faKey';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { notifySuccess, notifyFailure, Groups, FormField, Button, ButtonGroup } from "../../components/Form"
 import { Modal, ModalFooter } from "../../components/Form/Modal"
-import { faEye } from "@fortawesome/pro-light-svg-icons/faEye";
+import { faEye } from "@fortawesome/free-solid-svg-icons/faEye";
 
 const validate = values => {
     const errors = {};

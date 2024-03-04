@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import GroupForm from "../GroupForm/GroupForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUserGroup } from '@fortawesome/pro-light-svg-icons/faUserGroup';
+import { faUserGroup } from '@fortawesome/free-solid-svg-icons/faUserGroup';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
 import {createGroup} from "../../../actions/actionGroup";

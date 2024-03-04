@@ -12,9 +12,9 @@ import {withTranslation, Trans} from "react-i18next";
 import { ImageColumn, StandardColumn, DescriptionColumn, ToggleColumn, ConfirmAction } from "../../components/Table/NewTable";
 import { bytesToSize } from"../../utils/helpers"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBoxesStacked } from '@fortawesome/pro-light-svg-icons/faBoxesStacked';
-import { faClone } from '@fortawesome/pro-light-svg-icons/faClone';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faBoxesStacked } from '@fortawesome/free-solid-svg-icons/faBoxesStacked';
+import { faClone } from '@fortawesome/free-solid-svg-icons/faClone';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { notifySuccess, notifyFailure } from "../../components/Form"
 import { hasAuth } from "../../utils/axios";

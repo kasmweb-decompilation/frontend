@@ -8,7 +8,7 @@ import { updateDnsProviderConfig, getDnsProviderConfigs } from "../../../actions
 import { handleSaveSuccess, handleSaveError } from '../actions'
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChartNetwork } from '@fortawesome/pro-light-svg-icons/faChartNetwork';
+import { faChartNetwork } from '@fortawesome/free-solid-svg-icons/faChartNetwork';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { TabList, Group } from "../../../components/Form"
 

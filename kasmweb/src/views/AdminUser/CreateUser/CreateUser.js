@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import UserForm from "../UserForm/UserForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUsers } from '@fortawesome/pro-light-svg-icons/faUsers';
+import { faUsers } from '@fortawesome/free-solid-svg-icons/faUsers';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
 import { createUser } from "../../../actions/actionAdminUser";

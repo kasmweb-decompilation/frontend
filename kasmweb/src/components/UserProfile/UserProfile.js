@@ -38,16 +38,16 @@ import { getNewToken } from "../../actions/actionLogin";
 import {withTranslation, Trans} from "react-i18next";
 import StorageMapping from "../StorageMapping/StorageMapping";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRightFromBracket } from "@fortawesome/pro-light-svg-icons/faArrowRightFromBracket";
-import { faKey } from "@fortawesome/pro-light-svg-icons/faKey";
-import { faPencil } from "@fortawesome/pro-light-svg-icons/faPencil";
+import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons/faArrowRightFromBracket";
+import { faKey } from "@fortawesome/free-solid-svg-icons/faKey";
+import { faPencil } from "@fortawesome/free-solid-svg-icons/faPencil";
 import { FormField, Groups } from "../Form/Form";
 import { Modal, ModalFooter } from "../Form/Modal";
 import { languages } from "../../utils/helpers";
 import { SetTwoFactorModal } from "../SetTwoFactorModal/SetTwoFactorModal";
-import { faChevronRight } from "@fortawesome/pro-light-svg-icons/faChevronRight";
-import { faBan } from "@fortawesome/pro-light-svg-icons/faBan";
-import { faArrowUpFromLine } from "@fortawesome/pro-light-svg-icons/faArrowUpFromLine";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons/faChevronRight";
+import { faBan } from "@fortawesome/free-solid-svg-icons/faBan";
+import { faArrowUpFromLine } from "@fortawesome/free-solid-svg-icons/faArrowUpFromLine";
 
 const validate = values => {
   const errors = {};

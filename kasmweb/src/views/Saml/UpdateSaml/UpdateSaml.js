@@ -12,9 +12,9 @@ import { getLicenseStatus} from "../../../actions/actionFooter";
 import MappingTable from "../../../components/MappingTable/";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShieldKeyhole } from '@fortawesome/pro-light-svg-icons/faShieldKeyhole';
-import { faVial } from '@fortawesome/pro-light-svg-icons/faVial';
-import { faList } from '@fortawesome/pro-light-svg-icons/faList';
+import { faShieldKeyhole } from '@fortawesome/free-solid-svg-icons/faShieldKeyhole';
+import { faVial } from '@fortawesome/free-solid-svg-icons/faVial';
+import { faList } from '@fortawesome/free-solid-svg-icons/faList';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { TabList, FormField, ViewField, Groups, Group, FormFooter, Button } from "../../../components/Form/Form";
 

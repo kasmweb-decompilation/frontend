@@ -7,7 +7,7 @@ import moment from "moment";
 import ReactJson from 'react-json-view';
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShieldHalved } from '@fortawesome/pro-light-svg-icons/faShieldHalved';
+import { faShieldHalved } from '@fortawesome/free-solid-svg-icons/faShieldHalved';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Groups, Group, ViewField } from "../../../components/Form"
 import { renderField } from "../../../utils/formValidations.js";

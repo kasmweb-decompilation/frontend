@@ -11,9 +11,9 @@ import { NotificationManager } from "react-notifications";
 import Dropzone from "react-dropzone";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTrash } from "@fortawesome/pro-light-svg-icons/faTrash";
-import { faFloppyDisk } from "@fortawesome/pro-light-svg-icons/faFloppyDisk";
-import { faCircleNotch } from "@fortawesome/pro-light-svg-icons/faCircleNotch";
+import { faTrash } from "@fortawesome/free-solid-svg-icons/faTrash";
+import { faFloppyDisk } from "@fortawesome/free-solid-svg-icons/faFloppyDisk";
+import { faCircleNotch } from "@fortawesome/free-solid-svg-icons/faCircleNotch";
 
 const defaultMappingState = {
   fileMapType: 'text',

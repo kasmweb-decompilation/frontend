@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 import {getCastConfigs, deleteCastConfig,setCastPageInfo} from "../../actions/actionCast.js"
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRss } from '@fortawesome/pro-light-svg-icons/faRss';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faRss } from '@fortawesome/free-solid-svg-icons/faRss';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { ConfirmAction } from '../../components/Table/NewTable';
 

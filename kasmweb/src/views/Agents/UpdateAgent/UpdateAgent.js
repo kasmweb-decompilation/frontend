@@ -3,7 +3,7 @@ import { updateServer } from "../../../actions/actionServer";
 import ServerForm from "../AgentForm/AgentForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCubes } from '@fortawesome/pro-light-svg-icons/faCubes';
+import { faCubes } from '@fortawesome/free-solid-svg-icons/faCubes';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
 import ViewServer from "../ViewAgent/ViewServer"

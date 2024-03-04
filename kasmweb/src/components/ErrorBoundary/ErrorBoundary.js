@@ -6,7 +6,7 @@ import { serverLog } from "../../actions/actionServerLog";
 import { connect } from "react-redux";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExclamation } from "@fortawesome/pro-light-svg-icons/faExclamation";
+import { faExclamation } from "@fortawesome/free-solid-svg-icons/faExclamation";
 
 class ErrorBoundary extends Component {
   constructor(props) {

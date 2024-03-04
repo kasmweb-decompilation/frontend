@@ -12,14 +12,14 @@ import LoadingSpinner from "../../components/LoadingSpinner";
 import {renderField, required} from "../../utils/formValidations";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFileCertificate } from '@fortawesome/pro-light-svg-icons/faFileCertificate';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faFileCertificate } from '@fortawesome/free-solid-svg-icons/faFileCertificate';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { Groups, Group, ViewField, TabList, FormFooter, Button, FormField } from "../../components/Form"
 import { Modal, ModalFooter } from "../../components/Form/Modal"
 import { ConfirmAction } from "../../components/Table/NewTable";
-import { faCloudDownload } from "@fortawesome/pro-light-svg-icons/faCloudDownload";
-import { faCloudUpload } from "@fortawesome/pro-light-svg-icons/faCloudUpload";
+import { faCloudDownload } from "@fortawesome/free-solid-svg-icons/faCloudDownload";
+import { faCloudUpload } from "@fortawesome/free-solid-svg-icons/faCloudUpload";
 import { hasAuth } from "../../utils/axios";
 
 class ViewSystemInfo extends Component{

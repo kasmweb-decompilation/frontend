@@ -8,8 +8,8 @@ import DataTable from "../../components/Table/Table";
 import { getStorageProviders, deleteStorageProvider} from "../../actions/actionStorageProvider";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBoxArchive } from '@fortawesome/pro-light-svg-icons/faBoxArchive';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faBoxArchive } from '@fortawesome/free-solid-svg-icons/faBoxArchive';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { ConfirmAction } from '../../components/Table/NewTable';
 

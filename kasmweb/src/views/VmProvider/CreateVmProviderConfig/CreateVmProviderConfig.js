@@ -7,7 +7,7 @@ import { createVmProviderConfig, getVmProviderConfigs } from '../../../actions/a
 import { handleSaveSuccess, handleSaveError } from '../actions'
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCube } from '@fortawesome/pro-light-svg-icons/faCube';
+import { faCube } from '@fortawesome/free-solid-svg-icons/faCube';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { TabList, Group } from "../../../components/Form"
 

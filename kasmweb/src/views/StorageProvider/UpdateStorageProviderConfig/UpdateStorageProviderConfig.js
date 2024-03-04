@@ -3,7 +3,7 @@ import { updateStorageProvider } from "../../../actions/actionStorageProvider";
 import StorageProviderConfigForm from "../StorageProviderConfigForm/StorageProviderConfigForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBoxArchive } from '@fortawesome/pro-light-svg-icons/faBoxArchive';
+import { faBoxArchive } from '@fortawesome/free-solid-svg-icons/faBoxArchive';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
 

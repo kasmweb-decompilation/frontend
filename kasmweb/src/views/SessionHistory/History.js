@@ -10,15 +10,15 @@ import { CopyToClipboard, notifyFailure } from "../../components/Form/Form";
 import { Link } from "react-router-dom";
 import moment from "moment";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTable } from "@fortawesome/pro-light-svg-icons/faTable";
-import { faUser } from "@fortawesome/pro-light-svg-icons/faUser";
-import { faXmark } from "@fortawesome/pro-light-svg-icons/faXmark";
-import { faCalendar } from "@fortawesome/pro-light-svg-icons/faCalendar";
-import { faCloudArrowDown } from "@fortawesome/pro-light-svg-icons/faCloudArrowDown";
+import { faTable } from "@fortawesome/free-solid-svg-icons/faTable";
+import { faUser } from "@fortawesome/free-solid-svg-icons/faUser";
+import { faXmark } from "@fortawesome/free-solid-svg-icons/faXmark";
+import { faCalendar } from "@fortawesome/free-solid-svg-icons/faCalendar";
+import { faCloudArrowDown } from "@fortawesome/free-solid-svg-icons/faCloudArrowDown";
 import { Preview } from "./Preview";
 import { downloadZip } from "client-zip";
 import { Modal } from "../../components/Form/Modal";
-import { faCircleNotch } from "@fortawesome/pro-light-svg-icons/faCircleNotch";
+import { faCircleNotch } from "@fortawesome/free-solid-svg-icons/faCircleNotch";
 import { serverLog } from "../../actions/actionServerLog";
 
 export function SessionHistory(props) {

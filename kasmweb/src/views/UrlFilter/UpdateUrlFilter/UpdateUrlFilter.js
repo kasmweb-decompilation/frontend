@@ -3,7 +3,7 @@ import {updateUrlFilterPolicy} from "../../../actions/actionFilters";
 import UrlFilterForm from "../UrlFilterForm/UrlFilterForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFilterList } from '@fortawesome/pro-light-svg-icons/faFilterList';
+import { faFilterList } from '@fortawesome/free-solid-svg-icons/faFilterList';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
 

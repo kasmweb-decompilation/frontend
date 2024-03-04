@@ -31,11 +31,11 @@ import moment from "moment";
 import {withTranslation} from "react-i18next";
 import { StatusTracker } from "../../components/StatusTracker/StatusTracker";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEyeSlash } from "@fortawesome/pro-light-svg-icons/faEyeSlash";
-import { faCircle } from "@fortawesome/pro-light-svg-icons/faCircle";
-import { faComments } from "@fortawesome/pro-light-svg-icons/faComments";
-import { faArrowsMaximize } from "@fortawesome/pro-light-svg-icons/faArrowsMaximize";
-import { faArrowsMinimize } from "@fortawesome/pro-light-svg-icons/faArrowsMinimize";
+import { faEyeSlash } from "@fortawesome/free-solid-svg-icons/faEyeSlash";
+import { faCircle } from "@fortawesome/free-solid-svg-icons/faCircle";
+import { faComments } from "@fortawesome/free-solid-svg-icons/faComments";
+import { faArrowsMaximize } from "@fortawesome/free-solid-svg-icons/faArrowsMaximize";
+import { faArrowsMinimize } from "@fortawesome/free-solid-svg-icons/faArrowsMinimize";
 
 var timeouts = [];
 let run = true

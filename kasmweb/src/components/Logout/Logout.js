@@ -5,7 +5,7 @@ import { logout } from "../../actions/actionLogin";
 import {withTranslation} from "react-i18next";
 import { ConfirmAction } from "../Table/NewTable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRightFromBracket } from "@fortawesome/pro-light-svg-icons/faArrowRightFromBracket";
+import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons/faArrowRightFromBracket";
 import { RenderToggle } from "../../utils/formValidations";
 
 class Logout extends Component {

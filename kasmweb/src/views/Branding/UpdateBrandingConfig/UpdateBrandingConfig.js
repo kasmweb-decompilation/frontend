@@ -2,7 +2,7 @@ import React,{ useState } from "react";
 import BrandingConfigForm from "../BrandingConfigForm/BrandingConfigForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaintbrushFine } from '@fortawesome/pro-light-svg-icons/faPaintbrushFine';
+import { faPaintbrushFine } from '@fortawesome/free-solid-svg-icons/faPaintbrushFine';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
 import {updateBrandingConfig} from "../../../actions/actionBranding";

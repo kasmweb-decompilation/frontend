@@ -8,7 +8,7 @@ import {
 import {withTranslation} from "react-i18next";
 import { ConfirmAction } from "../../Table/NewTable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStop } from "@fortawesome/pro-light-svg-icons/faStop";
+import { faStop } from "@fortawesome/free-solid-svg-icons/faStop";
 
 class StopSessionModal extends Component {
     constructor(props) {

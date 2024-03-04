@@ -12,11 +12,11 @@ import Select from "react-select";
 import { api } from '../../utils/axios';
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUsbDrive } from '@fortawesome/pro-light-svg-icons/faUsbDrive';
-import { faTrashCan } from '@fortawesome/pro-light-svg-icons/faTrashCan';
-import { faUserXmark } from '@fortawesome/pro-light-svg-icons/faUserXmark';
-import { faUserPlus } from '@fortawesome/pro-light-svg-icons/faUserPlus';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faHardDrive } from '@fortawesome/free-solid-svg-icons/faHardDrive';
+import { faTrashCan } from '@fortawesome/free-solid-svg-icons/faTrashCan';
+import { faUserXmark } from '@fortawesome/free-solid-svg-icons/faUserXmark';
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons/faUserPlus';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { Button, FormField, Groups } from '../../components/Form/Form';
 import { ConfirmAction } from '../../components/Table/NewTable';
@@ -413,7 +413,7 @@ class PhysicalToken extends Component {
 
         return (
             <div className="profile-page">
-                <PageHeader location={this.props.location} routes={typeof newRoutes !== 'undefined' ? newRoutes : null} title={t('auth.physical-tokens')} icon={<FontAwesomeIcon icon={faUsbDrive} />} />
+                <PageHeader location={this.props.location} routes={typeof newRoutes !== 'undefined' ? newRoutes : null} title={t('auth.physical-tokens')} icon={<FontAwesomeIcon icon={faHardDrive} />} />
                 <Row>
                     <Col sm={{ size: 10, order: 3, offset: 1 }}>
                         <DataTable
@@ -477,7 +477,7 @@ class PhysicalToken extends Component {
                 />
 
                 <Modal
-                    icon={<FontAwesomeIcon icon={faUsbDrive} />}
+                    icon={<FontAwesomeIcon icon={faHardDrive} />}
                     iconBg="tw-bg-blue-500 tw-text-white"
                     title="auth.upload-a-token-file"
                     contentRaw={
@@ -517,7 +517,7 @@ class PhysicalToken extends Component {
                     onAction={this.deletePhysicalTokenAction}
                 />
                 <Modal
-                    icon={<FontAwesomeIcon icon={faUsbDrive} />}
+                    icon={<FontAwesomeIcon icon={faHardDrive} />}
                     iconBg="tw-bg-blue-500 tw-text-white"
                     title="auth.assign-user"
                     contentRaw={

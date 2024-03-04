@@ -7,15 +7,15 @@ import { Chart as ChartJS, LineElement, PointElement, LinearScale, Title, Catego
 import moment from "moment";
 import { withRouter, Link } from "react-router-dom";
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips';
-import KasmTable from "./KasmTable";
+//import KasmTable from "./KasmTable"; // commented because not used
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faKey } from '@fortawesome/pro-light-svg-icons/faKey';
-import { faTable } from '@fortawesome/pro-light-svg-icons/faTable';
-import { faChevronRight } from '@fortawesome/pro-light-svg-icons/faChevronRight';
-import { faLaptop } from '@fortawesome/pro-light-svg-icons/faLaptop';
-import { faTriangleExclamation } from '@fortawesome/pro-light-svg-icons/faTriangleExclamation';
-import { faUsers } from '@fortawesome/pro-light-svg-icons/faUsers';
+import { faKey } from '@fortawesome/free-solid-svg-icons/faKey';
+import { faTable } from '@fortawesome/free-solid-svg-icons/faTable';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons/faChevronRight';
+import { faLaptop } from '@fortawesome/free-solid-svg-icons/faLaptop';
+import { faTriangleExclamation } from '@fortawesome/free-solid-svg-icons/faTriangleExclamation';
+import { faUsers } from '@fortawesome/free-solid-svg-icons/faUsers';
 import {withTranslation} from "react-i18next";
 import Table from '../../../../components/Table/Table';
 

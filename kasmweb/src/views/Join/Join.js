@@ -17,7 +17,7 @@ import queryString from "query-string"
 import stopReload from "../../constants/Constants";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faComments } from "@fortawesome/pro-light-svg-icons/faComments";
+import { faComments } from "@fortawesome/free-solid-svg-icons/faComments";
 
 var message_recieved_audio = new Audio(message_audio);
 var member_joined_audio = new Audio(join_audio);

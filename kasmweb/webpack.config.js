@@ -28,7 +28,24 @@ const config = {
         test: /\.s[ac]ss$/i,
         use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
       },
-    ]
+      {
+        test: /\.(svg|png|jpg|gif|webp)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[hash].[ext]',
+              outputPath: './dist/img',
+            },
+          },
+        ],
+      },
+      
+    ],
+    
+  },
+  resolve: {
+    extensions: ['.js'],
   },
   devServer: {
     'static': {

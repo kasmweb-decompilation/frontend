@@ -8,7 +8,7 @@ import {
 import {withTranslation} from "react-i18next";
 import { ConfirmAction } from "../../Table/NewTable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlay } from "@fortawesome/pro-light-svg-icons/faPlay";
+import { faPlay } from "@fortawesome/free-solid-svg-icons/faPlay";
 
 class StartSessionModal extends Component {
     constructor(props) {

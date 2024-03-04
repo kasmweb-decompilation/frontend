@@ -10,8 +10,8 @@ import { getDnsProviderConfigs, deleteDnsProviderConfig } from "../../actions/ac
 import {withTranslation} from "react-i18next";
 import { StandardColumn, ConfirmAction } from "../../components/Table/NewTable";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChartNetwork } from '@fortawesome/pro-light-svg-icons/faChartNetwork';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faChartNetwork } from '@fortawesome/free-solid-svg-icons/faChartNetwork';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader, { parentRoutes } from "../../components/Header/PageHeader";
 
 const parentRouteList = parentRoutes('/server_pools')

@@ -11,7 +11,7 @@ import {withTranslation} from "react-i18next";
 import { connect } from "react-redux";
 import { Search } from "../Search/Search";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircle } from "@fortawesome/pro-light-svg-icons/faCircle";
+import { faCircle } from "@fortawesome/free-solid-svg-icons/faCircle";
 
 class Sidebar extends Component {
 

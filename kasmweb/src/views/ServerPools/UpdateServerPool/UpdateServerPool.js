@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import ServerPoolForm from "../ServerPoolForm/ServerPoolForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faObjectGroup } from '@fortawesome/pro-light-svg-icons/faObjectGroup';
+import { faObjectGroup } from '@fortawesome/free-solid-svg-icons/faObjectGroup';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
 import AutoScale from "../../AutoScale/AutoScale";

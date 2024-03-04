@@ -7,11 +7,11 @@ import 'emoji-mart/css/emoji-mart.css'
 import Toggle from "react-toggle";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationArrow } from "@fortawesome/pro-light-svg-icons/faLocationArrow";
-import { faMinus } from "@fortawesome/pro-light-svg-icons/faMinus";
-import { faSmile } from "@fortawesome/pro-light-svg-icons/faSmile";
-import { faVolumeUp } from "@fortawesome/pro-light-svg-icons/faVolumeUp";
-import { faWindowRestore } from "@fortawesome/pro-light-svg-icons/faWindowRestore";
+import { faLocationArrow } from "@fortawesome/free-solid-svg-icons/faLocationArrow";
+import { faMinus } from "@fortawesome/free-solid-svg-icons/faMinus";
+import { faSmile } from "@fortawesome/free-solid-svg-icons/faSmile";
+import { faVolumeUp } from "@fortawesome/free-solid-svg-icons/faVolumeUp";
+import { faWindowRestore } from "@fortawesome/free-solid-svg-icons/faWindowRestore";
 
 class ChatComponent extends Component {
     constructor(props) {

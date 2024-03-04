@@ -11,8 +11,8 @@ import { ImageColumn, ConfirmAction, DescriptionColumn } from "../../components/
 import {withTranslation} from "react-i18next";
 import uniqolor from 'uniqolor';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUserGroup } from '@fortawesome/pro-light-svg-icons/faUserGroup';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faUserGroup } from '@fortawesome/free-solid-svg-icons/faUserGroup';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { RenderToggle } from "../../utils/formValidations";
 

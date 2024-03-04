@@ -11,8 +11,8 @@ import { getLicenseStatus} from "../../../actions/actionFooter";
 import {withTranslation} from "react-i18next";
 import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown } from '@fortawesome/pro-light-svg-icons/faChevronDown';
-import { faChevronUp } from '@fortawesome/pro-light-svg-icons/faChevronUp';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons/faChevronDown';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons/faChevronUp';
 
 class UrlFilterFormTemplate extends Component {
     constructor (props){

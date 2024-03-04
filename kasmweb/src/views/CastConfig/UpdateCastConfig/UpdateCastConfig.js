@@ -3,7 +3,7 @@ import {updateCastConfig} from "../../../actions/actionCast";
 import CastConfigForm from "../CastConfigForm/CastConfigForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRss } from '@fortawesome/pro-light-svg-icons/faRss';
+import { faRss } from '@fortawesome/free-solid-svg-icons/faRss';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
 import moment from "moment";

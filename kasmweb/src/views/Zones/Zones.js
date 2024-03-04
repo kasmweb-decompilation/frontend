@@ -12,8 +12,8 @@ import DataTable from "../../components/Table/Table";
 import {getLicenses} from "../../actions/actionSystemInfo";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMap } from '@fortawesome/pro-light-svg-icons/faMap';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faMap } from '@fortawesome/free-solid-svg-icons/faMap';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { ConfirmAction } from "../../components/Table/NewTable";
 

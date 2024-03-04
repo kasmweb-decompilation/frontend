@@ -8,7 +8,7 @@ import {
 import {withTranslation} from "react-i18next";
 import { ConfirmAction } from "../../Table/NewTable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPause } from "@fortawesome/pro-light-svg-icons/faPause";
+import { faPause } from "@fortawesome/free-solid-svg-icons/faPause";
 
 class PauseSessionModal extends Component {
     constructor(props) {

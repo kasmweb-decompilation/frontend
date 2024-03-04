@@ -15,11 +15,11 @@ import "react-select/dist/react-select.css";
 import {withTranslation} from "react-i18next";
 import { bytesToSize } from"../../utils/helpers"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCubes } from '@fortawesome/pro-light-svg-icons/faCubes';
-import { faPaperclip } from '@fortawesome/pro-light-svg-icons/faPaperclip';
-import { faCircleMinus } from '@fortawesome/pro-light-svg-icons/faCircleMinus';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
-import { faPlus } from '@fortawesome/pro-light-svg-icons/faPlus';
+import { faCubes } from '@fortawesome/free-solid-svg-icons/faCubes';
+import { faPaperclip } from '@fortawesome/free-solid-svg-icons/faPaperclip';
+import { faCircleMinus } from '@fortawesome/free-solid-svg-icons/faCircleMinus';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
+import { faPlus } from '@fortawesome/free-solid-svg-icons/faPlus';
 import PageHeader from "../../components/Header/PageHeader";
 import { RenderToggle } from "../../utils/formValidations";
 import { Modal, ModalFooter } from "../../components/Form/Modal"

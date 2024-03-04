@@ -8,12 +8,12 @@ import Draggable from 'react-draggable';
 import Toggle from "react-toggle";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronUp } from "@fortawesome/pro-light-svg-icons/faChevronUp";
-import { faVolumeOff } from "@fortawesome/pro-light-svg-icons/faVolumeOff";
-import { faLocationArrow } from "@fortawesome/pro-light-svg-icons/faLocationArrow";
-import { faMinus } from "@fortawesome/pro-light-svg-icons/faMinus";
-import { faSmile } from "@fortawesome/pro-light-svg-icons/faSmile";
-import { faVolumeUp } from "@fortawesome/pro-light-svg-icons/faVolumeUp";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons/faChevronUp";
+import { faVolumeOff } from "@fortawesome/free-solid-svg-icons/faVolumeOff";
+import { faLocationArrow } from "@fortawesome/free-solid-svg-icons/faLocationArrow";
+import { faMinus } from "@fortawesome/free-solid-svg-icons/faMinus";
+import { faSmile } from "@fortawesome/free-solid-svg-icons/faSmile";
+import { faVolumeUp } from "@fortawesome/free-solid-svg-icons/faVolumeUp";
 
 
 var ping;

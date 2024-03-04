@@ -3,7 +3,7 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
-import { faMap } from '@fortawesome/pro-light-svg-icons/faMap';
+import { faMap } from '@fortawesome/free-solid-svg-icons/faMap';
 import { createZone } from "../../../actions/actionZones";
 import ZoneForm from "../ZoneForm/ZoneForm";
 

@@ -13,11 +13,11 @@ import Select from "react-select";
 import "react-select/dist/react-select.css";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faScaleBalanced } from '@fortawesome/pro-light-svg-icons/faScaleBalanced';
-import { faPaperclip } from '@fortawesome/pro-light-svg-icons/faPaperclip';
-import { faCircleMinus } from '@fortawesome/pro-light-svg-icons/faCircleMinus';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
-import { faClone } from '@fortawesome/pro-light-svg-icons/faClone';
+import { faScaleBalanced } from '@fortawesome/free-solid-svg-icons/faScaleBalanced';
+import { faPaperclip } from '@fortawesome/free-solid-svg-icons/faPaperclip';
+import { faCircleMinus } from '@fortawesome/free-solid-svg-icons/faCircleMinus';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
+import { faClone } from '@fortawesome/free-solid-svg-icons/faClone';
 import PageHeader, { parentRoutes } from "../../components/Header/PageHeader";
 import { Modal, ModalFooter } from '../../components/Form/Modal';
 

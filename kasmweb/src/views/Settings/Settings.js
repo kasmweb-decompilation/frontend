@@ -10,7 +10,7 @@ import {number, positive_float, renderToggle, renderPass, renderField, renderTex
 import TooltipComponent from "./TooltipComponent";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSliders } from '@fortawesome/pro-light-svg-icons/faSliders';
+import { faSliders } from '@fortawesome/free-solid-svg-icons/faSliders';
 import PageHeader from "../../components/Header/PageHeader";
 import { FormFooter, Groups, Group, FormField, TabList } from "../../components/Form/Form";
 

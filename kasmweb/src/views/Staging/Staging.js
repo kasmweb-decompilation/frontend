@@ -9,8 +9,8 @@ import { Link } from "react-router-dom";
 import {getStagingConfigs, deleteStagingConfig,setStagingPageInfo} from "../../actions/actionStaging.js"
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFlask } from '@fortawesome/pro-light-svg-icons/faFlask';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faFlask } from '@fortawesome/free-solid-svg-icons/faFlask';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { ConfirmAction } from '../../components/Table/NewTable';
 

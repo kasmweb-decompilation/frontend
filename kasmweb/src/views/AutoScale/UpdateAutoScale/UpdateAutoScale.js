@@ -26,7 +26,7 @@ import { createVmProviderConfig, updateVmProviderConfig } from '../../../actions
 import Proptypes from "prop-types";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faScaleBalanced } from '@fortawesome/pro-light-svg-icons/faScaleBalanced';
+import { faScaleBalanced } from '@fortawesome/free-solid-svg-icons/faScaleBalanced';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { TabList } from "../../../components/Form"
 import Schedule from "../../../components/Schedule/Schedule"

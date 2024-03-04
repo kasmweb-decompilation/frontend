@@ -4,8 +4,8 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form, Button, CopyToClipboard } from "../../../components/Form"
-import { faCodeBranch } from '@fortawesome/pro-light-svg-icons/faCodeBranch';
-import { faTimes } from '@fortawesome/pro-light-svg-icons/faTimes';
+import { faCodeBranch } from '@fortawesome/free-solid-svg-icons/faCodeBranch';
+import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes';
 import {createApiKey} from '../../../actions/actionDevloper';
 import reducer from '../../../models/developerReducer';
 import ApiForm from "../ApiForm/ApiForm";

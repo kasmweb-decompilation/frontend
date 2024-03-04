@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { NewTable, Actions, StandardColumn, TableRow, SettingColumn } from './NewTable';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEye } from '@fortawesome/pro-light-svg-icons/faEye';
-import { faPencil } from '@fortawesome/pro-light-svg-icons/faPencil';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faEye } from '@fortawesome/free-solid-svg-icons/faEye';
+import { faPencil } from '@fortawesome/free-solid-svg-icons/faPencil';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import _ from "lodash";
 import {useTranslation} from "react-i18next";
 import { cyrb53 } from "../../utils/helpers";

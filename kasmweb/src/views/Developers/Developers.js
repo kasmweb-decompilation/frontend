@@ -12,8 +12,8 @@ import moment from "moment";
 import {withTranslation} from "react-i18next";
 import { StandardColumn } from "../../components/Table/NewTable";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCodeBranch } from '@fortawesome/pro-light-svg-icons/faCodeBranch';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faCodeBranch } from '@fortawesome/free-solid-svg-icons/faCodeBranch';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { CopyToClipboard } from "../../components/Form"
 

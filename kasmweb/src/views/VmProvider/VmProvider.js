@@ -9,8 +9,8 @@ import { getVmProviderConfigs, deleteVmProviderConfig } from "../../actions/acti
 import {withTranslation} from "react-i18next";
 import { ConfirmAction, StandardColumn } from "../../components/Table/NewTable";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCube } from '@fortawesome/pro-light-svg-icons/faCube';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faCube } from '@fortawesome/free-solid-svg-icons/faCube';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader, { parentRoutes } from "../../components/Header/PageHeader";
 
 const parentRouteList = parentRoutes('/server_pools')

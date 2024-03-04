@@ -16,8 +16,8 @@ import TooltipComponent from "../../../../views/Settings/TooltipComponent";
 import {withTranslation} from "react-i18next";
 import { Button, FormFooter, Groups, FormField } from "../../../../components/Form"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from "@fortawesome/pro-light-svg-icons/faDownload";
-import { faUpload } from "@fortawesome/pro-light-svg-icons/faUpload";
+import { faDownload } from "@fortawesome/free-solid-svg-icons/faDownload";
+import { faUpload } from "@fortawesome/free-solid-svg-icons/faUpload";
 
 
 class AwsProviderFormTemplate extends Component {

@@ -4,7 +4,7 @@ import UserForm from "../UserForm/UserForm";
 import View from "../ViewUser/ViewUser";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/pro-light-svg-icons/faUser';
+import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
 import { updateUser } from "../../../actions/actionAdminUser";

@@ -23,8 +23,8 @@ import {withTranslation} from "react-i18next";
 import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form"
 import { Disclosure } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMinus } from "@fortawesome/pro-light-svg-icons/faMinus";
-import { faPlus } from "@fortawesome/pro-light-svg-icons/faPlus";
+import { faMinus } from "@fortawesome/free-solid-svg-icons/faMinus";
+import { faPlus } from "@fortawesome/free-solid-svg-icons/faPlus";
 import _ from "lodash";
 import { hasAuth } from "../../../utils/axios";
 

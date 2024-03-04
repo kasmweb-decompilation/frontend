@@ -9,8 +9,8 @@ import { NotificationManager } from "react-notifications";
 import {withTranslation} from "react-i18next";
 import { Modal, ModalFooter } from "../Form/Modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faListCheck } from "@fortawesome/pro-light-svg-icons/faListCheck";
-import { faTrash } from "@fortawesome/pro-light-svg-icons/faTrash";
+import { faListCheck } from "@fortawesome/free-solid-svg-icons/faListCheck";
+import { faTrash } from "@fortawesome/free-solid-svg-icons/faTrash";
 import { FormField, Groups } from "../Form/Form";
 import { ConfirmAction } from "../Table/NewTable";
 

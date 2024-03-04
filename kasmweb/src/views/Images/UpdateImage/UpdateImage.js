@@ -4,7 +4,7 @@ import { updateImages } from "../../../actions/actionImage";
 import ImageForm from "../ImageForm/ImageForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBoxesStacked } from '@fortawesome/pro-light-svg-icons/faBoxesStacked';
+import { faBoxesStacked } from '@fortawesome/free-solid-svg-icons/faBoxesStacked';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
 import FileMapping from "../../../components/FileMapping/FileMapping";

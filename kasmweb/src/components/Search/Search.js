@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, Fragment } from "react";
 import { Combobox } from '@headlessui/react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/pro-light-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import pagelist from "./pages.json"
 import getUserNavigationBarItems from "../Sidebar/getUserNavigationBar";
 import { useTranslation } from "react-i18next";

@@ -2,7 +2,7 @@ import React,{ useState } from "react";
 import LdapForm from "../LdapForm/LdapForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShieldKeyhole } from '@fortawesome/pro-light-svg-icons/faShieldKeyhole';
+import { faShieldKeyhole } from '@fortawesome/free-solid-svg-icons/faShieldKeyhole';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
 import { updateLdap } from "../../../actions/actionLdap";

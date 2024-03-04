@@ -8,7 +8,7 @@ import Proptypes from "prop-types";
 import {withTranslation} from "react-i18next";
 import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLayerPlus } from '@fortawesome/pro-light-svg-icons/faLayerPlus';
+import { faLayerPlus } from '@fortawesome/free-solid-svg-icons/faLayerPlus';
 
 
 class GroupFormTemplate extends Component  {

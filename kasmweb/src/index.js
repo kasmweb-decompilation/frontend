@@ -44,7 +44,7 @@ import Go from "./views/Go/Go.js";
 
 import LoadingSpinner from "./components/LoadingSpinner/index";
 
-import UserDashboard from "./views/User/UserDashboard";
+// import UserDashboard from "./views/User/UserDashboard"; // commented out because not used.
 import { reload as reloadConstants } from "./constants/Constants";
 
 require("es6-promise").polyfill();

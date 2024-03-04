@@ -7,8 +7,8 @@ import DataTable from "../../components/Table/Table";
 import {getBrandingConfigs, deleteBrandingConfig,setBrandingPageInfo} from "../../actions/actionBranding";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaintbrushFine } from '@fortawesome/pro-light-svg-icons/faPaintbrushFine';
-import { faTrash } from '@fortawesome/pro-light-svg-icons/faTrash';
+import { faPaintbrushFine } from '@fortawesome/free-solid-svg-icons/faPaintbrushFine';
+import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { ConfirmAction, SettingColumn } from "../../components/Table/NewTable";
 

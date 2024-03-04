@@ -5,7 +5,7 @@ import ViewGroupFormTemplate from "../ViewGroup/ViewGroup";
 import GroupForm from "../GroupForm/GroupForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUserGroup } from '@fortawesome/pro-light-svg-icons/faUserGroup';
+import { faUserGroup } from '@fortawesome/free-solid-svg-icons/faUserGroup';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form, saveSuccess, saveError } from "../../../components/Form"
 import { updateGroups } from "../../../actions/actionGroup";

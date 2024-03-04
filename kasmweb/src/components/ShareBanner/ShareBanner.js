@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 import {Link} from "react-router-dom";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronUp } from "@fortawesome/pro-light-svg-icons/faChevronUp";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons/faChevronUp";
 
 var blinker;
 

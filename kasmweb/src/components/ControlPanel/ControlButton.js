@@ -1,10 +1,10 @@
-import { faXmark } from "@fortawesome/pro-light-svg-icons/faXmark";
-import { faEllipsis } from "@fortawesome/pro-light-svg-icons/faEllipsis";
+import { faXmark } from "@fortawesome/free-solid-svg-icons/faXmark";
+import { faEllipsis } from "@fortawesome/free-solid-svg-icons/faEllipsis";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classNames from "classnames";
 import React, { useState, useEffect, useRef, Fragment } from "react";
 import { Transition } from "@headlessui/react";
-import { faArrowRight } from "@fortawesome/pro-light-svg-icons/faArrowRight";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons/faArrowRight";
 
 export function ControlButton(props) {
     const { icon, disabledIcon, disabled = false, title, description, onClick, iconColor, type, open } = props

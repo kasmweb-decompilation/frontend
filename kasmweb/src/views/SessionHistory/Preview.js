@@ -4,18 +4,18 @@ import { getSessionRecording } from "../../actions/actionKasm";
 import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from 'react-redux'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from "@fortawesome/pro-light-svg-icons/faTimes";
-import { faArrowDownToLine } from "@fortawesome/pro-light-svg-icons/faArrowDownToLine";
+import { faTimes } from "@fortawesome/free-solid-svg-icons/faTimes";
+import { faDownload } from "@fortawesome/free-solid-svg-icons/faDownload";
 import moment from "moment";
 import classNames from "classnames";
-import { faCircleNotch } from "@fortawesome/pro-light-svg-icons/faCircleNotch";
+import { faCircleNotch } from "@fortawesome/free-solid-svg-icons/faCircleNotch";
 import { secondsToTime } from "../../utils/helpers";
-import { faCloudArrowDown } from "@fortawesome/pro-light-svg-icons/faCloudArrowDown";
-import { faCalendar } from "@fortawesome/pro-light-svg-icons/faCalendar";
-import { faClock } from "@fortawesome/pro-light-svg-icons/faClock";
+import { faCloudArrowDown } from "@fortawesome/free-solid-svg-icons/faCloudArrowDown";
+import { faCalendar } from "@fortawesome/free-solid-svg-icons/faCalendar";
+import { faClock } from "@fortawesome/free-solid-svg-icons/faClock";
 import { serverLog } from "../../actions/actionServerLog";
 import { notifyFailure } from "../../components/Form/Form";
-import { faExclamationCircle } from "@fortawesome/pro-light-svg-icons";
+import { faExclamationCircle } from "@fortawesome/free-solid-svg-icons";
 import { Paginate } from "../../components/Form/Form";
 
 export function Preview(props) {

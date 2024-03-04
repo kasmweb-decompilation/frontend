@@ -3,7 +3,7 @@ import {updateApiConfigs} from "../../../actions/actionDevloper";
 import ApiForm from "../ApiForm/ApiForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCodeBranch } from '@fortawesome/pro-light-svg-icons/faCodeBranch';
+import { faCodeBranch } from '@fortawesome/free-solid-svg-icons/faCodeBranch';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form"
 import { hasAuth } from "../../../utils/axios";

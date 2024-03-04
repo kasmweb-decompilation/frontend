@@ -4,13 +4,13 @@ import { useDispatch, useSelector } from 'react-redux'
 import _ from "lodash";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark } from '@fortawesome/free-solid-svg-icons/faXmark';
-import { faArrowDownArrowUp } from '@fortawesome/free-solid-svg-icons/faArrowDownArrowUp';
+import { faUpDown } from '@fortawesome/free-solid-svg-icons/faUpDown';
 import { faLock } from '@fortawesome/free-solid-svg-icons/faLock';
-import { faBarsFilter } from '@fortawesome/free-solid-svg-icons/faBarsFilter';
+import { faFilter } from '@fortawesome/free-solid-svg-icons/faFilter';
 import { faPlus } from '@fortawesome/free-solid-svg-icons/faPlus';
-import { faArrowDownLeftAndArrowUpRightToCenter } from '@fortawesome/free-solid-svg-icons/faArrowDownLeftAndArrowUpRightToCenter';
-import { faArrowUpRightAndArrowDownLeftFromCenter } from '@fortawesome/free-solid-svg-icons/faArrowUpRightAndArrowDownLeftFromCenter';
-import { faGripDotsVertical } from '@fortawesome/free-solid-svg-icons/faGripDotsVertical';
+import { faExpand } from '@fortawesome/free-solid-svg-icons/faExpand';
+import { faCompress } from '@fortawesome/free-solid-svg-icons/faCompress';
+import { faGripLines } from '@fortawesome/free-solid-svg-icons/faGripLines';
 import { faEye } from '@fortawesome/free-solid-svg-icons/faEye';
 import { faEyeSlash } from '@fortawesome/free-solid-svg-icons/faEyeSlash';
 import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons/faCircleChevronRight';
@@ -21,7 +21,7 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons/faChevronLeft';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons/faChevronRight';
 import { faTable } from '@fortawesome/free-solid-svg-icons/faTable';
 import { faTableCellsLarge } from '@fortawesome/free-solid-svg-icons/faTableCellsLarge';
-import { faGrid2 } from '@fortawesome/free-solid-svg-icons/faGrid2';
+import { faGrip } from '@fortawesome/free-solid-svg-icons/faGrip';
 import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons/faCircleCheck';
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons/faCircleXmark';
@@ -354,8 +354,8 @@ export function NewTable({ children, multiActions, actions, allColumns, referenc
   }
 
   const condensedIcon = () => {
-    if (condensed) return <React.Fragment><FontAwesomeIcon className="tw-hidden lg:tw-inline-block" icon={faTableCellsLarge} /><FontAwesomeIcon className="lg:tw-hidden tw-inline-block" icon={faArrowDownLeftAndArrowUpRightToCenter} /></React.Fragment>
-    return <React.Fragment><FontAwesomeIcon className="tw-hidden lg:tw-inline-block" icon={faGrid2} /><FontAwesomeIcon className="lg:tw-hidden tw-inline-block" icon={faArrowUpRightAndArrowDownLeftFromCenter} /></React.Fragment>
+    if (condensed) return <React.Fragment><FontAwesomeIcon className="tw-hidden lg:tw-inline-block" icon={faTableCellsLarge} /><FontAwesomeIcon className="lg:tw-hidden tw-inline-block" icon={faExpand} /></React.Fragment>
+    return <React.Fragment><FontAwesomeIcon className="tw-hidden lg:tw-inline-block" icon={faGrip} /><FontAwesomeIcon className="lg:tw-hidden tw-inline-block" icon={faCompress} /></React.Fragment>
   }
 
   const headerColumn = (key, first) => {
@@ -384,7 +384,7 @@ export function NewTable({ children, multiActions, actions, allColumns, referenc
             {!readOnly &&<div className="tw-flex tw-flex-col-reverse lg:tw-flex-row tw-gap-4 tw-mb-4 tw-justify-between tw-items-center">
               <div className="tw-flex tw-w-full lg:tw-max-w-sm">
                 <input type="tablesearch" name="tablesearch" ref={searchRef} onChange={hasFetch ? debounceSearch : normalSearch} defaultValue={searchText} className="tw-shadow-md tw-block tw-flex-1 tw-rounded-md tw-bg-white/70 tw-border-none dark:tw-bg-slate-900/70 dark:tw-border dark:tw-border-slate-700/70 dark:tw-border-solid tw-p-4 tw-py-2 text-muted placeholder:tw-text-gray-400 focus:tw-ring-2 focus:tw-ring-inset focus:tw-ring-blue-500 sm:tw-text-sm sm:tw-leading-6" placeholder={t('tables.search')} />
-                <button className="tw-shadow-md tw-flex tw-h-10 tw-ml-2 tw-px-3 tw-gap-3 tw-items-center tw-transition tw-bg-white/70 dark:tw-bg-slate-900/70 dark:tw-border dark:tw-border-slate-700/70 dark:tw-border-solid hover:tw-bg-slate-600 hover:tw-text-white tw-rounded" onClick={() => setShowFilters(true)}><FontAwesomeIcon icon={faBarsFilter} /> {t('tables.filters')}</button>
+                <button className="tw-shadow-md tw-flex tw-h-10 tw-ml-2 tw-px-3 tw-gap-3 tw-items-center tw-transition tw-bg-white/70 dark:tw-bg-slate-900/70 dark:tw-border dark:tw-border-slate-700/70 dark:tw-border-solid hover:tw-bg-slate-600 hover:tw-text-white tw-rounded" onClick={() => setShowFilters(true)}><FontAwesomeIcon icon={faFilter} /> {t('tables.filters')}</button>
                 <button className={"tw-shadow-md tw-flex tw-h-10 tw-ml-2 tw-px-3 tw-gap-3 tw-items-center tw-transition dark:tw-border dark:tw-border-slate-700/70 dark:tw-border-solid hover:tw-bg-slate-600 hover:tw-text-white tw-rounded" + (condensed ? ' tw-bg-blue-500 tw-text-white' : ' tw-bg-white/70 dark:tw-bg-slate-900/70')} onClick={() => toggleCondensed(!condensed)}>{condensedIcon()}</button>
               </div>
               {add && add.action && <div className="pull-right add-btn tw-w-full lg:tw-w-auto tw-flex tw-flex-wrap tw-gap-4">{additionalButtons}<Link to={{ pathname: add.action, search: add.search || null }}><button className="tw-rounded tw-w-full sm:tw-w-auto tw-h-10 tw-bg-blue-500 hover:tw-bg-slate-600 tw-text-sm tw-text-white tw-flex tw-items-center tw-transition"><span className="tw-h-10 tw-w-12 tw-flex tw-justify-center tw-items-center tw-bg-black/10"><FontAwesomeIcon icon={faPlus} /></span><span className="tw-px-4 tw-flex-1 tw-pr-10">{add.name}</span></button></Link></div>}
@@ -434,8 +434,8 @@ export function NewTable({ children, multiActions, actions, allColumns, referenc
               <div className="tw-flex tw-flex-col tw-px-8 tw-mt-6">
 
                 <div className="tw-w-full tw-flex tw-justify-between tw-h-8">
-                  <span><FontAwesomeIcon className="tw-mr-2 tw-opacity-60" icon={faArrowDownArrowUp} /> {t('tables.sort-by')}</span>
-                  <span onClick={() => setChangeSort(!changeSort)} className="text-muted-more tw-cursor-pointer hover:tw-font-semibold">{rowSort.name} ></span>
+                  <span><FontAwesomeIcon className="tw-mr-2 tw-opacity-60" icon={faUpDown} /> {t('tables.sort-by')}</span>
+                  <span onClick={() => setChangeSort(!changeSort)} className="text-muted-more tw-cursor-pointer hover:tw-font-semibold">{rowSort.name} &gt;</span>
                 </div>
                 {changeSort && (
                   <React.Fragment>
@@ -455,7 +455,7 @@ export function NewTable({ children, multiActions, actions, allColumns, referenc
                 )}
                 <div className="tw-w-full tw-flex tw-justify-between tw-h-8">
                   <span><FontAwesomeIcon className="tw-mr-2 tw-opacity-60" icon={faListOl} /> {t('tables.rows-per-page')}</span>
-                  <span onClick={() => setChangePerPage(!changePerPage)} className="text-muted-more tw-cursor-pointer hover:tw-font-semibold">{perPage} ></span>
+                  <span onClick={() => setChangePerPage(!changePerPage)} className="text-muted-more tw-cursor-pointer hover:tw-font-semibold">{perPage} &gt;</span>
                 </div>
                 {changePerPage && (
                   <React.Fragment>
@@ -847,8 +847,8 @@ export function Actions(props) {
 function ColumnView(props) {
   const { item, itemSelected, dragHandleProps, commonProps: { removeColumn } } = props;
   return <div className="tw-flex tw-items-center tw-justify-between">
-    <div {...dragHandleProps}><FontAwesomeIcon className="tw-mr-2 tw-opacity-60" icon={faGripDotsVertical} />{item.name}</div>
-    <FontAwesomeIcon className="hover:tw-scale-105 tw-cursor-pointer tw-transition-all" onClick={(e) => removeColumn(item.column)} icon={faEyeSlash} icon={faEye} />
+    <div {...dragHandleProps}><FontAwesomeIcon className="tw-mr-2 tw-opacity-60" icon={faGripLines} />{item.name}</div>
+    <FontAwesomeIcon className="hover:tw-scale-105 tw-cursor-pointer tw-transition-all" onClick={(e) => removeColumn(item.column)} icon={faEyeSlash} />
   </div>
 }
 
