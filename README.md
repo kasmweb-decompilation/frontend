@@ -1,5 +1,5 @@
 # frontend
-Decompilation of the Kasm Workspaces frontend with fixes to use free packages.
+Decompilation of the Kasm Workspaces frontend with fixes to use free packages and to make webpack happy.
 
 **Info**: The original sourcemaps are gzipped as they are extremely large.
 
