@@ -3,10 +3,10 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Form, FormGroup, Label, CustomInput } from 'reactstrap';
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck } from "@fortawesome/pro-light-svg-icons/faCheck";
-import { faChevronLeft } from "@fortawesome/pro-light-svg-icons/faChevronLeft";
-import { faChevronRight } from "@fortawesome/pro-light-svg-icons/faChevronRight";
-import { faTimes } from "@fortawesome/pro-light-svg-icons/faTimes";
+import { faCheck } from "@fortawesome/free-solid-svg-icons/faCheck";
+import { faChevronLeft } from "@fortawesome/free-solid-svg-icons/faChevronLeft";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons/faChevronRight";
+import { faTimes } from "@fortawesome/free-solid-svg-icons/faTimes";
 
 export default function Wizard(props) {
   const dispatch = useDispatch()

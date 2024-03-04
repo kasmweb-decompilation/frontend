@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Container, Row, Col, Button, Input, InputGroup, InputGroupAddon, InputGroupText} from "reactstrap";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/pro-light-svg-icons/faSearch";
+import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
 
 class Page500 extends Component {
     render() {

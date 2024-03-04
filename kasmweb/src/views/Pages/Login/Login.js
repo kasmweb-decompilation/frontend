@@ -17,10 +17,10 @@ import { setThemeColor } from "../../../utils/helpers";
 import {withTranslation} from "react-i18next";
 import { Groups, Button, FormField } from "../../../components/Form"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faKey } from '@fortawesome/pro-light-svg-icons/faKey';
+import { faKey } from '@fortawesome/free-solid-svg-icons/faKey';
 import { Modal, ModalFooter } from "../../../components/Form/Modal";
-import { faLock } from "@fortawesome/pro-light-svg-icons/faLock";
-import { faInfoCircle } from "@fortawesome/pro-light-svg-icons/faInfoCircle";
+import { faLock } from "@fortawesome/free-solid-svg-icons/faLock";
+import { faInfoCircle } from "@fortawesome/free-solid-svg-icons/faInfoCircle";
 import { SetTwoFactorModal } from "../../../components/SetTwoFactorModal/SetTwoFactorModal";
 
 

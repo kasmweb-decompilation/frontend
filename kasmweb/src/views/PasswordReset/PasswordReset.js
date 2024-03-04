@@ -14,8 +14,8 @@ import queryString from "query-string";
 import {withTranslation} from "react-i18next";
 import { Groups, Button, FormField } from "../../components/Form"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faKey } from '@fortawesome/pro-light-svg-icons/faKey';
-import { faUser } from '@fortawesome/pro-light-svg-icons/faUser';
+import { faKey } from '@fortawesome/free-solid-svg-icons/faKey';
+import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
 import { Modal } from "../../components/Form/Modal";
 
 class PasswordReset extends Component {

@@ -15,10 +15,10 @@ import LoadingSpinner from "../../components/LoadingSpinner";
 import {withTranslation} from "react-i18next";
 import { Groups, Button, FormField } from "../../components/Form/Form";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faKey } from "@fortawesome/pro-light-svg-icons/faKey";
-import { faUser } from "@fortawesome/pro-light-svg-icons/faUser";
+import { faKey } from "@fortawesome/free-solid-svg-icons/faKey";
+import { faUser } from "@fortawesome/free-solid-svg-icons/faUser";
 import { Modal } from "../../components/Form/Modal";
-import { faLock } from "@fortawesome/pro-light-svg-icons/faLock";
+import { faLock } from "@fortawesome/free-solid-svg-icons/faLock";
 
 class Signup extends Component {
     constructor(props) {

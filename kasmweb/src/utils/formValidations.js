@@ -5,10 +5,10 @@ import i18n from '../i18n';
 import {Trans} from "react-i18next";
 import { notifySuccess } from "../components/Form"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLock } from '@fortawesome/pro-light-svg-icons/faLock';
-import { faCopy } from '@fortawesome/pro-light-svg-icons/faCopy';
-import { faEye } from "@fortawesome/pro-light-svg-icons/faEye";
-import { faEyeSlash } from "@fortawesome/pro-light-svg-icons/faEyeSlash";
+import { faLock } from '@fortawesome/free-solid-svg-icons/faLock';
+import { faCopy } from '@fortawesome/free-solid-svg-icons/faCopy';
+import { faEye } from "@fortawesome/free-solid-svg-icons/faEye";
+import { faEyeSlash } from "@fortawesome/free-solid-svg-icons/faEyeSlash";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
