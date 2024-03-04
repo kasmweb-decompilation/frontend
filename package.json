@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/kasmweb-decompilation/frontend.git"
   },
-  "type":"module",
   "author": "",
   "license": "ISC",
   "bugs": {

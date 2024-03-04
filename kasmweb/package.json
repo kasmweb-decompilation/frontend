@@ -15,7 +15,6 @@
   "bugs": {
     "url": "https://github.com/kasmweb-decompilation/frontend/issues"
   },
-  "type":"module",
   "homepage": "https://github.com/kasmweb-decompilation/frontend#readme",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
