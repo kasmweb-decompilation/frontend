@@ -7,7 +7,7 @@ Decompilation of the Kasm Workspaces frontend.
 
 - **Mapping Webpack'd files**:
 - [x] Map `webpack_out_audio` to `assets/audio`
-- [ ] Map `webpack_out_fonts` to `assets/images` and `assets/public/img`
+- [x] Map `webpack_out_fonts` to `assets/images` and `assets/public/img` (maybe?)
 - [x] Combine `webpack_out_img` into `assets/public/img`
 
 - **Other**
