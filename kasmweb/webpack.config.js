@@ -9,6 +9,10 @@ const config = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
+  resolve: {
+    modules: ['node_modules', 'src'],
+    extensions: ['.js', '.jsx'],
+  },  
   module: {
     rules: [
       {
@@ -19,6 +23,10 @@ const config = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader', 'postcss-loader'],
+      },
+      {
+        test: /\.s[ac]ss$/i,
+        use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
       },
     ]
   },

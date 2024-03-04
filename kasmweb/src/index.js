@@ -18,8 +18,8 @@ import "react-notifications/dist/react-notifications.css";
 import Proptypes from "prop-types";
 
 //Styles for the dropzone component
-import "../node_modules/react-dropzone-component/styles/filepicker.css";
-import "../node_modules/dropzone/dist/min/dropzone.min.css";
+import "react-dropzone-component/styles/filepicker.css";
+import "dropzone/dist/min/dropzone.min.css";
 
 import "./tailwind.css";
 
@@ -29,18 +29,18 @@ import { Provider } from "react-redux";
 import { NotificationContainer } from "react-notifications";
 
 // Views
-import Login from "./views/Pages/Login/";
-import SSO from "./views/Pages/SSO/";
-import Connect from "./views/Connect";
-import Cast from "./views/Cast";
-import Page404 from "./views/Pages/Page404/";
-import Page500 from "./views/Pages/Page500/";
-import PageError from "./views/Pages/Error/";
-import Signup from "./views/Signup/";
-import PasswordReset from "./views/PasswordReset/";
+import Login from "./views/Pages/Login/Login.js";
+import SSO from "./views/Pages/SSO/SSO.js";
+import Connect from "./views/Connect/Connect.js";
+import Cast from "./views/Cast/Cast.js";
+import Page404 from "./views/Pages/Page404/Page404.js";
+import Page500 from "./views/Pages/Page500/Page500.js";
+import PageError from "./views/Pages/Error/PageError.js";
+import Signup from "./views/Signup/Signup.js";
+import PasswordReset from "./views/PasswordReset/PasswordReset.js";
 import {store,persistor} from "./store";
 import Go from "./views/Go/";
-import "../assets/style/main.css";
+// import "../assets/style/main.css";
 
 import LoadingSpinner from "./components/LoadingSpinner/index";
 

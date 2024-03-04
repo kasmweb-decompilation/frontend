@@ -48,12 +48,12 @@ import {withTranslation, useTranslation} from "react-i18next";
 import { Modal } from "../../../../components/Form/Modal";
 import { ConfirmAction } from "../../../../components/Table/NewTable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleNotch } from "@fortawesome/pro-light-svg-icons/faCircleNotch";
-import { faTrash } from "@fortawesome/pro-light-svg-icons/faTrash";
+import { faCircleNotch } from "@fortawesome/free-solid-svg-icons/faCircleNotch";
+import { faTrash } from "@fortawesome/free-solid-svg-icons/faTrash";
 import { FormField } from "../../../../components/Form/Form";
-import { faAlignJustify } from "@fortawesome/pro-light-svg-icons/faAlignJustify";
-import { faExclamationTriangle } from "@fortawesome/pro-light-svg-icons/faExclamationTriangle";
-import { faGlobe } from "@fortawesome/pro-light-svg-icons/faGlobe";
+import { faAlignJustify } from "@fortawesome/free-solid-svg-icons/faAlignJustify";
+import { faExclamationTriangle } from "@fortawesome/free-solid-svg-icons/faExclamationTriangle";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons/faGlobe";
 import { hasAuth } from "../../../../utils/axios";
 import { LaunchForm } from "../../../../components/Form/LaunchForm";
 
