@@ -7,16 +7,16 @@ import { FormGroup, Label, Row, Col, CardBody, CardFooter, Alert, Modal, ModalHe
 import Proptypes from "prop-types";
 import { NotificationManager } from "react-notifications";
 import { getDnsProviderConfigs } from "../../../actions/actionDnsProvider";
-import { getLicenseStatus } from "../../../actions/actionFooter";
+import { getLicenseStatus } from "../../../actions/actionFooter.js";
 import AzureDnsProviderForm from "../../../components/Providers/Azure/AzureDnsProviderForm";
 import AwsDnsProviderForm from "../../../components/Providers/Aws/AwsDnsProviderForm";
 import DigitalOceanDnsProviderForm from "../../../components/Providers/DigitalOcean/DigitalOceanDnsProviderForm";
 import GcpDnsProviderForm from "../../../components/Providers/Gcp/GcpDnsProviderForm";
 import OciDnsProviderForm from "../../../components/Providers/Oci/OciDnsProviderForm";
-import SelectInput from "../../../components/SelectInput";
+import SelectInput from "../../../components/SelectInput/SelectInput.js";
 import { createDnsProviderConfig, updateDnsProviderConfig } from '../../../actions/actionDnsProvider';
 import {withTranslation} from "react-i18next";
-import { Button, FormFooter, FormField } from "../../../components/Form"
+import { Button, FormFooter, FormField } from "../../../components/Form/Form.js"
 
 class DnsProviderConfigFormTemplate extends Component {
     constructor(props) {

@@ -16,7 +16,7 @@ import { faBoxesStacked } from '@fortawesome/free-solid-svg-icons/faBoxesStacked
 import { faClone } from '@fortawesome/free-solid-svg-icons/faClone';
 import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
-import { notifySuccess, notifyFailure } from "../../components/Form"
+import { notifySuccess, notifyFailure } from "../../components/Form/Form.js"
 import { hasAuth } from "../../utils/axios";
 
 class Images extends Component{

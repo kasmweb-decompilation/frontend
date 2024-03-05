@@ -2,13 +2,13 @@ import React,{ Component } from "react";
 import {connect} from "react-redux";
 import { Row, Col, Table, Card, CardBody, CardHeader} from "reactstrap";
 import Proptypes from "prop-types";
-import {getVmProviderConfigs} from "../../../actions/actionVmProvider"
-import ViewAzureVmProviderConfig from "../../../components/Providers/Azure/AzureVmView"
-import ViewAwsVmProviderConfig from "../../../components/Providers/Aws/AwsVmView"
-import ViewDigitalOceanVmProviderConfig from "../../../components/Providers/DigitalOcean/DigitalOceanVmView"
-import ViewGcpVmProviderConfig from "../../../components/Providers/Gcp/GcpVmView"
-import ViewOciVmProviderConfig from "../../../components/Providers/Oci/OciVmView"
-import ViewVsphereVmProviderConfig from "../../../components/Providers/Vsphere/VsphereVmView"
+import {getVmProviderConfigs} from "../../../actions/actionVmProvider.js"
+import ViewAzureVmProviderConfig from "../../../components/Providers/Azure/AzureVmView/AzureVmView.js"
+import ViewAwsVmProviderConfig from "../../../components/Providers/Aws/AwsVmView/AwsVmView.js"
+import ViewDigitalOceanVmProviderConfig from "../../../components/Providers/DigitalOcean/DigitalOceanVmView/DigitalOceanVmView.js"
+import ViewGcpVmProviderConfig from "../../../components/Providers/Gcp/GcpVmView/GcpVmView.js"
+import ViewOciVmProviderConfig from "../../../components/Providers/Oci/OciVmView/OciVmView.js"
+import ViewVsphereVmProviderConfig from "../../../components/Providers/Vsphere/VsphereVmView/VsphereVmView.js"
 import {withTranslation} from "react-i18next";
 
 class ViewVmProviderConfig extends Component{

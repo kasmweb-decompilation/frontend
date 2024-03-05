@@ -12,10 +12,10 @@ import { getServers, updateServer, createServer} from "../../../actions/actionSe
 import { getServerPools} from "../../../actions/actionServerPool";
 import { withRouter } from "react-router-dom";
 import Proptypes from "prop-types";
-import SelectInput from "../../../components/SelectInput";
+import SelectInput from "../../../components/SelectInput/SelectInput.js";
 import {getZones} from "../../../actions/actionZones";
 import {withTranslation} from "react-i18next";
-import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form"
+import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form/Form.js"
 
 class AgentFormTemplate extends Component  {
     constructor(props){

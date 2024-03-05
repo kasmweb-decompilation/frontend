@@ -6,9 +6,9 @@ import { withRouter } from "react-router-dom";
 import { Alert } from "reactstrap";
 import Proptypes from "prop-types";
 import {getOidcConfigs } from "../../../actions/actionOidc";
-import { getLicenseStatus} from "../../../actions/actionFooter";
+import { getLicenseStatus} from "../../../actions/actionFooter.js";
 import {withTranslation} from "react-i18next";
-import { Groups, Group, FormFooter, FormField, ViewField } from "../../../components/Form"
+import { Groups, Group, FormFooter, FormField, ViewField } from "../../../components/Form/Form.js"
 
 class OidcConfigFormTemplate extends Component {
     constructor (props){

@@ -7,19 +7,19 @@ import { FormGroup, Label, Row, Col, CardBody, CardFooter, Alert, Modal, ModalHe
 import Proptypes from "prop-types";
 import { NotificationManager } from "react-notifications";
 import { getVmProviderConfigs } from "../../../actions/actionVmProvider";
-import { getLicenseStatus } from "../../../actions/actionFooter";
-import AzureProviderForm from "../../../components/Providers/Azure/AzureVmProviderForm";
-import AwsProviderForm from "../../../components/Providers/Aws/AwsVmProviderForm";
-import OciProviderForm from "../../../components/Providers/Oci/OciVmProviderForm";
-import DigitalOceanProviderForm from "../../../components/Providers/DigitalOcean/DigitalOceanVmProviderForm";
-import GcpProviderForm from "../../../components/Providers/Gcp/GcpVmProviderForm";
-import VsphereProviderForm from "../../../components/Providers/Vsphere/VsphereVmProviderForm";
-import OpenStackProviderForm from "../../../components/Providers/OpenStack/OpenStackVmProviderForm";
+import { getLicenseStatus } from "../../../actions/actionFooter.js";
+import AzureProviderForm from "../../../components/Providers/Azure/AzureVmProviderForm/AzureVm.js";
+import AwsProviderForm from "../../../components/Providers/Aws/AwsVmProviderForm/AwsVm.js";
+import OciProviderForm from "../../../components/Providers/Oci/OciVmProviderForm/OciVm.js";
+import DigitalOceanProviderForm from "../../../components/Providers/DigitalOcean/DigitalOceanVmProviderForm/DigitalOceanVm.js";
+import GcpProviderForm from "../../../components/Providers/Gcp/GcpVmProviderForm/GcpVm.js";
+import VsphereProviderForm from "../../../components/Providers/Vsphere/VsphereVmProviderForm/VsphereVm.js";
+import OpenStackProviderForm from "../../../components/Providers/OpenStack/OpenStackVmProviderForm/OpenStackVm.js";
 
 import { createVmProviderConfig, updateVmProviderConfig } from '../../../actions/actionVmProvider';
-import SelectInput from "../../../components/SelectInput";
+import SelectInput from "../../../components/SelectInput/SelectInput.js";
 import {withTranslation} from "react-i18next";
-import { Button, FormFooter, FormField } from "../../../components/Form"
+import { Button, FormFooter, FormField } from "../../../components/Form/Form.js"
 
 class VmProviderConfigFormTemplate extends Component {
   constructor(props) {

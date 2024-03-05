@@ -2,9 +2,9 @@ import React from "react";
 import OidcConfigForm from "../OidcConfigForm/OidcConfigForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShieldKeyhole } from '@fortawesome/free-solid-svg-icons/faShieldKeyhole';
+import { faShieldKeyhole } from '@fortawesome/free-solid-svg-icons/faShield';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 import {createOidcConfig} from '../../../actions/actionOidc';
 
 const parentRouteList = parentRoutes('/oidc')

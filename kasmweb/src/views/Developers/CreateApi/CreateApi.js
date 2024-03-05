@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form, Button, CopyToClipboard } from "../../../components/Form"
+import { Form, Button, CopyToClipboard } from "../../../components/Form/Form.js"
 import { faCodeBranch } from '@fortawesome/free-solid-svg-icons/faCodeBranch';
 import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes';
 import {createApiKey} from '../../../actions/actionDevloper';

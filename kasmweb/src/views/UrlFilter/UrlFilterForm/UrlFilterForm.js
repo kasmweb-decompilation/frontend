@@ -7,9 +7,9 @@ import { Form, FormGroup, Button as RSButton, Label, Row, Col, CardBody, CardFoo
 import Proptypes from "prop-types";
 import { NotificationManager } from "react-notifications";
 import {getUrlFilterPolicies , getUrlFilterCategories, getSafeSearchPatterns} from "../../../actions/actionFilters";
-import { getLicenseStatus} from "../../../actions/actionFooter";
+import { getLicenseStatus} from "../../../actions/actionFooter.js";
 import {withTranslation} from "react-i18next";
-import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form"
+import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form/Form.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons/faChevronDown';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons/faChevronUp';

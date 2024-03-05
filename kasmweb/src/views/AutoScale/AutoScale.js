@@ -5,7 +5,7 @@ import { NotificationManager } from "react-notifications";
 import LoadingSpinner from "../../components/LoadingSpinner/index";
 import DataTable from "../../components/Table/Table";
 import { ConfirmAction } from "../../components/Table/NewTable";
-import { notifySuccess, notifyFailure } from "../../components/Form";
+import { notifySuccess, notifyFailure } from "../../components/Form/Form.js";
 import { Link } from "react-router-dom";
 import { getAutoScaleConfigs, deleteAutoScaleConfig, setAutoScalePageInfo, updateAutoScaleConfig } from "../../actions/actionAutoScale";
 import { withRouter } from "react-router-dom";

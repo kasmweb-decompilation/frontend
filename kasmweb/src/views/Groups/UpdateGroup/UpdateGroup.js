@@ -7,7 +7,7 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserGroup } from '@fortawesome/free-solid-svg-icons/faUserGroup';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form, saveSuccess, saveError } from "../../../components/Form"
+import { Form, saveSuccess, saveError } from "../../../components/Form/Form.js"
 import { updateGroups } from "../../../actions/actionGroup";
 import { hasAuth } from "../../../utils/axios";
 

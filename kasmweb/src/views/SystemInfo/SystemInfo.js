@@ -12,11 +12,11 @@ import LoadingSpinner from "../../components/LoadingSpinner";
 import {renderField, required} from "../../utils/formValidations";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFileCertificate } from '@fortawesome/free-solid-svg-icons/faFileCertificate';
+import { faFileCertificate } from '@fortawesome/free-solid-svg-icons/faCertificate';
 import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
-import { Groups, Group, ViewField, TabList, FormFooter, Button, FormField } from "../../components/Form"
-import { Modal, ModalFooter } from "../../components/Form/Modal"
+import { Groups, Group, ViewField, TabList, FormFooter, Button, FormField } from "../../components/Form/Form.js"
+import { Modal, ModalFooter } from "../../components/Form/Modal.js"
 import { ConfirmAction } from "../../components/Table/NewTable";
 import { faCloudDownload } from "@fortawesome/free-solid-svg-icons/faCloudDownload";
 import { faCloudUpload } from "@fortawesome/free-solid-svg-icons/faCloudUpload";

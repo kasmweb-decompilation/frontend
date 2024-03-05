@@ -5,7 +5,7 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCubes } from '@fortawesome/free-solid-svg-icons/faCubes';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 import ViewServer from "../ViewAgent/ViewServer"
 
 const parentRouteList = parentRoutes('/agents')

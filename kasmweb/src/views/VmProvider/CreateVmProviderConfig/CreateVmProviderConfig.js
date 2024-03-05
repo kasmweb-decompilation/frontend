@@ -9,7 +9,7 @@ import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCube } from '@fortawesome/free-solid-svg-icons/faCube';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { TabList, Group } from "../../../components/Form"
+import { TabList, Group } from "../../../components/Form/Form.js"
 
 const parentRouteList = parentRoutes('/server_pools')
 const newRoutes = [

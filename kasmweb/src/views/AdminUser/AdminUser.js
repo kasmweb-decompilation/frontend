@@ -22,8 +22,8 @@ import { faCircleUser } from '@fortawesome/free-solid-svg-icons/faCircleUser';
 import { faKey } from '@fortawesome/free-solid-svg-icons/faKey';
 import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
-import { notifySuccess, notifyFailure, Groups, FormField, Button, ButtonGroup } from "../../components/Form"
-import { Modal, ModalFooter } from "../../components/Form/Modal"
+import { notifySuccess, notifyFailure, Groups, FormField, Button, ButtonGroup } from "../../components/Form/Form.js"
+import { Modal, ModalFooter } from "../../components/Form/Modal.js"
 import { faEye } from "@fortawesome/free-solid-svg-icons/faEye";
 
 const validate = values => {

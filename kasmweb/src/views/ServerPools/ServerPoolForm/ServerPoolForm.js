@@ -5,14 +5,14 @@ import {
     renderField,
     required,
 } from "../../../utils/formValidations.js";
-import SelectInput from "../../../components/SelectInput";
+import SelectInput from "../../../components/SelectInput/SelectInput.js";
 import { withRouter } from "react-router-dom";
 import { Modal, ModalHeader, ModalBody } from "reactstrap";
 import Proptypes from "prop-types";
 import { NotificationManager } from "react-notifications";
 import { getServerPools, updateServerPool, createServerPool } from "../../../actions/actionServerPool";
 import {withTranslation} from "react-i18next";
-import { Groups, Group, Button, FormFooter } from "../../../components/Form"
+import { Groups, Group, Button, FormFooter } from "../../../components/Form/Form.js"
 
 class ServerPoolFormTemplate extends Component {
     constructor(props) {

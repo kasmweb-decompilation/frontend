@@ -11,7 +11,7 @@ import { Redirect } from "react-router-dom";
 import queryString from "query-string";
 import {withTranslation} from "react-i18next";
 import { LaunchForm, checkRequiredSectionsAgainstLocal, localLaunchSelections } from "../../components/Form/LaunchForm";
-import { Modal } from "../../components/Form/Modal";
+import { Modal } from "../../components/Form/Modal.js";
 import { KasmIcon } from "../User/UserDashboard/ListKasms";
 import _ from "lodash";
 

@@ -20,11 +20,11 @@ import { getZones } from "../../../actions/actionZones";
 import { getImages, getServerCustomNetworkNames, updateImages, getRegistries } from "../../../actions/actionImage";
 import { withRouter } from "react-router-dom";
 import Proptypes from "prop-types";
-import SelectInput from "../../../components/SelectInput";
+import SelectInput from "../../../components/SelectInput/SelectInput.js";
 import {getUrlFilterPolicies} from "../../../actions/actionFilters"
 import { completeWorkspacesList } from "../Registry"
 import {withTranslation} from "react-i18next";
-import { Groups, Group, FormFooter, FormField, submitFailure } from "../../../components/Form"
+import { Groups, Group, FormFooter, FormField, submitFailure } from "../../../components/Form/Form.js"
 
 const renderOption = (option) => {
     return (

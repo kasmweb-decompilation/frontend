@@ -5,7 +5,7 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUsers } from '@fortawesome/free-solid-svg-icons/faUsers';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 import { createUser } from "../../../actions/actionAdminUser";
 
 const parentRouteList = parentRoutes('/adminUser')

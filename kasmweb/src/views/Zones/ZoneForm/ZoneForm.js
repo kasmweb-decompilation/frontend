@@ -8,10 +8,10 @@ import { getZones, updateZone } from "../../../actions/actionZones";
 import { NotificationManager } from "react-notifications";
 import { withRouter } from "react-router-dom";
 import Proptypes from "prop-types";
-import {getLicenses} from "../../../actions/actionSystemInfo";
+import {getLicenses} from "../../../actions/actionSystemInfo.js";
 import {withTranslation} from "react-i18next";
 // New form related items
-import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form"
+import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form/Form.js"
 
 const minValue50 = minValue(50);
 

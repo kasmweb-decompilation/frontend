@@ -8,7 +8,7 @@ import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTable } from '@fortawesome/free-solid-svg-icons/faTable';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Groups, Group, ViewField, TabList, FormFooter, Button } from "../../../components/Form"
+import { Groups, Group, ViewField, TabList, FormFooter, Button } from "../../../components/Form/Form.js"
 import { renderField } from "../../../utils/formValidations.js";
 import { bytesToSize } from "../../../utils/helpers"
 

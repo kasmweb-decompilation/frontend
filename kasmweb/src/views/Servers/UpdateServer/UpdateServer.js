@@ -5,7 +5,7 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faServer } from '@fortawesome/free-solid-svg-icons/faServer';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form, saveSuccess, saveError } from "../../../components/Form"
+import { Form, saveSuccess, saveError } from "../../../components/Form/Form.js"
 
 const parentRouteList = parentRoutes('/servers')
 const newRoutes = [

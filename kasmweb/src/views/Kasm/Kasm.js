@@ -20,8 +20,8 @@ import {
   updateUserAttribute,
 } from "../../actions/actionUser";
 import ShareBanner from "../../components/ShareBanner";
-import ChatComponent from "../../components/Chat";
-import SmallChat from "../../components/Chat/SmallChat";
+import ChatComponent from "../../components/Chat/ChatComponent.js";
+import SmallChat from "../../components/Chat/SmallChat/SmallChat.js";
 import message_audio from "../../../assets/audio/message_recieved.mp3";
 import join_audio from "../../../assets/audio/member_joined.mp3";
 import queryString from "query-string";
@@ -34,8 +34,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEyeSlash } from "@fortawesome/free-solid-svg-icons/faEyeSlash";
 import { faCircle } from "@fortawesome/free-solid-svg-icons/faCircle";
 import { faComments } from "@fortawesome/free-solid-svg-icons/faComments";
-import { faArrowsMaximize } from "@fortawesome/free-solid-svg-icons/faArrowsMaximize";
-import { faArrowsMinimize } from "@fortawesome/free-solid-svg-icons/faArrowsMinimize";
+import { faArrowsMaximize } from "@fortawesome/free-solid-svg-icons/faMaximize";
+import { faArrowsMinimize } from "@fortawesome/free-solid-svg-icons/faMinimize";
 
 var timeouts = [];
 let run = true

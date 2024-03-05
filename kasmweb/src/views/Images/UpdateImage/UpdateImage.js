@@ -6,10 +6,10 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBoxesStacked } from '@fortawesome/free-solid-svg-icons/faBoxesStacked';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 import FileMapping from "../../../components/FileMapping/FileMapping";
 import StorageMapping from "../../../components/StorageMapping";
-import { notifySuccess, notifyFailure } from "../../../components/Form"
+import { notifySuccess, notifyFailure } from "../../../components/Form/Form.js"
 
 const parentRouteList = parentRoutes('/workspaces')
 const newRoutes = [

@@ -15,7 +15,7 @@ import { Form, FormGroup,Label, Row, Col, Alert } from "reactstrap";
 import Proptypes from "prop-types";
 import { NotificationManager } from "react-notifications";
 import { getAutoScaleConfigs } from "../../../actions/actionAutoScale";
-import { getLicenseStatus } from "../../../actions/actionFooter";
+import { getLicenseStatus } from "../../../actions/actionFooter.js";
 import { getZones } from "../../../actions/actionZones";
 import { getServerPools } from "../../../actions/actionServerPool";
 import { getVmProviderConfigs } from "../../../actions/actionVmProvider";
@@ -25,11 +25,11 @@ import ServerPoolForm from "../../ServerPools/ServerPoolForm/ServerPoolForm";
 import { createServerPool } from "../../../actions/actionServerPool";
 
 
-import SelectInput from "../../../components/SelectInput";
+import SelectInput from "../../../components/SelectInput/SelectInput.js";
 import VmProviderConfigFormTemplate from "../../VmProvider/VmProviderConfigForm/VmProviderConfigForm";
 import DnsProviderConfigFormTemplate from "../../DnsProvider/DnsProviderConfigForm/DnsProviderConfigForm";
 import {withTranslation} from "react-i18next";
-import { Button, FormFooter, Groups, FormField } from "../../../components/Form"
+import { Button, FormFooter, Groups, FormField } from "../../../components/Form/Form.js"
 import { hasAuth } from '../../../utils/axios.js';
 
 

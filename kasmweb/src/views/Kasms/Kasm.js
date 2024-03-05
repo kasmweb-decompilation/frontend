@@ -15,10 +15,10 @@ import { NotificationManager } from "react-notifications";
 import Proptypes from "prop-types";
 import moment from "moment";
 import "moment-duration-format"
-import CreateImageFromSessionForm from "../../components/CreateImageFromSession";
-import PauseSessionModal from "../../components/Modals/PauseSessionModal";
-import StartSessionModal from "../../components/Modals/StartSessionModal";
-import StopSessionModal from "../../components/Modals/StopSessionModal";
+import CreateImageFromSessionForm from "../../components/CreateImageFromSession/CreateImageFromSession.js";
+import PauseSessionModal from "../../components/Modals/PauseSessionModal/PauseSessionModal.js";
+import StartSessionModal from "../../components/Modals/StartSessionModal/StartSessionModal.js";
+import StopSessionModal from "../../components/Modals/StopSessionModal/StopSessionModal.js";
 import {withTranslation} from "react-i18next";
 import { bytesToSize } from"../../utils/helpers"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -29,9 +29,9 @@ import { faPause } from '@fortawesome/free-solid-svg-icons/faPause';
 import { faStop } from '@fortawesome/free-solid-svg-icons/faStop';
 import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader, { parentRoutes } from "../../components/Header/PageHeader";
-import { CopyToClipboard } from "../../components/Form/Form";
-import { Modal as FormModal } from "../../components/Form/Modal";
-import { ConfirmAction } from "../../components/Table/NewTable";
+import { CopyToClipboard } from "../../components/Form/Form.js";
+import { Modal as FormModal } from "../../components/Form/Modal.js";
+import { ConfirmAction } from "../../components/Table/NewTable.js";
 
 
 class Kasms extends Component {

@@ -6,9 +6,9 @@ import { withRouter } from "react-router-dom";
 import Proptypes from "prop-types";
 import {getConnectionProxies } from "../../../actions/actionConnectionProxies";
 import {getZones} from "../../../actions/actionZones";
-import SelectInput from "../../../components/SelectInput";
+import SelectInput from "../../../components/SelectInput/SelectInput.js";
 import {withTranslation} from "react-i18next";
-import { Groups, Group, FormFooter } from "../../../components/Form"
+import { Groups, Group, FormFooter } from "../../../components/Form/Form.js"
 import { hasAuth } from '../../../utils/axios.js';
 
 class ConnectionProxyFormTemplate extends Component {

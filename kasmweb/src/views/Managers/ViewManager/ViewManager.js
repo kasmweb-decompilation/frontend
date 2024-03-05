@@ -9,7 +9,7 @@ import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShieldHalved } from '@fortawesome/free-solid-svg-icons/faShieldHalved';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Groups, Group, ViewField } from "../../../components/Form"
+import { Groups, Group, ViewField } from "../../../components/Form/Form.js"
 import { renderField } from "../../../utils/formValidations.js";
 
 const parentRouteList = parentRoutes('/managers')

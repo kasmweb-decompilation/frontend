@@ -9,10 +9,10 @@ import moment from "moment";
 import { getCastConfigs } from "../../../actions/actionCast";
 import { getGroups } from "../../../actions/actionGroup";
 import { getImages } from "../../../actions/actionImage";
-import SelectInput from "../../../components/SelectInput";
-import { getLicenseStatus } from "../../../actions/actionFooter";
+import SelectInput from "../../../components/SelectInput/SelectInput.js";
+import { getLicenseStatus } from "../../../actions/actionFooter.js";
 import { withTranslation } from "react-i18next";
-import { Groups, Group, FormFooter, FormField } from "../../../components/Form"
+import { Groups, Group, FormFooter, FormField } from "../../../components/Form/Form.js"
 import { CopyToClipboard } from '../../../components/Form';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons/faChevronDown';

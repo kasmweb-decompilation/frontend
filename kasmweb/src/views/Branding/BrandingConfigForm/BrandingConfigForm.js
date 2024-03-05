@@ -5,9 +5,9 @@ import { renderField, renderToggle, required } from "../../../utils/formValidati
 import { withRouter } from "react-router-dom";
 import Proptypes from "prop-types";
 import {getBrandingConfigs } from "../../../actions/actionBranding";
-import { getLicenseStatus} from "../../../actions/actionFooter";
+import { getLicenseStatus} from "../../../actions/actionFooter.js";
 import {withTranslation} from "react-i18next";
-import { Groups, Group, FormFooter } from "../../../components/Form"
+import { Groups, Group, FormFooter } from "../../../components/Form/Form.js"
 
 class BrandingConfigFormTemplate extends Component {
     constructor (props){

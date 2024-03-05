@@ -5,7 +5,7 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMap } from '@fortawesome/free-solid-svg-icons/faMap';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 
 const parentRouteList = parentRoutes('/staging')
 const newRoutes = [

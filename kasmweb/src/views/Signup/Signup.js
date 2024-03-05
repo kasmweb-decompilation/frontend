@@ -17,7 +17,7 @@ import { Groups, Button, FormField } from "../../components/Form/Form";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faKey } from "@fortawesome/free-solid-svg-icons/faKey";
 import { faUser } from "@fortawesome/free-solid-svg-icons/faUser";
-import { Modal } from "../../components/Form/Modal";
+import { Modal } from "../../components/Form/Modal.js";
 import { faLock } from "@fortawesome/free-solid-svg-icons/faLock";
 
 class Signup extends Component {

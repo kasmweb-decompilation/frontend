@@ -12,12 +12,12 @@ import { renderField, required } from "../../utils/formValidations.js";
 import Proptypes from "prop-types";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShieldKeyhole } from '@fortawesome/free-solid-svg-icons/faShieldKeyhole';
+import { faShieldKeyhole } from '@fortawesome/free-solid-svg-icons/faShield';
 import { faVial } from '@fortawesome/free-solid-svg-icons/faVial';
 import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { ConfirmAction } from "../../components/Table/NewTable";
-import { Modal, ModalFooter } from "../../components/Form/Modal";
+import { Modal, ModalFooter } from "../../components/Form/Modal.js";
 import { Groups, FormField } from "../../components/Form/Form";
 
 class Ldap extends Component{

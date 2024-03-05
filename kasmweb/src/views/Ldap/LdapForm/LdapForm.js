@@ -6,9 +6,9 @@ import { connect } from "react-redux";
 import { getLdap, updateLdap } from "../../../actions/actionLdap";
 import { withRouter } from "react-router-dom";
 import Proptypes from "prop-types";
-import { getLicenseStatus} from "../../../actions/actionFooter";
+import { getLicenseStatus} from "../../../actions/actionFooter.js";
 import {withTranslation} from "react-i18next";
-import { Groups, Group, FormFooter } from "../../../components/Form"
+import { Groups, Group, FormFooter } from "../../../components/Form/Form.js"
 
 class LdapFormTemplate extends Component  {
     constructor(props){

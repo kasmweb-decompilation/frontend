@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 import Proptypes from "prop-types";
 import {withTranslation} from "react-i18next";
-import { Groups, Group, Button, FormFooter, FormField } from "../../../components/Form"
+import { Groups, Group, Button, FormFooter, FormField } from "../../../components/Form/Form.js"
 import { get_saml_configs } from "../../../actions/actionSaml.js";
 import { getOidcConfigs } from "../../../actions/actionOidc.js";
 

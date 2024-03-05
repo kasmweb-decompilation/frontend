@@ -21,7 +21,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { TabList, notifyFailure } from "../../components/Form/Form";
 import { ConfirmAction } from "../../components/Table/NewTable";
-import { Modal, ModalFooter } from "../../components/Form/Modal"
+import { Modal, ModalFooter } from "../../components/Form/Modal.js"
 import { faClose } from "@fortawesome/free-solid-svg-icons/faClose";
 import { faEllipsisH } from "@fortawesome/free-solid-svg-icons/faEllipsisH";
 import { faInfoCircle } from "@fortawesome/free-solid-svg-icons/faInfoCircle";

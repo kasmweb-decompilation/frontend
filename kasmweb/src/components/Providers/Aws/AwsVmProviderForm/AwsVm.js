@@ -14,7 +14,7 @@ import { Field, reduxForm } from "redux-form";
 import { withRouter } from "react-router-dom";
 import TooltipComponent from "../../../../views/Settings/TooltipComponent";
 import {withTranslation} from "react-i18next";
-import { Button, FormFooter, Groups, FormField } from "../../../../components/Form"
+import { Button, FormFooter, Groups, FormField } from "../../../../components/Form/Form.js"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons/faDownload";
 import { faUpload } from "@fortawesome/free-solid-svg-icons/faUpload";

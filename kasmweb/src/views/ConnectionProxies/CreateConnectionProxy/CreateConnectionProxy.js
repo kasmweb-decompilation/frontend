@@ -2,7 +2,7 @@ import React from "react";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 import { faPlug } from '@fortawesome/free-solid-svg-icons/faPlug';
 import { createConnectionProxy } from "../../../actions/actionConnectionProxies";
 import ConnectionProxyForm from "../ConnectionProxyForm/ConnectionProxyForm";

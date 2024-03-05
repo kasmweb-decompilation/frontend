@@ -5,7 +5,7 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faObjectGroup } from '@fortawesome/free-solid-svg-icons/faObjectGroup';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 import AutoScale from "../../AutoScale/AutoScale";
 import Servers from "../../Servers/Servers";
 import Agents from "../../Agents/Agents";

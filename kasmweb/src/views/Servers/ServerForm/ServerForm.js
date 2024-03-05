@@ -16,11 +16,11 @@ import { getServers, updateServer, createServer} from "../../../actions/actionSe
 import { getServerPools} from "../../../actions/actionServerPool";
 import { withRouter } from "react-router-dom";
 import Proptypes from "prop-types";
-import SelectInput from "../../../components/SelectInput";
+import SelectInput from "../../../components/SelectInput/SelectInput.js";
 import {getZones} from "../../../actions/actionZones";
 import {withTranslation} from "react-i18next";
 // New form related items
-import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form"
+import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form/Form.js"
 import { Disclosure } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus } from "@fortawesome/free-solid-svg-icons/faMinus";

@@ -5,9 +5,9 @@ import { renderField, renderToggle, required } from "../../../utils/formValidati
 import { withRouter } from "react-router-dom";
 import Proptypes from "prop-types";
 import {getApiConfigs} from "../../../actions/actionDevloper";
-import { getLicenseStatus} from "../../../actions/actionFooter";
+import { getLicenseStatus} from "../../../actions/actionFooter.js";
 import {withTranslation} from "react-i18next";
-import { Groups, Group, FormFooter, ViewField } from "../../../components/Form"
+import { Groups, Group, FormFooter, ViewField } from "../../../components/Form/Form.js"
 import moment from 'moment';
 
 class ApiFormTemplate extends Component {

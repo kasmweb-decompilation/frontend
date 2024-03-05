@@ -2,11 +2,11 @@ import React from "react";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 import { faBoxesStacked } from '@fortawesome/free-solid-svg-icons/faBoxesStacked';
 import { createImage } from "../../../actions/actionImage";
 import ImageForm from "../ImageForm/ImageForm";
-import { notifySuccess, notifyFailure } from "../../../components/Form"
+import { notifySuccess, notifyFailure } from "../../../components/Form/Form.js"
 
 const parentRouteList = parentRoutes('/workspaces')
 const newRoutes = [

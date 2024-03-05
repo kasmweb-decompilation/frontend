@@ -5,7 +5,7 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserGroup } from '@fortawesome/free-solid-svg-icons/faUserGroup';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 import {createGroup} from "../../../actions/actionGroup";
 
 const parentRouteList = parentRoutes('/groups')

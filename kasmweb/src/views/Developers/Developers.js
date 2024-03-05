@@ -15,7 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCodeBranch } from '@fortawesome/free-solid-svg-icons/faCodeBranch';
 import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
-import { CopyToClipboard } from "../../components/Form"
+import { CopyToClipboard } from "../../components/Form/Form.js"
 
 class Developers extends Component {
     constructor(props) {

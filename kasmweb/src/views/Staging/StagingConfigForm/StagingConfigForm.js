@@ -9,10 +9,10 @@ import {getAutoScaleConfigs} from "../../../actions/actionAutoScale"
 import {getServerPools} from "../../../actions/actionServerPool";
 import {getZones} from "../../../actions/actionZones";
 import { getImages } from "../../../actions/actionImage";
-import SelectInput from "../../../components/SelectInput";
-import { getLicenseStatus} from "../../../actions/actionFooter";
+import SelectInput from "../../../components/SelectInput/SelectInput.js";
+import { getLicenseStatus} from "../../../actions/actionFooter.js";
 import {withTranslation} from "react-i18next";
-import { Groups, Group, FormFooter } from "../../../components/Form"
+import { Groups, Group, FormFooter } from "../../../components/Form/Form.js"
 import { hasAuth } from '../../../utils/axios.js';
 
 class StagingConfigFormTemplate extends Component {

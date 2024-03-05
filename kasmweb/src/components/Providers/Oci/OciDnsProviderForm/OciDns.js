@@ -10,7 +10,7 @@ import {
 import { Field, reduxForm } from "redux-form";
 import { withRouter } from "react-router-dom";
 import {withTranslation} from "react-i18next";
-import { Button, FormFooter, Groups, FormField } from "../../../../components/Form"
+import { Button, FormFooter, Groups, FormField } from "../../../../components/Form/Form.js"
 
 class OciDnsProviderFormTemplate extends Component {
 

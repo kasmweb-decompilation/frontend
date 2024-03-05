@@ -6,7 +6,7 @@ import {getGroups} from "../../../actions/actionGroup";
 import { withRouter } from "react-router-dom";
 import Proptypes from "prop-types";
 import {withTranslation} from "react-i18next";
-import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form"
+import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form/Form.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLayerPlus } from '@fortawesome/free-solid-svg-icons/faLayerPlus';
 

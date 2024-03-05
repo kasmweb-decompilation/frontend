@@ -4,7 +4,7 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaintbrushFine } from '@fortawesome/free-solid-svg-icons/faPaintbrushFine';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 import {createBrandingConfig} from '../../../actions/actionBranding';
 
 const parentRouteList = parentRoutes('/branding')

@@ -7,7 +7,7 @@ import { NotificationManager } from "react-notifications";
 import Proptypes from "prop-types";
 import DataTable from "../../components/Table/Table";
 import { ConfirmAction, SettingColumn } from "../../components/Table/NewTable";
-import { notifySuccess, notifyFailure, CopyToClipboard } from "../../components/Form";
+import { notifySuccess, notifyFailure, CopyToClipboard } from "../../components/Form/Form.js";
 import moment from "moment";
 import { withRouter } from "react-router-dom";
 import Select from "react-select";
@@ -22,7 +22,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import { faPlus } from '@fortawesome/free-solid-svg-icons/faPlus';
 import PageHeader from "../../components/Header/PageHeader";
 import { RenderToggle } from "../../utils/formValidations";
-import { Modal, ModalFooter } from "../../components/Form/Modal"
+import { Modal, ModalFooter } from "../../components/Form/Modal.js"
 
 const ConditionalWrapper = ({ condition, wrapper, children }) => condition ? wrapper(children) : children;
 

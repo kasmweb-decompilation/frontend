@@ -8,11 +8,11 @@ import { withRouter } from "react-router-dom";
 
 import Proptypes from "prop-types";
 import {renderToggle, renderField, renderSelectField, renderTextArea, required} from "../../../utils/formValidations";
-import { getLicenseStatus} from "../../../actions/actionFooter";
-import MappingTable from "../../../components/MappingTable/";
+import { getLicenseStatus} from "../../../actions/actionFooter.js";
+import MappingTable from "../../../components/MappingTable/MappingTable.js";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShieldKeyhole } from '@fortawesome/free-solid-svg-icons/faShieldKeyhole';
+import { faShieldKeyhole } from '@fortawesome/free-solid-svg-icons/faShield';
 import { faVial } from '@fortawesome/free-solid-svg-icons/faVial';
 import { faList } from '@fortawesome/free-solid-svg-icons/faList';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";

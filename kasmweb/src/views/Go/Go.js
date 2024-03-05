@@ -18,7 +18,7 @@ import "react-select/dist/react-select.css";
 import queryString from "query-string";
 import {withTranslation} from "react-i18next";
 import { LaunchForm, checkRequiredSectionsAgainstLocal, localLaunchSelections } from "../../components/Form/LaunchForm";
-import { Modal } from "../../components/Form/Modal";
+import { Modal } from "../../components/Form/Modal.js";
 import { KasmIcon } from "../User/UserDashboard/ListKasms";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleNotch } from "@fortawesome/free-solid-svg-icons/faCircleNotch";

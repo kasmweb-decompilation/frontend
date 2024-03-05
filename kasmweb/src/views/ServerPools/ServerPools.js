@@ -14,10 +14,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faObjectGroup } from '@fortawesome/free-solid-svg-icons/faObjectGroup';
 import { faScaleBalanced } from '@fortawesome/free-solid-svg-icons/faScaleBalanced';
 import { faCube } from '@fortawesome/free-solid-svg-icons/faCube';
-import { faChartNetwork } from '@fortawesome/free-solid-svg-icons/faChartNetwork';
+import { faChartNetwork } from '@fortawesome/free-solid-svg-icons/faChartSimple';
 import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
-import { Button } from "../../components/Form"
+import { Button } from "../../components/Form/Form.js"
 import { ConfirmAction } from "../../components/Table/NewTable";
 import { hasAuth } from "../../utils/axios";
 

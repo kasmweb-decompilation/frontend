@@ -10,7 +10,7 @@ import { getDnsProviderConfigs, deleteDnsProviderConfig } from "../../actions/ac
 import {withTranslation} from "react-i18next";
 import { StandardColumn, ConfirmAction } from "../../components/Table/NewTable";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChartNetwork } from '@fortawesome/free-solid-svg-icons/faChartNetwork';
+import { faChartNetwork } from '@fortawesome/free-solid-svg-icons/faChartSimple';
 import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader, { parentRoutes } from "../../components/Header/PageHeader";
 

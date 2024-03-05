@@ -5,7 +5,7 @@ import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlug } from '@fortawesome/free-solid-svg-icons/faPlug';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 
 const parentRouteList = parentRoutes('/connection_proxies')
 const newRoutes = [

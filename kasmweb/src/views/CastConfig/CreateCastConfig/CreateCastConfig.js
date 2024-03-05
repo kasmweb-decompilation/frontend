@@ -2,7 +2,7 @@ import React from "react";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 import { faRss } from '@fortawesome/free-solid-svg-icons/faRss';
 import {createCastConfig} from '../../../actions/actionCast';
 import CastConfigForm from "../CastConfigForm/CastConfigForm";

@@ -17,7 +17,7 @@ import { faCalendar } from "@fortawesome/free-solid-svg-icons/faCalendar";
 import { faCloudArrowDown } from "@fortawesome/free-solid-svg-icons/faCloudArrowDown";
 import { Preview } from "./Preview";
 import { downloadZip } from "client-zip";
-import { Modal } from "../../components/Form/Modal";
+import { Modal } from "../../components/Form/Modal.js";
 import { faCircleNotch } from "@fortawesome/free-solid-svg-icons/faCircleNotch";
 import { serverLog } from "../../actions/actionServerLog";
 

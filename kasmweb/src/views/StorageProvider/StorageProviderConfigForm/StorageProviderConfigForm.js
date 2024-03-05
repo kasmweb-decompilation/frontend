@@ -13,7 +13,7 @@ import { withRouter } from "react-router-dom";
 import Proptypes from "prop-types";
 import {getStorageProviders } from "../../../actions/actionStorageProvider";
 import {withTranslation} from "react-i18next";
-import { Groups, Group, FormFooter } from "../../../components/Form"
+import { Groups, Group, FormFooter } from "../../../components/Form/Form.js"
 
 class StorageProviderConfigFormTemplate extends Component {
     constructor (props){

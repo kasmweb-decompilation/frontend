@@ -2,11 +2,11 @@ import React,{ useState } from "react";
 import LdapForm from "../LdapForm/LdapForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShieldKeyhole } from '@fortawesome/free-solid-svg-icons/faShieldKeyhole';
+import { faShieldKeyhole } from '@fortawesome/free-solid-svg-icons/faShield';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
-import { Form } from "../../../components/Form"
+import { Form } from "../../../components/Form/Form.js"
 import { updateLdap } from "../../../actions/actionLdap";
-import MappingTable from "../../../components/MappingTable/";
+import MappingTable from "../../../components/MappingTable/MappingTable.js";
 
 const parentRouteList = parentRoutes('/ldap')
 const newRoutes = [

@@ -8,7 +8,7 @@ import moment from "moment";
 import ReactJson from 'react-json-view';
 import { Progress } from 'reactstrap';
 import {withTranslation} from "react-i18next";
-import { Groups, Group, ViewField } from "../../../components/Form"
+import { Groups, Group, ViewField } from "../../../components/Form/Form.js"
 import { renderField } from "../../../utils/formValidations.js";
 import { bytesToSize } from "../../../utils/helpers"
 

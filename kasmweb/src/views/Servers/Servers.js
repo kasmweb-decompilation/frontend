@@ -15,7 +15,7 @@ import Select from "react-select";
 import "react-select/dist/react-select.css";
 import {withTranslation} from "react-i18next";
 import { StandardColumn, ConfirmAction } from "../../components/Table/NewTable";
-import { notifySuccess, notifyFailure, CopyToClipboard } from "../../components/Form";
+import { notifySuccess, notifyFailure, CopyToClipboard } from "../../components/Form/Form.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaperclip } from '@fortawesome/free-solid-svg-icons/faPaperclip';
 import { faServer } from '@fortawesome/free-solid-svg-icons/faServer';
@@ -23,7 +23,7 @@ import { faCircleMinus } from '@fortawesome/free-solid-svg-icons/faCircleMinus';
 import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { RenderToggle } from "../../utils/formValidations";
-import { Modal, ModalFooter } from "../../components/Form/Modal";
+import { Modal, ModalFooter } from "../../components/Form/Modal.js";
 
 const ConditionalWrapper = ({ condition, wrapper, children }) => condition ? wrapper(children) : children;
 
