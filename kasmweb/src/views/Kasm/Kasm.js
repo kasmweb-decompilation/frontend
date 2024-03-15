@@ -14,7 +14,7 @@ import IframeComponent from "../../components/IframeComponent/component";
 import GenericModal from "../../components/GenericModal/GenericModal";
 import ControlPanel from "../../components/ControlPanel/ControlPanel";
 import Proptypes from "prop-types";
-import "react-select/dist/react-select.css";
+
 import {
   getUserAttributes,
   updateUserAttribute,

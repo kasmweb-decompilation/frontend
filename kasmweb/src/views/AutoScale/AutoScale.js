@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import { getAutoScaleConfigs, deleteAutoScaleConfig, setAutoScalePageInfo, updateAutoScaleConfig } from "../../actions/actionAutoScale";
 import { withRouter } from "react-router-dom";
 import Select from "react-select";
-import "react-select/dist/react-select.css";
+
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faScaleBalanced } from '@fortawesome/free-solid-svg-icons/faScaleBalanced';

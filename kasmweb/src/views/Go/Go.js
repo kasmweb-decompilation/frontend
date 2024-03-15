@@ -14,7 +14,7 @@ import {
 import { logout } from "../../actions/actionLogin";
 import { NotificationManager } from "react-notifications";
 import Proptypes from "prop-types";
-import "react-select/dist/react-select.css";
+
 import queryString from "query-string";
 import {withTranslation} from "react-i18next";
 import { LaunchForm, checkRequiredSectionsAgainstLocal, localLaunchSelections } from "../../components/Form/LaunchForm";

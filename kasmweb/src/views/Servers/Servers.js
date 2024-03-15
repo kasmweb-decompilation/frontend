@@ -12,7 +12,7 @@ import { SettingColumn } from "../../components/Table/NewTable";
 import moment from "moment";
 import { Link, withRouter } from "react-router-dom";
 import Select from "react-select";
-import "react-select/dist/react-select.css";
+
 import {withTranslation} from "react-i18next";
 import { StandardColumn, ConfirmAction } from "../../components/Table/NewTable";
 import { notifySuccess, notifyFailure, CopyToClipboard } from "../../components/Form/Form.js";

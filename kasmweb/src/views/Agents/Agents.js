@@ -11,7 +11,6 @@ import { notifySuccess, notifyFailure, CopyToClipboard } from "../../components/
 import moment from "moment";
 import { withRouter } from "react-router-dom";
 import Select from "react-select";
-import "react-select/dist/react-select.css";
 import {withTranslation} from "react-i18next";
 import { bytesToSize } from"../../utils/helpers"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

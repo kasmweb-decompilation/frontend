@@ -18,7 +18,7 @@ import { NotificationManager } from "react-notifications";
 import Select from "react-select";
 import { Field, reduxForm } from "redux-form";
 import { withRouter, Link } from "react-router-dom";
-import "react-select/dist/react-select.css";
+
 import Proptypes from "prop-types";
 import DataTable from "../../../components/Table/Table";
 import { DescriptionColumn, SettingColumn, ImageColumn, ConfirmAction } from "../../../components/Table/NewTable";

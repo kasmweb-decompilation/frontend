@@ -8,13 +8,11 @@ import {
 import { connect } from "react-redux";
 import { logout } from "../../actions/actionLogin";
 import { Link } from "react-router-dom";
-import allApps from "../../../assets/images/apps.png";
 import apps from "../../../assets/images/workspaces.svg";
 
-import { USER_NAME } from "../../constants/Constants";
-import UserProfile from "../../components/UserProfile";
+import { USER_NAME } from "../../constants/Constants.js";
+import UserProfile from "../../components/UserProfile/UserProfile.js";
 import _ from "lodash";
-import getUserNavigationBarItems from "../Sidebar/getUserNavigationBar";
 
 import "./Header.css";
 import configure from "../../../assets/images/configure.svg";

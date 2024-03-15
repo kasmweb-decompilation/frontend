@@ -16,7 +16,7 @@ import { connect } from "react-redux";
 import RemainingTime from "./RemainingTime";
 import Proptypes from "prop-types";
 import Select from "react-select";
-import "react-select/dist/react-select.css";
+
 import moment from "moment";
 import { withRouter } from "react-router";
 import { Link } from "react-router-dom";

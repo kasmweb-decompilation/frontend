@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Select from "react-select";
-import "react-select/dist/react-select.css";
+
 import Proptypes from "prop-types";
 
 class SelectInput extends Component {
