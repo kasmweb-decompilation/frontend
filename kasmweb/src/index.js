@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import { PersistGate } from 'redux-persist/integration/react';
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
-import browserHistory from "@types/history/createBrowserHistory";
+// import browserHistory from "@types/history/createBrowserHistory";
 import './i18n.js';
 
 // Styles
@@ -190,12 +190,13 @@ function PrivateRoute ({component: Component, ...rest}) {
 
 // Set Timezone
 window.localStorage.setItem('timezone', Intl.DateTimeFormat().resolvedOptions().timeZone)
-
+// <Provider store={store} history={browserHistory}>
 ReactDOM.render((
     <div>
-    <Suspense fallback={<LoadingSpinner />}>
+    <Provider>
+    <Suspense fallback={<LoadingSpinner />}> 
     <NotificationContainer/>
-    <Provider store={store} history={browserHistory}>
+    
     <PersistGate  persistor={persistor}>
         <HashRouter>
             <Switch>
@@ -221,8 +222,9 @@ ReactDOM.render((
             </Switch>
         </HashRouter>
     </PersistGate>
-    </Provider>
     </Suspense>
+    </Provider>
+    
     </div>
 ), document.getElementById("root"));
 
