@@ -3,7 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
 import common_en from "../public/locales/en/common.json";
-
+const __KASM_BUILD_ID__ = '0.0.0.dev'
 i18n
   .use(Backend)
   .use(LanguageDetector)
