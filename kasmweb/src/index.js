@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import { PersistGate } from 'redux-persist/integration/react';
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
-import browserHistory from "history/createBrowserHistory";
+import browserHistory from "@types/history/createBrowserHistory";
 import './i18n.js';
 
 // Styles

@@ -50,7 +50,7 @@ img {
     border-color: var(--border2-color);
 }
 .Select--single .Select-value, .Select-placeholder {
-    @apply !tw-pl-4
+    @apply !tw-pl-4;
 }
 .Select-multi-value-wrapper {
 }
@@ -62,7 +62,7 @@ img {
 }
 
 .form-group {
-    @apply tw-mb-6 tw-w-full tw-max-w-lg
+    @apply tw-mb-6 tw-w-full tw-max-w-lg;
 }
 
 .input {
@@ -108,7 +108,7 @@ textarea:disabled {
 }
 
 .sidebar-fixed.sidebar-minimized .form-footer {
-    @apply lg:tw-ml-12
+    @apply lg:tw-ml-12;
 }
 .sidebar .sidebar-nav {
     @apply tw-p-2;
