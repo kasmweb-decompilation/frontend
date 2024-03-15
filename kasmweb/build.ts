@@ -9,7 +9,7 @@ console.log("[ℹ️] Building...")
     bundle: true,
     logLimit: 0,
     outdir: 'dist',
-    logLevel:"info",
+    logLevel:"error",
     minify: true,
     assetNames: 'assets/[name]-[hash]',
     plugins: [sassPlugin()],
@@ -27,6 +27,8 @@ console.log("[ℹ️] Building...")
       '.eot': 'file'
   
     }
+  }).catch(dummy => {
+    console.error('[❌] Build failed. See above errors.');process.exit(1);
   }).then(async dummy => {
     try {
       console.log("[ℹ️] Moving files from public to dist...")
