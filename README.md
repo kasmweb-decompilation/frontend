@@ -9,7 +9,7 @@ cd kasmweb/
 npm i --legacy-peer-deps
 node build.cjs
 ```
-**DO NOT build this using Webpack. ESBuild is so much faster.**
+**DO NOT build this using Webpack, as it will take an extremely long amount of time. ESBuild is so much faster.**
 
 ## `TODO`:
 
