@@ -34,7 +34,7 @@ async function zipFolder(sourceFolder, zipFilePath) {
   const output = fs.createWriteStream(zipFilePath);
   let end = false;
   const archive = archiver('zip', {
-      zlib: { level: 7 } // Set compression level
+      zlib: { level: 9 } // Set compression level
   });
   archive.pipe(output);
   archive.directory(sourceFolder, true);
@@ -60,6 +60,7 @@ console.log("[ℹ️] Building...")
     entryPoints: ['src/index.js'],
     bundle: true,
     logLimit: 0,
+    sourcemap:true,
     outdir: 'dist',
     logLevel:"error",
     minify: true,
