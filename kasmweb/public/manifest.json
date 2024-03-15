@@ -1,0 +1,23 @@
+{
+    "short_name": "Workspaces",
+    "name": "Workspaces",
+    "icons": [
+      {
+        "src": "/img/favicon.png",
+        "sizes": "1024x1024",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/img/favicon.png",
+        "sizes": "1024x1024",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
+  
