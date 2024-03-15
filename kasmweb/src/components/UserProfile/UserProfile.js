@@ -47,7 +47,7 @@ import { languages } from "../../utils/helpers";
 import { SetTwoFactorModal } from "../SetTwoFactorModal/SetTwoFactorModal";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons/faChevronRight";
 import { faBan } from "@fortawesome/free-solid-svg-icons/faBan";
-import { faArrowUpFromLine } from "@fortawesome/free-solid-svg-icons/faArrowUpFromLine";
+import { faUpload } from "@fortawesome/free-solid-svg-icons/faUpload";
 
 const validate = values => {
   const errors = {};
@@ -1072,7 +1072,7 @@ async submitClearMultifactor(data) {
             <div className="">
               <button onClick={() => this.setState({passwordModal: true, password: ''})} className="tw-rounded tw-h-10 tw-bg-blue-500 hover:tw-bg-slate-600 tw-text-white tw-flex tw-items-center tw-transition">
                 <span className="tw-h-10 tw-w-12 tw-flex tw-justify-center tw-items-center tw-bg-black/10">
-                  <FontAwesomeIcon viewBox="0 0 384 512" className="tw-w-5 tw-h-5 tw-fill-white" icon={faArrowUpFromLine}/>
+                  <FontAwesomeIcon viewBox="0 0 384 512" className="tw-w-5 tw-h-5 tw-fill-white" icon={faUpload}/>
 
                 </span>
                 <span className="tw-min-w-[176px] tw-px-2">{t("profile.add_second_factor")}</span>

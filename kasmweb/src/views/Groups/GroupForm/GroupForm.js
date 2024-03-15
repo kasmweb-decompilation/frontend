@@ -8,7 +8,7 @@ import Proptypes from "prop-types";
 import {withTranslation} from "react-i18next";
 import { Groups, Group, FormField, Button, FormFooter } from "../../../components/Form/Form.js"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLayerPlus } from '@fortawesome/free-solid-svg-icons/faLayerPlus';
+import { faLayerGroup } from '@fortawesome/free-solid-svg-icons/faLayerGroup';
 
 
 class GroupFormTemplate extends Component  {
@@ -106,7 +106,7 @@ class GroupFormTemplate extends Component  {
                         </div>
                         )}
 
-                        <div><Button section="groups" onClick={() => this.addMetaRow()} icon={<FontAwesomeIcon icon={faLayerPlus} />} name="add-row" color="tw-bg-slate-500" /></div>
+                        <div><Button section="groups" onClick={() => this.addMetaRow()} icon={<FontAwesomeIcon icon={faLayerGroup} />} name="add-row" color="tw-bg-slate-500" /></div>
 
                     </Group>
                     <FormFooter cancel={() => this.props.history.push("/groups")} />

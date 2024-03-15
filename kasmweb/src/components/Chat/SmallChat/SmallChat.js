@@ -3,7 +3,7 @@ import {  Row, Col} from "reactstrap";
 import { withRouter } from "react-router";
 import { connect } from "react-redux";
 import { Picker } from 'emoji-mart';
-import 'emoji-mart/css/emoji-mart.css'
+import '../emoji-mart/css/emoji-mart.css'
 import Draggable from 'react-draggable';
 import Toggle from "react-toggle";
 import {withTranslation} from "react-i18next";

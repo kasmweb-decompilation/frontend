@@ -19,7 +19,7 @@ import {
   getUserAttributes,
   updateUserAttribute,
 } from "../../actions/actionUser";
-import ShareBanner from "../../components/ShareBanner";
+import ShareBanner from "../../components/ShareBanner/ShareBanner.js";
 import ChatComponent from "../../components/Chat/ChatComponent.js";
 import SmallChat from "../../components/Chat/SmallChat/SmallChat.js";
 import message_audio from "../../../assets/audio/message_recieved.mp3";

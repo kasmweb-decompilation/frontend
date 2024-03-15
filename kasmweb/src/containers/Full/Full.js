@@ -18,7 +18,7 @@ import UserDashboard from "../../views/User/UserDashboard/UserDashboard.js";
 import UserSubscription from "../../views/User/UserSubscription/UserSubscription.js";
 
 // Groups, create Groups, update Groups
-import Groups from "../../views/Groups/";
+import Groups from "../../views/Groups/Groups.js";
 import CreateGroup from "../../views/Groups/CreateGroup/CreateGroup.js";
 import UpdateGroup from "../../views/Groups/UpdateGroup/UpdateGroup.js";
 
@@ -52,7 +52,7 @@ import ServerPools from "../../views/ServerPools/ServerPools.js";
 import CreateServerPool  from "../../views/ServerPools/CreateServerPool/CreateServerPool.js"
 import UpdateServerPool from "../../views/ServerPools/UpdateServerPool/UpdateServerPool.js";
 
-import Servers from "../../views/Servers/";
+import Servers from "../../views/Servers/Servers.js";
 import CreateServer  from "../../views/Servers/CreateServer/CreateServer.js"
 import UpdateServer from "../../views/Servers/UpdateServer/UpdateServer.js";
 
