@@ -14,6 +14,12 @@ build({
     '.png': 'copy',
     '.jpg': 'copy',
     '.gif': 'copy',
-    '.mp3': 'copy'
+    '.mp3': 'copy',
+    '.ttf': 'file',
+    '.woff2': 'file',
+    '.woff': 'file',
+    '.ttf': 'file',
+    '.eot': 'file'
+
   }
 }).catch(() => process.exit(1));

@@ -14,7 +14,7 @@ import "./simple-line-icons/css/simple-line-icons.css";
 import "../scss/style.scss";
 // Temp fix for reactstrap
 import "../scss/core/_dropdown-menu-right.scss";
-import "./react-notifications/dist/react-notifications.css";
+import "./react-notifications/react-notifications.css";
 import Proptypes from "prop-types";
 
 //Styles for the dropzone component
