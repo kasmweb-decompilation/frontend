@@ -7,7 +7,7 @@ Decompilation of the Kasm Workspaces frontend with fixes to use free packages an
 ```bash
 cd kasmweb/
 npm i --legacy-peer-deps # Legacy peer deps is REQUIRED for every package uninstall/install
-node build.cjs # This also automatically zips for you
+node build.ts # This also automatically zips for you
 ```
 **DO NOT build this using Webpack, as it will take an extremely long amount of time. ESBuild is so much faster.**
 
