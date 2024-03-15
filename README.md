@@ -3,6 +3,13 @@ Decompilation of the Kasm Workspaces frontend with fixes to use free packages an
 
 **Info**: The original sourcemaps are gzipped as they are extremely large.
 
+## How to Build?
+```bash
+cd kasmweb/
+npm i --legacy-peer-deps
+node build.cjs
+```
+
 ## `TODO`:
 
 - **Mapping Webpack'd files**:
