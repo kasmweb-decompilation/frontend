@@ -7,19 +7,19 @@ import './i18n.js';
 
 // Styles
 // Import Flag Icons Set
-import "flag-icon-css/css/flag-icon.min.css";
+import "./flag-icon-css/css/flag-icon.min.css";
 // Import Simple Line Icons Set
-import "simple-line-icons/css/simple-line-icons.css";
+import "./simple-line-icons/css/simple-line-icons.css";
 // Import Main styles for this application
 import "../scss/style.scss";
 // Temp fix for reactstrap
 import "../scss/core/_dropdown-menu-right.scss";
-import "react-notifications/dist/react-notifications.css";
+import "./react-notifications/dist/react-notifications.css";
 import Proptypes from "prop-types";
 
 //Styles for the dropzone component
-import "react-dropzone-component/styles/filepicker.css";
-import "dropzone/dist/min/dropzone.min.css";
+import "./react-dropzone-component/styles/filepicker.css";
+import "./dropzone/dist/min/dropzone.min.css";
 
 import "./tailwind.css";
 
