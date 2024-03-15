@@ -10,6 +10,26 @@ let zipStats = {"size":0,}
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+function humanSize(bytes) {
+  let kb = Math.floor((bytes / 1024)*100)/100;
+  let mb = Math.floor((kb / 1024)*100)/100;
+  let gb = Math.floor((mb / 1024)*100)/100;
+  let tb = Math.floor((gb / 1024)*100)/100;
+
+  switch (true) {
+      case (tb > 0.8):
+          return `${tb} TB`;
+      case (gb > 0.8):
+          return `${gb} GB`;
+      case (mb > 0.8):
+          return `${mb} MB`;
+      case (kb > 0.8):
+          return `${kb} KB`;
+      default:
+          return `${bytes} B`;
+  }
+}
+
 async function zipFolder(sourceFolder, zipFilePath) {
   const output = fs.createWriteStream(zipFilePath);
   let end = false;
@@ -17,7 +37,7 @@ async function zipFolder(sourceFolder, zipFilePath) {
       zlib: { level: 7 } // Set compression level
   });
   archive.pipe(output);
-  archive.directory(sourceFolder, false);
+  archive.directory(sourceFolder, true);
   archive.on('close', () => {
     zipStats.size = archive.pointer();
     end = true
@@ -68,7 +88,7 @@ console.log("[ℹ️] Building...")
       console.log('[✅] Build complete!');
       console.log("[🚚] Zipping...")
       await zipFolder("dist/",__dirname +"/dist.zip")
-      console.log(`[✅] Zip archive finished! (${zipStats.size} bytes)`);
+      console.log(`[✅] Zip archive finished! (${humanSize(zipStats.size)})`);
       process.exit(0)
     
   
