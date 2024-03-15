@@ -1,6 +1,6 @@
 import {createStore, compose, applyMiddleware} from "redux";
 import {routerMiddleware} from "react-router-redux";
-import thunk from "redux-thunk";
+import {thunk} from "redux-thunk";
 import createReducer from "./models/index";
 import { persistStore, persistReducer } from 'redux-persist';
 import { createWhitelistFilter } from "redux-persist-transform-filter";

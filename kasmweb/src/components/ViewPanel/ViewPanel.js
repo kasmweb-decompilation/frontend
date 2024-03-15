@@ -2,29 +2,17 @@ import React, { Component } from "react";
 import {
   Table,
 } from "reactstrap";
-import { post } from "axios";
 import { withRouter } from "react-router";
 import "react-toggle/style.css";
-import Toggle from "react-toggle";
-import moment from "moment";
-import JSMpeg from "jsmpeg-player";
 import Proptypes from "prop-types";
 import "rc-slider/assets/index.css";
 import { connect } from "react-redux";
 import Select from "react-select";
-import Slider, { createSliderWithTooltip } from "rc-slider";
-import { NotificationManager } from "react-notifications";
 import stopReload from "../../constants/Constants";
 import {
   destroyKasmShareId,
   createKasmShareId,
 } from "../../actions/actionDashboard";
-import ChatComponent from "../Chat/ChatComponent";
-import soundEnabled from "../../../assets/images/soundEnabled.png";
-import soundDisabled from "../../../assets/images/soundDisabled.png";
-import leftArrow from "../../../assets/images/leftArrow.png";
-import logout from "../../../assets/images/logout.svg";
-import apps from "../../../assets/images/apps.png";
 import cross from "../../../assets/images/cross.png";
 import audio from "../../audio";
 import gamepad from "../../../assets/images/gamepad.svg";
