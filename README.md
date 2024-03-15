@@ -9,6 +9,7 @@ cd kasmweb/
 npm i --legacy-peer-deps
 node build.cjs
 ```
+**DO NOT build this using Webpack. ESBuild is so much faster.**
 
 ## `TODO`:
 
@@ -19,5 +20,5 @@ node build.cjs
 
 - **Other**
 - [x] Make a `package.json` file from `node_modules`
-- [ ] Somehow find a way to build this mess
+- [x] Somehow find a way to build this mess
 - [ ] Does this even work?
