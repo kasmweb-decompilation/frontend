@@ -59,8 +59,8 @@ import { faChevronUp } from "@fortawesome/free-solid-svg-icons/faChevronUp";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons/faChevronRight";
 import { faCopy } from "@fortawesome/free-solid-svg-icons/faCopy";
 import { faShare } from "@fortawesome/free-solid-svg-icons/faShare";
-import { faVolumeHigh } from "@fortawesome/free-solid-svg-icons/faVolumeHighHigh";
-import { faVolumeHighXmark } from "@fortawesome/free-solid-svg-icons/faVolumeHighXmark";
+import { faVolumeHigh } from "@fortawesome/free-solid-svg-icons/faVolumeHigh";
+import { faVolumeXmark } from "@fortawesome/free-solid-svg-icons/faVolumeXmark";
 import classNames from "classnames";
 import { faCameraWeb } from "@fortawesome/free-solid-svg-icons/faToggleOn";
 import { faCameraWebSlash } from "@fortawesome/free-solid-svg-icons/faToggleOff";
@@ -1655,7 +1655,7 @@ class ControlPanel extends Component {
               {statusKasms.client_settings.allow_kasm_audio == true && (
                 <ToggleButton 
                   icon={<FontAwesomeIcon size="lg" icon={faVolumeHigh} />}
-                  disabledIcon={<FontAwesomeIcon size="lg" icon={faVolumeHighXmark} />}
+                  disabledIcon={<FontAwesomeIcon size="lg" icon={faVolumeXmark} />}
                   disabled={!this.state.audio}
                   onClick={() => this.handleAudioChange(!this.state.audio)}
                   type="toggle"

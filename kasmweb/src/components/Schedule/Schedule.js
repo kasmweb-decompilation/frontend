@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { deleteSchedule, createSchedule, updateSchedule, getSchedules  } from "../../actions/actionSchedule";
-import { getTimezones } from "../../actions/actionUser";
+import { deleteSchedule, createSchedule, updateSchedule, getSchedules  } from "../../actions/actionSchedule.js";
+import { getTimezones } from "../../actions/actionUser.js";
 import { Field, reduxForm } from "redux-form";
 import Proptypes from "prop-types";
 import DataTable from "../../components/Table/Table";
@@ -10,11 +10,11 @@ import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBoxArchive } from '@fortawesome/free-solid-svg-icons/faBoxArchive';
 import { faCircleMinus } from '@fortawesome/free-solid-svg-icons/faCircleMinus';
-import { ConfirmAction } from "../../components/Table/NewTable";
-import { FormField, Groups } from "../Form/Form";
-import { Modal, ModalFooter } from "../Form/Modal";
-import {renderField} from "../../utils/formValidations";
-import SelectInput from "../SelectInput";
+import { ConfirmAction } from "../../components/Table/NewTable.js";
+import { FormField, Groups } from "../Form/Form.js";
+import { Modal, ModalFooter } from "../Form/Modal.js";
+import {renderField} from "../../utils/formValidations.js";
+import SelectInput from "../SelectInput/SelectInput.js";
 
 const defaultScheduleState = {
   daysOfTheWeek: [1, 2, 3, 4, 5],

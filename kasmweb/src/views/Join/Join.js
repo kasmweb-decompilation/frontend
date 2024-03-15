@@ -1,20 +1,20 @@
 import React, {Component} from "react";
 import { connect } from "react-redux";
 import { Row, Col } from "reactstrap";
-import IframeComponent from "../../components/IframeComponent/component";
+import IframeComponent from "../../components/IframeComponent/component.js";
 import Proptypes from "prop-types";
-import {getJoinKasm} from "../../actions/actionDashboard";
-import {getUserAttributes} from "../../actions/actionUser";
+import {getJoinKasm} from "../../actions/actionDashboard.js";
+import {getUserAttributes} from "../../actions/actionUser.js";
 import { NotificationManager } from "react-notifications";
-import ViewPanel from "../../components/ViewPanel/ViewPanel";
-import ShareBanner from "../../components/ShareBanner";
+import ViewPanel from "../../components/ViewPanel/ViewPanel.js";
+import ShareBanner from "../../components/ShareBanner/ShareBanner.js";
 import ChatComponent from "../../components/Chat/ChatComponent.js";
 import SmallChat from "../../components/Chat/SmallChat/SmallChat.js";
 import message_audio from "../../../assets/audio/message_recieved.mp3";
 import join_audio from "../../../assets/audio/member_joined.mp3";
-import {logout} from "../../actions/actionLogin";
+import {logout} from "../../actions/actionLogin.js";
 import queryString from "query-string"
-import stopReload from "../../constants/Constants";
+import stopReload from "../../constants/Constants.js";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComments } from "@fortawesome/free-solid-svg-icons/faComments";

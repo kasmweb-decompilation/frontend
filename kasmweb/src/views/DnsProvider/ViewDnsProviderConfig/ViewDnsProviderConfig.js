@@ -2,12 +2,12 @@ import React,{ Component } from "react";
 import {connect} from "react-redux";
 import { Row, Col, Table, Card, CardBody, CardHeader, Button} from "reactstrap";
 import Proptypes from "prop-types";
-import {getDnsProviderConfigs} from "../../../actions/actionDnsProvider"
-import ViewAzureVmProviderConfig from "../../../components/Providers/Azure/AzureDnsView";
-import ViewAwsVmProviderConfig from "../../../components/Providers/Aws/AwsDnsView";
-import ViewDigitalOceanVmProviderConfig from "../../../components/Providers/DigitalOcean/DigitalOceanDnsView";
-import ViewGcpVmProviderConfig from "../../../components/Providers/Gcp/GcpDnsView";
-import ViewOciVmProviderConfig from "../../../components/Providers/Oci/OciDnsView";
+import {getDnsProviderConfigs} from "../../../actions/actionDnsProvider.js"
+import ViewAzureVmProviderConfig from "../../../components/Providers/Azure/AzureDnsView/AzureDnsView.js";
+import ViewAwsVmProviderConfig from "../../../components/Providers/Aws/AwsDnsView/AwsDnsView.js";
+import ViewDigitalOceanVmProviderConfig from "../../../components/Providers/DigitalOcean/DigitalOceanDnsView/DigitalOceanDnsView.js";
+import ViewGcpVmProviderConfig from "../../../components/Providers/Gcp/GcpDnsView/GcpDnsView.js";
+import ViewOciVmProviderConfig from "../../../components/Providers/Oci/OciDnsView/OciDnsView.js";
 import {withTranslation} from "react-i18next";
 
 class ViewDnsProviderConfig extends Component{

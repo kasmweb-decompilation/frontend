@@ -13,7 +13,7 @@ import {SettingColumn} from "../../components/Table/NewTable";
 import DataTable from "../../components/Table/Table";
 import { NotificationManager } from "react-notifications";
 import {withTranslation} from "react-i18next";
-import SelectInput from "../SelectInput";
+import SelectInput from "../SelectInput/SelectInput.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBoxArchive } from '@fortawesome/free-solid-svg-icons/faBoxArchive';
 import { faCircleMinus } from '@fortawesome/free-solid-svg-icons/faCircleMinus';
