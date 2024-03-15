@@ -14,7 +14,7 @@ export const hasAuth = (check) => {
   }
   return false
 } 
-
+__CLOUD_SERVER__ = window.location.protocol + "//" + window.location.hostname + "/api/"
 export const api = axios.create({
   baseURL: `${__CLOUD_SERVER__}`,
   headers: {

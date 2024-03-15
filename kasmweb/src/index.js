@@ -5,6 +5,8 @@ import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 // import browserHistory from "@types/history/createBrowserHistory";
 import './i18n.js';
 
+const __CLOUD_SERVER__ = window.location.protocol + "//" + window.location.hostname + "/api/"
+
 // Styles
 // Import Flag Icons Set
 import "./flag-icon-css/css/flag-icon.min.css";
