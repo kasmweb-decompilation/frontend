@@ -9,11 +9,11 @@ import Toggle from "react-toggle";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons/faChevronUp";
-import { faVolumeOff } from "@fortawesome/free-solid-svg-icons/faVolumeOff";
+import { faVolumeHighOff } from "@fortawesome/free-solid-svg-icons/faVolumeHighOff";
 import { faLocationArrow } from "@fortawesome/free-solid-svg-icons/faLocationArrow";
 import { faMinus } from "@fortawesome/free-solid-svg-icons/faMinus";
 import { faSmile } from "@fortawesome/free-solid-svg-icons/faSmile";
-import { faVolumeUp } from "@fortawesome/free-solid-svg-icons/faVolumeUp";
+import { faVolumeHighUp } from "@fortawesome/free-solid-svg-icons/faVolumeHighUp";
 
 
 var ping;
@@ -149,9 +149,9 @@ class SmallChat extends Component {
                         <div className="movable" style={{display:'flex', padding: '7px', margin: '-1px', backgroundColor: 'rgba(200,200,200,0.2)'}}>
                             <span className="text-white pl-2 pr-2" style={{width: '34px'}} onClick={this.props.toggleAudio}>
                                 { this.props.audio ?
-                                    <FontAwesomeIcon icon={faVolumeUp} />
+                                    <FontAwesomeIcon icon={faVolumeHighUp} />
                                     :
-                                    <FontAwesomeIcon icon={faVolumeOff} />
+                                    <FontAwesomeIcon icon={faVolumeHighOff} />
                                 }
                             </span>
                             <div className="text-right text-white" style={{width:'100%'}}>

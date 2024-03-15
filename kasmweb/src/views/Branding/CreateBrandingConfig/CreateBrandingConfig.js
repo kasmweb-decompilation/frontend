@@ -2,7 +2,7 @@ import React from "react";
 import BrandingConfigForm from "../BrandingConfigForm/BrandingConfigForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaintbrushFine } from '@fortawesome/free-solid-svg-icons/faPaintbrushFine';
+import { faPaintbrush } from '@fortawesome/free-solid-svg-icons/faPaintbrush';
 import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
 import { Form } from "../../../components/Form/Form.js"
 import {createBrandingConfig} from '../../../actions/actionBranding';
@@ -26,7 +26,7 @@ export default function CreateBrandingConfig(props) {
 
     return (
         <div>
-        <PageHeader location={props.location} routes={typeof newRoutes !== 'undefined' ? newRoutes : null} title={t('branding.Create Branding Config')} icon={<FontAwesomeIcon icon={faPaintbrushFine} />} />
+        <PageHeader location={props.location} routes={typeof newRoutes !== 'undefined' ? newRoutes : null} title={t('branding.Create Branding Config')} icon={<FontAwesomeIcon icon={faPaintbrush} />} />
         <Form 
             tabList={tabList}
             currentTab="form"

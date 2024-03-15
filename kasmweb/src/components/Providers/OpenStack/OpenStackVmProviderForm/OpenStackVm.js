@@ -9,7 +9,7 @@ import {
   number,
   renderToggle,
 } from "../../../../utils/formValidations.js";
-import SelectInput from "../../../../components/SelectInput";
+import SelectInput from "../../../../components/SelectInput/SelectInput.js";
 import { Field, reduxForm, formValueSelector } from "redux-form";
 import { withRouter } from "react-router-dom";
 import {withTranslation} from "react-i18next";

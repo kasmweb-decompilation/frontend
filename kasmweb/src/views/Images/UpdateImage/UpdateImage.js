@@ -1,14 +1,14 @@
 import React,{ useState } from "react";
 import { useSelector } from 'react-redux'
-import { updateImages } from "../../../actions/actionImage";
+import { updateImages } from "../../../actions/actionImage.js";
 import ImageForm from "../ImageForm/ImageForm";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBoxesStacked } from '@fortawesome/free-solid-svg-icons/faBoxesStacked';
-import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
+import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader.js";
 import { Form } from "../../../components/Form/Form.js"
-import FileMapping from "../../../components/FileMapping/FileMapping";
-import StorageMapping from "../../../components/StorageMapping";
+import FileMapping from "../../../components/FileMapping/FileMapping.js";
+import StorageMapping from "../../../components/StorageMapping/StorageMapping.js";
 import { notifySuccess, notifyFailure } from "../../../components/Form/Form.js"
 
 const parentRouteList = parentRoutes('/workspaces')

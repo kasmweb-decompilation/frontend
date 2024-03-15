@@ -35,8 +35,8 @@ import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons/faArr
 import { RenderToggle } from "../../utils/formValidations";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons/faAngleRight";
 import { ControlButton } from "../ControlPanel/ControlButton";
-import { faVolume } from "@fortawesome/free-solid-svg-icons/faVolume";
-import { faVolumeSlash } from "@fortawesome/free-solid-svg-icons/faVolumeSlash";
+import { faVolumeHigh } from "@fortawesome/free-solid-svg-icons/faVolumeHigh";
+import { faVolumeHighXmark } from "@fortawesome/free-solid-svg-icons/faVolumeHighOff";
 import { faXmark } from "@fortawesome/free-solid-svg-icons/faXmark";
 import { faExpand } from "@fortawesome/free-solid-svg-icons/faExpand";
 import { faGamepad } from "@fortawesome/free-solid-svg-icons/faGamepad";
@@ -629,8 +629,8 @@ class ViewPanel extends Component {
 
               {statusKasms.client_settings.allow_kasm_audio == true && statusKasms.port_map.audio && (
               <ControlButton 
-                icon={<FontAwesomeIcon size="lg" icon={faVolume} />}
-                disabledIcon={<FontAwesomeIcon size="lg" icon={faVolumeSlash} />}
+                icon={<FontAwesomeIcon size="lg" icon={faVolumeHigh} />}
+                disabledIcon={<FontAwesomeIcon size="lg" icon={faVolumeHighXmark} />}
                 disabled={!this.state.audio}
                 onClick={() => this.handleAudioChange(!this.state.audio)}
                 type="toggle"

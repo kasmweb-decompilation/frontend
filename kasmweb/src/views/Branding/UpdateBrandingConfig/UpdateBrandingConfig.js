@@ -1,11 +1,11 @@
 import React,{ useState } from "react";
-import BrandingConfigForm from "../BrandingConfigForm/BrandingConfigForm";
+import BrandingConfigForm from "../BrandingConfigForm/BrandingConfigForm.js";
 import {useTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaintbrushFine } from '@fortawesome/free-solid-svg-icons/faPaintbrushFine';
-import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader";
+import { faPaintbrush } from '@fortawesome/free-solid-svg-icons/faPaintbrush';
+import PageHeader, { parentRoutes } from "../../../components/Header/PageHeader.js";
 import { Form } from "../../../components/Form/Form.js"
-import {updateBrandingConfig} from "../../../actions/actionBranding";
+import {updateBrandingConfig} from "../../../actions/actionBranding.js";
 
 const parentRouteList = parentRoutes('/branding')
 const newRoutes = [
@@ -29,7 +29,7 @@ export default function UpdateBrandingConfig(props) {
 
     return (
         <div>
-            <PageHeader location={props.location} routes={typeof newRoutes !== 'undefined' ? newRoutes : null} title={t('branding.Update Branding Config')} icon={<FontAwesomeIcon icon={faPaintbrushFine} />} />
+            <PageHeader location={props.location} routes={typeof newRoutes !== 'undefined' ? newRoutes : null} title={t('branding.Update Branding Config')} icon={<FontAwesomeIcon icon={faPaintbrush} />} />
             <Form 
                 {...props}
                 tabList={tabList}

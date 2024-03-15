@@ -7,7 +7,7 @@ import DataTable from "../../components/Table/Table";
 import {getBrandingConfigs, deleteBrandingConfig,setBrandingPageInfo} from "../../actions/actionBranding";
 import {withTranslation} from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaintbrushFine } from '@fortawesome/free-solid-svg-icons/faPaintbrushFine';
+import { faPaintbrush } from '@fortawesome/free-solid-svg-icons/faPaintbrush';
 import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import PageHeader from "../../components/Header/PageHeader";
 import { ConfirmAction, SettingColumn } from "../../components/Table/NewTable";
@@ -199,7 +199,7 @@ class BrandingConfig extends Component {
 
         return(
             <div className="profile-page">
-                <PageHeader location={this.props.location} routes={typeof newRoutes !== 'undefined' ? newRoutes : null} title={t('branding.Branding Configurations')} icon={<FontAwesomeIcon icon={faPaintbrushFine} />} />
+                <PageHeader location={this.props.location} routes={typeof newRoutes !== 'undefined' ? newRoutes : null} title={t('branding.Branding Configurations')} icon={<FontAwesomeIcon icon={faPaintbrush} />} />
                 <Row>
                     <Col sm={{ size: 10, order: 3, offset: 1 }}>
                         <DataTable

@@ -6,14 +6,14 @@ import { withRouter } from "react-router-dom";
 import { Collapse } from "reactstrap";
 import Proptypes from "prop-types";
 import moment from "moment";
-import { getCastConfigs } from "../../../actions/actionCast";
-import { getGroups } from "../../../actions/actionGroup";
-import { getImages } from "../../../actions/actionImage";
+import { getCastConfigs } from "../../../actions/actionCast.js";
+import { getGroups } from "../../../actions/actionGroup.js";
+import { getImages } from "../../../actions/actionImage.js";
 import SelectInput from "../../../components/SelectInput/SelectInput.js";
 import { getLicenseStatus } from "../../../actions/actionFooter.js";
 import { withTranslation } from "react-i18next";
 import { Groups, Group, FormFooter, FormField } from "../../../components/Form/Form.js"
-import { CopyToClipboard } from '../../../components/Form';
+import { CopyToClipboard } from '../../../components/Form/Form.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons/faChevronDown';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons/faChevronUp';

@@ -16,7 +16,7 @@ import iconYes from "../../../../assets/images/icon_yes.svg";
 import _ from "lodash";
 import FileMapping from "../../../components/FileMapping/FileMapping";
 import {withTranslation} from "react-i18next";
-import StorageMapping from "../../../components/StorageMapping";
+import StorageMapping from "../../../components/StorageMapping/StorageMapping.js";
 import { ImageColumn, StandardColumn } from "../../../components/Table/NewTable";
 
 class ViewUser extends Component{

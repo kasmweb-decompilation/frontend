@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationArrow } from "@fortawesome/free-solid-svg-icons/faLocationArrow";
 import { faMinus } from "@fortawesome/free-solid-svg-icons/faMinus";
 import { faSmile } from "@fortawesome/free-solid-svg-icons/faSmile";
-import { faVolumeUp } from "@fortawesome/free-solid-svg-icons/faVolumeUp";
+import { faVolumeHighUp } from "@fortawesome/free-solid-svg-icons/faVolumeHighUp";
 import { faWindowRestore } from "@fortawesome/free-solid-svg-icons/faWindowRestore";
 
 class ChatComponent extends Component {
@@ -167,7 +167,7 @@ class ChatComponent extends Component {
                     <h5 className="float-left">{t("chat.Chat")}</h5>
                     <span className="float-right">
                         <span className="toggle_text text-muted pr-2">
-                            <FontAwesomeIcon icon={faVolumeUp} />
+                            <FontAwesomeIcon icon={faVolumeHighUp} />
                         </span>
                     <Toggle
                         defaultChecked={this.props.audio}

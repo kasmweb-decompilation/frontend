@@ -12,7 +12,7 @@ import {
 } from "../../../../utils/formValidations.js";
 import { Field, reduxForm } from "redux-form";
 import { withRouter } from "react-router-dom";
-import SelectInput from "../../../SelectInput";
+import SelectInput from "../../../SelectInput/SelectInput.js";
 import {withTranslation} from "react-i18next";
 import { Button, FormFooter, Groups, FormField } from "../../../../components/Form/Form.js"
 

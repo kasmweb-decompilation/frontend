@@ -32,8 +32,8 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons/faTrash';
 import { faSliders } from '@fortawesome/free-solid-svg-icons/faSliders';
 import { faBoxesStacked } from '@fortawesome/free-solid-svg-icons/faBoxesStacked';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
-import StorageProvider from "../../StorageProvider";
-import StorageMapping from "../../../components/StorageMapping";
+import StorageProvider from "../../StorageProvider/StorageProvider.js";
+import StorageMapping from "../../../components/StorageMapping/StorageMapping.js";
 import { Modal, ModalFooter } from "../../../components/Form/Modal"
 import { Groups, FormField, ViewField, notifySuccess, notifyFailure } from "../../../components/Form/Form";
 import LoadingSpinner from "../../../components/LoadingSpinner";
