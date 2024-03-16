@@ -59,11 +59,12 @@ console.log("[ℹ️] Building...")
  build({
     entryPoints: ['src/index.js'],
     bundle: true,
-    logLimit: 0,
+    logLimit: 10,
     sourcemap:true,
     outdir: 'dist',
-    logLevel:"error",
-    minify: true,
+    logLevel:"warning",
+    minify: false,
+    external: ['public/*',"public/"],
     assetNames: 'assets/[name]-[hash]',
     plugins: [sassPlugin()],
     loader: {
