@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./fonts/streaming-session.f894895811dcdfddb215bd78eb33b438.svg";

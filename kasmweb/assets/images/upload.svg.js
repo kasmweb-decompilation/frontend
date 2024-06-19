@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./fonts/upload.2ad6549f270673c13e9d4c354440e22d.svg";

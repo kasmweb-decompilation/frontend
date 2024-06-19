@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./fonts/delete.d147fecf4f66ba7e124d25f64c88adf4.svg";

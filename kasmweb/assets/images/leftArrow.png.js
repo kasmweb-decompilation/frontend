@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./img/leftArrow.5e7d0da84150e654f803a72065e6c20f.png";

@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./fonts/enable-sound.a6f006be63fcde7160c20a96ff6316f0.svg";

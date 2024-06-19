@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./fonts/download-session.36c85948e7d1d1e3bb238122206a3bc4.svg";

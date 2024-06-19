@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./fonts/clipboard.d1b0b8c818c43967f2dd95fbc6890374.svg";

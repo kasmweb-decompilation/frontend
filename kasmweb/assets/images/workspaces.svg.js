@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./fonts/workspaces.cc5ef30dcf935e5ec10f8ad6b6e4d191.svg";

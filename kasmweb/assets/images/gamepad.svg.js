@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./fonts/gamepad.a2691c1f39d9823e793bfb4ad1a9020a.svg";

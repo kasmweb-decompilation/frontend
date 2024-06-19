@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./fonts/unmute.3db243761b37d6105c05cf4d326b9c82.svg";

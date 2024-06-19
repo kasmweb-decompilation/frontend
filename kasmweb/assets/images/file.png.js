@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./img/file.1d426edba0dceecef10d1669f39699e5.png";

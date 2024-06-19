@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./fonts/logout.a76dd77c9cbd190db6df9b7487de8ef9.svg";

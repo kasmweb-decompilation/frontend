@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./img/cross.c6e923da99a5b1f87964268501ffcd39.png";

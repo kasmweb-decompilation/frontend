@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "./fonts/webcam.c866378e695c5479de9791ce81d1dffa.svg";
